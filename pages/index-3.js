@@ -6,7 +6,6 @@ import Banner2 from "@/components/sections/Banner2";
 import Counter3 from "@/components/sections/Counter3";
 import Engineer1 from "@/components/sections/Engineer1";
 import Faq1 from "@/components/sections/Faq1";
-import Newsletter1 from "@/components/sections/Newsletter1";
 import Project3 from "@/components/sections/Project3";
 import Services2 from "@/components/sections/Services2";
 import Work1 from "@/components/sections/Work1";
@@ -29,9 +28,7 @@ export default function Home3() {
         </div>
         <Engineer1 />
         <Work2 />
-        <Project3 />
         <Faq1 />
-        <Newsletter1 />
       </Layout>
     </>
   );

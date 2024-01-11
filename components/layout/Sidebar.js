@@ -29,70 +29,52 @@ export default function Sidebar() {
             style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}
           >
             <li>
-              <Link href="/">Home One</Link>
+              <Link href="/">Option One</Link>
             </li>
             <li>
-              <Link href="/index-2">Home Two</Link>
+              <Link href="/index-2">Option Two</Link>
             </li>
             <li>
-              <Link href="/index-3">Home Three</Link>
-            </li>
-            <li>
-              <Link href="/index-4">Home Four</Link>
+              <Link href="/index-3">Option Three</Link>
             </li>
           </ul>
           <div className="dropdown-btn" onClick={() => handleToggle(1)}>
             <span className="fas fa-angle-down" />
           </div>
         </li>
-        <li>
-          <Link href="/about">About us</Link>
-        </li>
         <li className="menu-item-has-children">
-          <Link href="#">Services</Link>
+          <Link href="/services">Services</Link>
           <ul
             className="sub-menu"
             style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}
           >
             <li>
-              <Link href="/services">Services Page</Link>
+              <Link href="/services-details">Fire Risk Assessment</Link>
             </li>
             <li>
-              <Link href="/services-details">Services Details</Link>
+              <Link href="/services-details">
+                Fire Safety / Warden Training
+              </Link>
+            </li>
+            <li>
+              <Link href="/services-details">Fire Door Inspections</Link>
+            </li>
+            <li>
+              <Link href="/services-details">Passive Fire Protection</Link>
+            </li>
+            <li>
+              <Link href="/services-details">Fire Extinguishers</Link>
             </li>
           </ul>
           <div className="dropdown-btn" onClick={() => handleToggle(2)}>
             <span className="fas fa-angle-down" />
           </div>
         </li>
-        <li className="active menu-item-has-children">
-          <Link href="#">Pages</Link>
-          <ul
-            className="sub-menu"
-            style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}
-          >
-            <li>
-              <Link href="/project">Project Page</Link>
-            </li>
-            <li>
-              <Link href="/project-details">Project Details</Link>
-            </li>
-            <li>
-              <Link href="/team">Our Team</Link>
-            </li>
-            <li>
-              <Link href="/team-details">Team Details</Link>
-            </li>
-            <li>
-              <Link href="/error">404 Error</Link>
-            </li>
-          </ul>
-          <div className="dropdown-btn" onClick={() => handleToggle(3)}>
-            <span className="fas fa-angle-down" />
-          </div>
+        <li>
+          <Link href="/team">Our Team</Link>
         </li>
         <li>
-          <Link href="/contact">Contact</Link>
+          <Link href="/contact">Contact Us</Link>
         </li>
       </ul>
     </>

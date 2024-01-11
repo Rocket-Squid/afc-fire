@@ -33,7 +33,7 @@ export default function Header({ headerCls, headerTop }) {
                     <li>Welcome to AFC Fire</li>
                     <li>
                       <i className="fas fa-phone-alt" />
-                      <Link href="tel:0123456789">+88 ( 5548 ) 6548</Link>
+                      <Link href="tel:0123456789">+44 ( 5548 ) 6548</Link>
                     </li>
                     <li>
                       <i className="fas fa-envelope" />
@@ -46,38 +46,6 @@ export default function Header({ headerCls, headerTop }) {
               </div>
               <div className="col-xl-4 col-lg-3">
                 <div className="header-top-right">
-                  <div className="header-lang">
-                    <div className="dropdown">
-                      <button
-                        className="dropdown-toggle"
-                        type="button"
-                        id="dropdownMenuButton1"
-                        data-bs-toggle="dropdown"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        <img src="assets/img/icon/united-states.jpg" alt="" />{" "}
-                        English
-                      </button>
-                      <div
-                        className="dropdown-menu"
-                        aria-labelledby="dropdownMenuButton1"
-                      >
-                        <Link className="dropdown-item" href="/">
-                          <img src="assets/img/icon/russia.jpg" alt="" />
-                          Russia
-                        </Link>
-                        <Link className="dropdown-item" href="/">
-                          <img src="assets/img/icon/india.jpg" alt="" />
-                          India
-                        </Link>
-                        <Link className="dropdown-item" href="/">
-                          <img src="assets/img/icon/bangladesh.jpg" alt="" />
-                          Bangla
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
                   <div className="header-social">
                     <ul className="list-wrap">
                       <li>
@@ -130,7 +98,7 @@ export default function Header({ headerCls, headerTop }) {
                     </div>
                     <div className="logo d-none">
                       <Link href="/">
-                        <img src="/assets/img/logo/logo_02.png" alt="Logo" />
+                        <img src="/assets/img/logo/logo.png" alt="Logo" />
                       </Link>
                     </div>
                     <div className="navbar-wrap main-menu d-none d-lg-flex">
@@ -139,59 +107,48 @@ export default function Header({ headerCls, headerTop }) {
                           <Link href="/#">Home</Link>
                           <ul className="sub-menu">
                             <li>
-                              <Link href="/">Home One</Link>
+                              <Link href="/">Option One</Link>
                             </li>
                             <li>
-                              <Link href="/index-2">Home Two</Link>
+                              <Link href="/index-2">Option Two</Link>
                             </li>
                             <li>
-                              <Link href="/index-3">Home Three</Link>
-                            </li>
-                            <li>
-                              <Link href="/index-4">Home Four</Link>
+                              <Link href="/index-3">Option Three</Link>
                             </li>
                           </ul>
                         </li>
-                        <li>
-                          <Link href="/about">About us</Link>
-                        </li>
                         <li className="menu-item-has-children">
-                          <Link href="/#">Services</Link>
+                          <Link href="/services">Our Services</Link>
                           <ul className="sub-menu">
                             <li>
-                              <Link href="/services">Services Page</Link>
+                              <Link href="/services-details">
+                                Fire Risk Assessment
+                              </Link>
                             </li>
                             <li>
                               <Link href="/services-details">
-                                Services Details
-                              </Link>
-                            </li>
-                          </ul>
-                        </li>
-                        <li className="menu-item-has-children">
-                          <Link href="/#">Pages</Link>
-                          <ul className="sub-menu">
-                            <li>
-                              <Link href="/project">Project Page</Link>
-                            </li>
-                            <li>
-                              <Link href="/project-details">
-                                Project Details
+                                Fire Safety / Warden Training
                               </Link>
                             </li>
                             <li>
-                              <Link href="/team">Our Team</Link>
+                              <Link href="/services-details">
+                                Fire Door Inspections
+                              </Link>
                             </li>
                             <li>
-                              <Link href="/team-details">Team Details</Link>
+                              <Link href="/services-details">
+                                Passive Fire Protection
+                              </Link>
                             </li>
                             <li>
-                              <Link href="/error">404 Error</Link>
+                              <Link href="/services-details">
+                                Fire Extinguishers
+                              </Link>
                             </li>
                           </ul>
                         </li>
                         <li>
-                          <Link href="/contact">Contact</Link>
+                          <Link href="/team">Our Team</Link>
                         </li>
                       </ul>
                     </div>
@@ -199,7 +156,7 @@ export default function Header({ headerCls, headerTop }) {
                       <ul className="list-wrap">
                         <li className="header-btn">
                           <Link href="/contact" className="btn">
-                            Get a Quoute
+                            Contact Us
                           </Link>
                         </li>
                       </ul>
@@ -214,7 +171,7 @@ export default function Header({ headerCls, headerTop }) {
                     </div>
                     <div className="nav-logo">
                       <Link href="/">
-                        <img src="/assets/img/logo/logo_02.png" alt="Logo" />
+                        <img src="/assets/img/logo/logo.png" alt="Logo" />
                       </Link>
                     </div>
                     <div className="menu-outer">

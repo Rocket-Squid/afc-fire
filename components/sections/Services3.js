@@ -65,7 +65,7 @@ export default function Services3() {
                     <div className="services-item-three">
                       <div className="services-thumb-three">
                         <img
-                          src="/assets/img/services/h4_services_img01.jpg"
+                          src="/assets/img/services/services_img01.jpg"
                           alt=""
                         />
                       </div>
@@ -118,7 +118,7 @@ export default function Services3() {
                     <div className="services-item-three">
                       <div className="services-thumb-three">
                         <img
-                          src="/assets/img/services/h4_services_img02.jpg"
+                          src="/assets/img/services/services_img02.jpg"
                           alt=""
                         />
                       </div>
@@ -171,7 +171,7 @@ export default function Services3() {
                     <div className="services-item-three">
                       <div className="services-thumb-three">
                         <img
-                          src="/assets/img/services/h4_services_img03.jpg"
+                          src="/assets/img/services/services_img03.jpg"
                           alt=""
                         />
                       </div>

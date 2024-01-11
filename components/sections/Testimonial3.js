@@ -28,10 +28,7 @@ export default function Testimonial3() {
                 <Slider {...settings} className="testimonial-active-two">
                   <div className="testimonial-item-two">
                     <div className="testimonial-avatar-two">
-                      <img
-                        src="/assets/img/images/h2_testi_avatar01.png"
-                        alt=""
-                      />
+                      <img src="/assets/img/images/testi_avatar01.png" alt="" />
                     </div>
                     <div className="testimonial-content-two">
                       <div className="content-top">
@@ -62,10 +59,7 @@ export default function Testimonial3() {
                   </div>
                   <div className="testimonial-item-two">
                     <div className="testimonial-avatar-two">
-                      <img
-                        src="/assets/img/images/h2_testi_avatar02.png"
-                        alt=""
-                      />
+                      <img src="/assets/img/images/testi_avatar02.png" alt="" />
                     </div>
                     <div className="testimonial-content-two">
                       <div className="content-top">
@@ -96,10 +90,7 @@ export default function Testimonial3() {
                   </div>
                   <div className="testimonial-item-two">
                     <div className="testimonial-avatar-two">
-                      <img
-                        src="/assets/img/images/h2_testi_avatar03.png"
-                        alt=""
-                      />
+                      <img src="/assets/img/images/testi_avatar03.png" alt="" />
                     </div>
                     <div className="testimonial-content-two">
                       <div className="content-top">
@@ -136,7 +127,7 @@ export default function Testimonial3() {
             <ul className="list-wrap">
               <li>
                 <img
-                  src="/assets/img/images/h4_testi_avatar01.png"
+                  src="/assets/img/images/testi_avatar01.png"
                   className="layer"
                   data-depth="0.1"
                   alt=""
@@ -144,7 +135,7 @@ export default function Testimonial3() {
               </li>
               <li>
                 <img
-                  src="/assets/img/images/h4_testi_avatar02.png"
+                  src="/assets/img/images/testi_avatar02.png"
                   className="layer"
                   data-depth="0.2"
                   alt=""
@@ -152,7 +143,7 @@ export default function Testimonial3() {
               </li>
               <li>
                 <img
-                  src="/assets/img/images/h4_testi_avatar03.png"
+                  src="/assets/img/images/testi_avatar03.png"
                   className="layer"
                   data-depth="0.05"
                   alt=""
@@ -160,7 +151,7 @@ export default function Testimonial3() {
               </li>
               <li>
                 <img
-                  src="/assets/img/images/h4_testi_avatar03.png"
+                  src="/assets/img/images/testi_avatar03.png"
                   className="layer"
                   data-depth="0.2"
                   alt=""
@@ -168,7 +159,7 @@ export default function Testimonial3() {
               </li>
               <li>
                 <img
-                  src="/assets/img/images/h4_testi_avatar02.png"
+                  src="/assets/img/images/testi_avatar02.png"
                   className="layer"
                   data-depth="0.05"
                   alt=""
@@ -176,7 +167,7 @@ export default function Testimonial3() {
               </li>
               <li>
                 <img
-                  src="/assets/img/images/h4_testi_avatar01.png"
+                  src="/assets/img/images/testi_avatar01.png"
                   className="layer"
                   data-depth="0.1"
                   alt=""

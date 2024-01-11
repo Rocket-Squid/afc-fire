@@ -61,10 +61,7 @@ export default function Project4() {
               <div className="project-item-four">
                 <div className="project-thumb-four">
                   <Link href="/project-details">
-                    <img
-                      src="/assets/img/project/h4_project_img01.jpg"
-                      alt=""
-                    />
+                    <img src="/assets/img/project/project_img01.jpg" alt="" />
                   </Link>
                 </div>
                 <div className="project-content-four">
@@ -93,10 +90,7 @@ export default function Project4() {
               <div className="project-item-four">
                 <div className="project-thumb-four">
                   <Link href="/project-details">
-                    <img
-                      src="/assets/img/project/h4_project_img02.jpg"
-                      alt=""
-                    />
+                    <img src="/assets/img/project/project_img02.jpg" alt="" />
                   </Link>
                 </div>
                 <div className="project-content-four">
@@ -125,10 +119,7 @@ export default function Project4() {
               <div className="project-item-four">
                 <div className="project-thumb-four">
                   <Link href="/project-details">
-                    <img
-                      src="/assets/img/project/h4_project_img03.jpg"
-                      alt=""
-                    />
+                    <img src="/assets/img/project/project_img03.jpg" alt="" />
                   </Link>
                 </div>
                 <div className="project-content-four">
@@ -159,10 +150,7 @@ export default function Project4() {
               <div className="project-item-four">
                 <div className="project-thumb-four">
                   <Link href="/project-details">
-                    <img
-                      src="/assets/img/project/h4_project_img02.jpg"
-                      alt=""
-                    />
+                    <img src="/assets/img/project/project_img02.jpg" alt="" />
                   </Link>
                 </div>
                 <div className="project-content-four">

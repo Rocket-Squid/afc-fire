@@ -28,10 +28,7 @@ export default function Testimonial2() {
                 <Slider {...settings} className="testimonial-active-two">
                   <div className="testimonial-item-two">
                     <div className="testimonial-avatar-two">
-                      <img
-                        src="/assets/img/images/h2_testi_avatar01.png"
-                        alt=""
-                      />
+                      <img src="/assets/img/images/testi_avatar01.png" alt="" />
                     </div>
                     <div className="testimonial-content-two">
                       <div className="content-top">
@@ -62,10 +59,7 @@ export default function Testimonial2() {
                   </div>
                   <div className="testimonial-item-two">
                     <div className="testimonial-avatar-two">
-                      <img
-                        src="/assets/img/images/h2_testi_avatar02.png"
-                        alt=""
-                      />
+                      <img src="/assets/img/images/testi_avatar02.png" alt="" />
                     </div>
                     <div className="testimonial-content-two">
                       <div className="content-top">
@@ -96,10 +90,7 @@ export default function Testimonial2() {
                   </div>
                   <div className="testimonial-item-two">
                     <div className="testimonial-avatar-two">
-                      <img
-                        src="/assets/img/images/h2_testi_avatar03.png"
-                        alt=""
-                      />
+                      <img src="/assets/img/images/testi_avatar03.png" alt="" />
                     </div>
                     <div className="testimonial-content-two">
                       <div className="content-top">

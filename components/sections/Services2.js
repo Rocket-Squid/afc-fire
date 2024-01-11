@@ -22,10 +22,7 @@ export default function Services2() {
               <div className="services-item-two">
                 <div className="services-thumb-two">
                   <Link href="/services-details">
-                    <img
-                      src="/assets/img/services/h3_services_img01.jpg"
-                      alt=""
-                    />
+                    <img src="/assets/img/services/services_img01.jpg" alt="" />
                   </Link>
                 </div>
                 <div className="services-content-two">
@@ -48,10 +45,7 @@ export default function Services2() {
               <div className="services-item-two">
                 <div className="services-thumb-two">
                   <Link href="/services-details">
-                    <img
-                      src="/assets/img/services/h3_services_img02.jpg"
-                      alt=""
-                    />
+                    <img src="/assets/img/services/services_img02.jpg" alt="" />
                   </Link>
                 </div>
                 <div className="services-content-two">

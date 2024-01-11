@@ -5,7 +5,7 @@ export default function Banner3() {
     <>
       <section
         className="banner-area-three banner-two"
-        data-background="/assets/img/banner/h4_banner_bg.jpg"
+        data-background="/assets/img/banner/banner_bg.jpg"
       >
         <div className="container">
           <div className="row justify-content-center">

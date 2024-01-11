@@ -18,10 +18,7 @@ export default function About2() {
                       data-wow-delay=".2s"
                     >
                       <div className="icon">
-                        <img
-                          src="/assets/img/icon/h2_about_icon03.svg"
-                          alt=""
-                        />
+                        <img src="/assets/img/icon/about_icon03.svg" alt="" />
                       </div>
                       <h2 className="title">
                         07 Years <span>Experience</span>
@@ -30,7 +27,7 @@ export default function About2() {
                   </li>
                   <li>
                     <img
-                      src="/assets/img/images/h2_about_img01.jpg"
+                      src="/assets/img/images/about_img01.jpg"
                       alt=""
                       className="wow fadeInLeft"
                       data-wow-delay=".4s"
@@ -40,7 +37,7 @@ export default function About2() {
                 <ul className="list-wrap">
                   <li>
                     <img
-                      src="/assets/img/images/h2_about_img02.jpg"
+                      src="/assets/img/images/about_img02.jpg"
                       alt=""
                       className="wow fadeInRight"
                       data-wow-delay=".2s"
@@ -48,7 +45,7 @@ export default function About2() {
                   </li>
                   <li>
                     <img
-                      src="/assets/img/images/h2_about_img03.jpg"
+                      src="/assets/img/images/about_img03.jpg"
                       alt=""
                       className="wow fadeInUp"
                       data-wow-delay=".4s"
@@ -75,10 +72,7 @@ export default function About2() {
                   <ul className="list-wrap">
                     <li className="list-item">
                       <div className="icon">
-                        <img
-                          src="/assets/img/icon/h2_about_icon01.svg"
-                          alt=""
-                        />
+                        <img src="/assets/img/icon/about_icon01.svg" alt="" />
                       </div>
                       <div className="content">
                         <h5 className="title">Mission Statement Fire Safety</h5>
@@ -86,10 +80,7 @@ export default function About2() {
                     </li>
                     <li className="list-item">
                       <div className="icon">
-                        <img
-                          src="/assets/img/icon/h2_about_icon02.svg"
-                          alt=""
-                        />
+                        <img src="/assets/img/icon/about_icon02.svg" alt="" />
                       </div>
                       <div className="content">
                         <h5 className="title">

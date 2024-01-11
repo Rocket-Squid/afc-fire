@@ -18,7 +18,7 @@ export default function Team3() {
               <div className="team-item-three">
                 <div className="team-thumb-three">
                   <Link href="/team-details">
-                    <img src="/assets/img/team/h4_team_img01.jpg" alt="" />
+                    <img src="/assets/img/team/team_img01.jpg" alt="" />
                   </Link>
                   <div className="team-social-three">
                     <ul className="list-wrap">
@@ -57,7 +57,7 @@ export default function Team3() {
               <div className="team-item-three">
                 <div className="team-thumb-three">
                   <Link href="/team-details">
-                    <img src="/assets/img/team/h4_team_img02.jpg" alt="" />
+                    <img src="/assets/img/team/team_img02.jpg" alt="" />
                   </Link>
                   <div className="team-social-three">
                     <ul className="list-wrap">
@@ -96,7 +96,7 @@ export default function Team3() {
               <div className="team-item-three">
                 <div className="team-thumb-three">
                   <Link href="/team-details">
-                    <img src="/assets/img/team/h4_team_img03.jpg" alt="" />
+                    <img src="/assets/img/team/team_img03.jpg" alt="" />
                   </Link>
                   <div className="team-social-three">
                     <ul className="list-wrap">
@@ -135,7 +135,7 @@ export default function Team3() {
               <div className="team-item-three">
                 <div className="team-thumb-three">
                   <Link href="/team-details">
-                    <img src="/assets/img/team/h4_team_img04.jpg" alt="" />
+                    <img src="/assets/img/team/team_img04.jpg" alt="" />
                   </Link>
                   <div className="team-social-three">
                     <ul className="list-wrap">

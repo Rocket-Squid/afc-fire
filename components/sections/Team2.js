@@ -18,7 +18,7 @@ export default function Team2() {
               <div className="team-item-two">
                 <div className="team-thumb-two">
                   <Link href="/team-details">
-                    <img src="/assets/img/team/h2_team_img01.jpg" alt="" />
+                    <img src="/assets/img/team/team_img01.jpg" alt="" />
                   </Link>
                   <div className="team-social-two">
                     <ul className="list-wrap">
@@ -57,7 +57,7 @@ export default function Team2() {
               <div className="team-item-two">
                 <div className="team-thumb-two">
                   <Link href="/team-details">
-                    <img src="/assets/img/team/h2_team_img02.jpg" alt="" />
+                    <img src="/assets/img/team/team_img02.jpg" alt="" />
                   </Link>
                   <div className="team-social-two">
                     <ul className="list-wrap">
@@ -96,7 +96,7 @@ export default function Team2() {
               <div className="team-item-two">
                 <div className="team-thumb-two">
                   <Link href="/team-details">
-                    <img src="/assets/img/team/h2_team_img03.jpg" alt="" />
+                    <img src="/assets/img/team/team_img03.jpg" alt="" />
                   </Link>
                   <div className="team-social-two">
                     <ul className="list-wrap">
@@ -135,7 +135,7 @@ export default function Team2() {
               <div className="team-item-two">
                 <div className="team-thumb-two">
                   <Link href="/team-details">
-                    <img src="/assets/img/team/h2_team_img04.jpg" alt="" />
+                    <img src="/assets/img/team/team_img04.jpg" alt="" />
                   </Link>
                   <div className="team-social-two">
                     <ul className="list-wrap">

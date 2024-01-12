@@ -8,11 +8,9 @@ export default function Team1() {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <div className="section-title text-center mb-60 tg-heading-subheading animation-style3">
-                <span className="sub-title tg-element-title">
-                  Professional Team
-                </span>
+                <span className="sub-title tg-element-title">Who We Are</span>
                 <h2 className="title tg-element-title">
-                  Professional Team Member
+                  Our Professional Team
                 </h2>
               </div>
             </div>
@@ -22,7 +20,7 @@ export default function Team1() {
               <div className="team-item">
                 <div className="team-thumb">
                   <Link href="/team-details">
-                    <img src="/assets/img/team/team_img01.jpg" alt="" />
+                    <img src="/assets/img/team/headshot_alex.jpeg" alt="" />
                   </Link>
                   <div className="team-social">
                     <ul className="list-wrap">
@@ -51,9 +49,9 @@ export default function Team1() {
                 </div>
                 <div className="team-content">
                   <h2 className="title">
-                    <Link href="/team-details">Robert C. Simmons</Link>
+                    <Link href="/team-details">Alex Aiston</Link>
                   </h2>
-                  <span>Fire Safety Engineer</span>
+                  <span>Operations Director</span>
                 </div>
               </div>
             </div>
@@ -61,7 +59,7 @@ export default function Team1() {
               <div className="team-item">
                 <div className="team-thumb">
                   <Link href="/team-details">
-                    <img src="/assets/img/team/team_img02.jpg" alt="" />
+                    <img src="/assets/img/team/headshot_mark.jpeg" alt="" />
                   </Link>
                   <div className="team-social">
                     <ul className="list-wrap">
@@ -90,9 +88,9 @@ export default function Team1() {
                 </div>
                 <div className="team-content">
                   <h2 className="title">
-                    <Link href="/team-details">Christopher Jhon</Link>
+                    <Link href="/team-details">Mark Aiston</Link>
                   </h2>
-                  <span>Fire Safety Engineer</span>
+                  <span>Managing Director</span>
                 </div>
               </div>
             </div>
@@ -100,7 +98,7 @@ export default function Team1() {
               <div className="team-item">
                 <div className="team-thumb">
                   <Link href="/team-details">
-                    <img src="/assets/img/team/team_img03.jpg" alt="" />
+                    <img src="/assets/img/team/headshot_joe.jpeg" alt="" />
                   </Link>
                   <div className="team-social">
                     <ul className="list-wrap">
@@ -129,9 +127,9 @@ export default function Team1() {
                 </div>
                 <div className="team-content">
                   <h2 className="title">
-                    <Link href="/team-details">Karikoka Ahli</Link>
+                    <Link href="/team-details">Joe Chandler</Link>
                   </h2>
-                  <span>Fire Safety Engineer</span>
+                  <span>Fire Risk Assessor</span>
                 </div>
               </div>
             </div>
@@ -139,7 +137,7 @@ export default function Team1() {
               <div className="team-item">
                 <div className="team-thumb">
                   <Link href="/team-details">
-                    <img src="/assets/img/team/team_img04.jpg" alt="" />
+                    <img src="/assets/img/team/headshot_rob.jpeg" alt="" />
                   </Link>
                   <div className="team-social">
                     <ul className="list-wrap">
@@ -168,9 +166,9 @@ export default function Team1() {
                 </div>
                 <div className="team-content">
                   <h2 className="title">
-                    <Link href="/team-details">Dickerson MH</Link>
+                    <Link href="/team-details">Rob Tyler</Link>
                   </h2>
-                  <span>Fire Safety Engineer</span>
+                  <span>Fire Extinguisher Specialist</span>
                 </div>
               </div>
             </div>

@@ -1,12 +1,12 @@
 import Layout from "@/components/layout/Layout";
 
 import Banner1 from "@/components/sections/Banner1";
-import Features1 from "@/components/sections/Features1";
 import About1 from "@/components/sections/About1";
 import Services1 from "@/components/sections/Services1";
 import Team1 from "@/components/sections/Team1";
 import Counter1 from "@/components/sections/Counter1";
 import Testimonial1 from "@/components/sections/Testimonial1";
+import Faq1 from "@/components/sections/Faq1";
 
 export default function Home() {
   return (
@@ -18,6 +18,7 @@ export default function Home() {
         <Team1 />
         <Counter1 />
         <Testimonial1 />
+        <Faq1 />
       </Layout>
     </>
   );

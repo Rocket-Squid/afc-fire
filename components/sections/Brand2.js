@@ -65,12 +65,12 @@ export default function Brand2() {
                 </div>
                 <div className="col-12">
                   <div className="brand-item">
-                    <img src="/assets/img/brand/accreditation2.jpg" alt="" />
+                    <img src="/assets/img/brand/accreditation2.png" alt="" />
                   </div>
                 </div>
                 <div className="col-12">
                   <div className="brand-item">
-                    <img src="/assets/img/brand/accreditation3.jpg" alt="" />
+                    <img src="/assets/img/brand/accreditation3.png" alt="" />
                   </div>
                 </div>
                 <div className="col-12">
@@ -80,7 +80,7 @@ export default function Brand2() {
                 </div>
                 <div className="col-12">
                   <div className="brand-item">
-                    <img src="/assets/img/brand/accreditation5.jpg" alt="" />
+                    <img src="/assets/img/brand/accreditation5.png" alt="" />
                   </div>
                 </div>
               </Slider>

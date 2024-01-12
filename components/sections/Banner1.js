@@ -34,14 +34,16 @@ export default function Banner1() {
         >
           <div className="banner-content">
             <h2 className="title wow fadeInDown" data-wow-delay=".2s">
-              AFC Fire
+              Your Safety,
+              <br /> Our Priority
             </h2>
             <p className="wow fadeInUp" data-wow-delay=".2s">
-              Providers of professional services designed to protect life and
-              property from the effects of fire.
+              Dedicated to providing top-tier fire safety solutions to secure
+              homes and businesses. Protecting life and property from the
+              effects of fire.
             </p>
             <Link
-              href="/project"
+              href="/services"
               className="btn wow fadeInUp"
               data-wow-delay=".4s"
             >
@@ -61,10 +63,10 @@ export default function Banner1() {
                 <i className="fas fa-plus" />
               </div>
               <div className="tooltip-content">
-                <h2 className="title">Combustion Roof Vent</h2>
+                <h2 className="title">Fire Risk Assessment</h2>
                 <p>
-                  Suffered alteration in some a goody form, by injected humor,
-                  or into the randomized word.
+                  Detailed evaluations to identify and mitigate potential fire
+                  hazards.
                 </p>
               </div>
             </div>
@@ -78,10 +80,10 @@ export default function Banner1() {
                 <i className="fas fa-plus" />
               </div>
               <div className="tooltip-content">
-                <h2 className="title">Combustion Roof Vent</h2>
+                <h2 className="title">Fire Safety Training</h2>
                 <p>
-                  Suffered alteration in some a goody form, by injected humor,
-                  or into the randomized word.
+                  In-depth training sessions to equip individuals with essential
+                  fire safety skills.
                 </p>
               </div>
             </div>
@@ -95,10 +97,10 @@ export default function Banner1() {
                 <i className="fas fa-plus" />
               </div>
               <div className="tooltip-content">
-                <h2 className="title">Combustion Roof Vent</h2>
+                <h2 className="title">Fire Extinguishers</h2>
                 <p>
-                  Suffered alteration in some a goody form, by injected humor,
-                  or into the randomized word.
+                  A comprehensive range of extinguishers tailored for every type
+                  of fire scenario.
                 </p>
               </div>
             </div>

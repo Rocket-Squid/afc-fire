@@ -27,7 +27,6 @@ export default function Home3() {
           <Counter3 />
         </div>
         <Engineer1 />
-        <Work2 />
         <Faq1 />
       </Layout>
     </>

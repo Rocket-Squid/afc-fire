@@ -53,7 +53,9 @@ export default function Services1() {
                       display: `${isActive.key == 1 ? "none" : "block"}`,
                     }}
                   >
-                    <Link href="/services-details">Fire Risk Assessment</Link>
+                    <Link href="/services/fire-risk-assessment">
+                      Fire Risk Assessment
+                    </Link>
                   </h2>
                   <h2 className="number">01</h2>
                 </div>
@@ -62,14 +64,18 @@ export default function Services1() {
                   style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}
                 >
                   <h2 className="title">
-                    <Link href="/services-details">Fire Risk Assessment</Link>
+                    <Link href="/services/fire-risk-assessment">
+                      Fire Risk Assessment
+                    </Link>
                   </h2>
                   <p>
-                    There are many variations of passages of Lorem a Ipsum
-                    available, but the majority have suffered ali teration in
-                    some form
+                    Comprehensive evaluations to identify and mitigate fire
+                    hazards in your premises, ensuring safety and compliance.
                   </p>
-                  <Link href="/services-details" className="read-more">
+                  <Link
+                    href="/services/fire-risk-assessment"
+                    className="read-more"
+                  >
                     Read More <i className="fas fa-arrow-right" />
                   </Link>
                 </div>
@@ -96,7 +102,9 @@ export default function Services1() {
                       display: `${isActive.key == 2 ? "none" : "block"}`,
                     }}
                   >
-                    <Link href="/services-details">Fire Safety Training</Link>
+                    <Link href="/services/fire-safety-training">
+                      Fire Safety Training
+                    </Link>
                   </h2>
                   <h2 className="number">02</h2>
                 </div>
@@ -105,14 +113,18 @@ export default function Services1() {
                   style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}
                 >
                   <h2 className="title">
-                    <Link href="/services-details">Fire Safety Training</Link>
+                    <Link href="/services/fire-safety-training">
+                      Fire Safety Training
+                    </Link>
                   </h2>
                   <p>
-                    There are many variations of passages of Lorem a Ipsum
-                    available, but the majority have suffered ali teration in
-                    some form
+                    Expert-led training programs that cover fire prevention,
+                    safety procedures, and emergency response tactics.
                   </p>
-                  <Link href="/services-details" className="read-more">
+                  <Link
+                    href="/services/fire-safety-training"
+                    className="read-more"
+                  >
                     Read More <i className="fas fa-arrow-right" />
                   </Link>
                 </div>
@@ -139,7 +151,9 @@ export default function Services1() {
                       display: `${isActive.key == 3 ? "none" : "block"}`,
                     }}
                   >
-                    <Link href="/services-details">Fire Door Inspections</Link>
+                    <Link href="/services/fire-door-inspections">
+                      Fire Door Inspections
+                    </Link>
                   </h2>
                   <h2 className="number">03</h2>
                 </div>
@@ -148,14 +162,18 @@ export default function Services1() {
                   style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}
                 >
                   <h2 className="title">
-                    <Link href="/services-details">Fire Door Inspections</Link>
+                    <Link href="/services/fire-door-inspections">
+                      Fire Door Inspections
+                    </Link>
                   </h2>
                   <p>
-                    There are many variations of passages of Lorem a Ipsum
-                    available, but the majority have suffered ali teration in
-                    some form
+                    Detailed inspections to ensure fire doors are fully
+                    operational and compliant with the latest safety standards.
                   </p>
-                  <Link href="/services-details" className="read-more">
+                  <Link
+                    href="/services/fire-door-inspections"
+                    className="read-more"
+                  >
                     Read More <i className="fas fa-arrow-right" />
                   </Link>
                 </div>
@@ -182,7 +200,7 @@ export default function Services1() {
                       display: `${isActive.key == 4 ? "none" : "block"}`,
                     }}
                   >
-                    <Link href="/services-details">
+                    <Link href="/services/passive-fire-protection">
                       Passive Fire Protection
                     </Link>
                   </h2>
@@ -193,16 +211,18 @@ export default function Services1() {
                   style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}
                 >
                   <h2 className="title">
-                    <Link href="/services-details">
+                    <Link href="/services/passive-fire-protection">
                       Passive Fire Protection
                     </Link>
                   </h2>
                   <p>
-                    There are many variations of passages of Lorem a Ipsum
-                    available, but the majority have suffered ali teration in
-                    some form
+                    Implementing structural fire prevention measures to control
+                    the spread of fire and protect the building's integrity.
                   </p>
-                  <Link href="/services-details" className="read-more">
+                  <Link
+                    href="/services/passive-fire-protection"
+                    className="read-more"
+                  >
                     Read More <i className="fas fa-arrow-right" />
                   </Link>
                 </div>
@@ -229,7 +249,9 @@ export default function Services1() {
                       display: `${isActive.key == 5 ? "none" : "block"}`,
                     }}
                   >
-                    <Link href="/services-details">Fire Extinguishers</Link>
+                    <Link href="/services/ire-extinguishers">
+                      Fire Extinguishers
+                    </Link>
                   </h2>
                   <h2 className="number">05</h2>
                 </div>
@@ -238,14 +260,19 @@ export default function Services1() {
                   style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}
                 >
                   <h2 className="title">
-                    <Link href="/services-details">Fire Extinguishers</Link>
+                    <Link href="/services/fire-extinguishers">
+                      Fire Extinguishers
+                    </Link>
                   </h2>
                   <p>
-                    There are many variations of passages of Lorem a Ipsum
-                    available, but the majority have suffered ali teration in
-                    some form
+                    A wide range of quality fire extinguishers to suit various
+                    environments, along with expert guidance on usage and
+                    maintenance.
                   </p>
-                  <Link href="/services-details" className="read-more">
+                  <Link
+                    href="/services/fire-extinguishers"
+                    className="read-more"
+                  >
                     Read More <i className="fas fa-arrow-right" />
                   </Link>
                 </div>

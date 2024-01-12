@@ -44,7 +44,7 @@ const brandSlider = {
 export default function Brand3() {
   return (
     <>
-      <div className="inner-brand-area pt-120 pb-120">
+      <div className="inner-brand-area pb-70 pt-50">
         <div className="container">
           <Slider {...brandSlider} className="row brand-active-three">
             <div className="col-12">

@@ -22,7 +22,7 @@ export default function Sidebar() {
   return (
     <>
       <ul className="navigation">
-        <li className="menu-item-has-children">
+        {/* <li className="menu-item-has-children">
           <Link href="#">Home</Link>
           <ul
             className="sub-menu"
@@ -41,6 +41,9 @@ export default function Sidebar() {
           <div className="dropdown-btn" onClick={() => handleToggle(1)}>
             <span className="fas fa-angle-down" />
           </div>
+        </li> */}
+        <li>
+          <Link href="/">Home</Link>
         </li>
         <li className="menu-item-has-children">
           <Link href="/services">Services</Link>
@@ -49,21 +52,29 @@ export default function Sidebar() {
             style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}
           >
             <li>
-              <Link href="/services-details">Fire Risk Assessment</Link>
-            </li>
-            <li>
-              <Link href="/services-details">
-                Fire Safety / Warden Training
+              <Link href="/services/fire-risk-assessment">
+                Fire Risk Assessment
               </Link>
             </li>
             <li>
-              <Link href="/services-details">Fire Door Inspections</Link>
+              <Link href="/services/fire-safety-training">
+                Fire Safety Training
+              </Link>
             </li>
             <li>
-              <Link href="/services-details">Passive Fire Protection</Link>
+              <Link href="/services/fire-door-inspections">
+                Fire Door Inspections
+              </Link>
             </li>
             <li>
-              <Link href="/services-details">Fire Extinguishers</Link>
+              <Link href="/services/passive-fire-protection">
+                Passive Fire Protection
+              </Link>
+            </li>
+            <li>
+              <Link href="/services/fire-extinguishers">
+                Fire Extinguishers
+              </Link>
             </li>
           </ul>
           <div className="dropdown-btn" onClick={() => handleToggle(2)}>

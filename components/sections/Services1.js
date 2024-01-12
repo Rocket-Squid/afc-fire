@@ -36,7 +36,7 @@ export default function Services1() {
               <div
                 className="services-item wow fadeInUp"
                 data-wow-delay=".2s"
-                data-background="/assets/img/services/services_item01.jpg"
+                data-background="/assets/img/services/img_risk.jpg"
                 onMouseEnter={() => handleToggle(1)}
                 onMouseLeave={() => handleToggle(1)}
               >
@@ -85,7 +85,7 @@ export default function Services1() {
               <div
                 className="services-item wow fadeInUp"
                 data-wow-delay=".4s"
-                data-background="/assets/img/services/services_item02.jpg"
+                data-background="/assets/img/services/img_training.jpg"
                 onMouseEnter={() => handleToggle(2)}
                 onMouseLeave={() => handleToggle(2)}
               >
@@ -134,7 +134,7 @@ export default function Services1() {
               <div
                 className="services-item wow fadeInUp"
                 data-wow-delay=".6s"
-                data-background="/assets/img/services/services_item03.jpg"
+                data-background="/assets/img/services/img_door.jpg"
                 onMouseEnter={() => handleToggle(3)}
                 onMouseLeave={() => handleToggle(3)}
               >
@@ -183,7 +183,7 @@ export default function Services1() {
               <div
                 className="services-item wow fadeInUp"
                 data-wow-delay=".3s"
-                data-background="/assets/img/services/services_item04.jpg"
+                data-background="/assets/img/services/img_passive.jpg"
                 onMouseEnter={() => handleToggle(4)}
                 onMouseLeave={() => handleToggle(4)}
               >
@@ -232,7 +232,7 @@ export default function Services1() {
               <div
                 className="services-item wow fadeInUp"
                 data-wow-delay=".6s"
-                data-background="/assets/img/services/services_item05.jpg"
+                data-background="/assets/img/services/img_extinguishers.jpg"
                 onMouseEnter={() => handleToggle(5)}
                 onMouseLeave={() => handleToggle(5)}
               >

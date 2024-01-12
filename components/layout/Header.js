@@ -13,6 +13,12 @@ export default function Header({ headerCls, headerTop }) {
       : document.body.classList.remove("mobile-menu-visible");
   };
 
+  const getFirstUrlPath = () => {
+    const path = window.location.pathname;
+    const firstPath = path.split("/")[1];
+    return firstPath;
+  };
+
   useEffect(() => {
     document.addEventListener("scroll", () => {
       const scrollCheck = window.scrollY > 100;
@@ -103,7 +109,7 @@ export default function Header({ headerCls, headerTop }) {
                     </div>
                     <div className="navbar-wrap main-menu d-none d-lg-flex">
                       <ul className="navigation">
-                        <li className="active menu-item-has-children">
+                        {/* <li className="active menu-item-has-children">
                           <Link href="/#">Home</Link>
                           <ul className="sub-menu">
                             <li>
@@ -116,38 +122,51 @@ export default function Header({ headerCls, headerTop }) {
                               <Link href="/index-3">Option Three</Link>
                             </li>
                           </ul>
+                        </li> */}
+                        <li className={!getFirstUrlPath() ? "active" : ""}>
+                          <Link href="/">Home</Link>
                         </li>
-                        <li className="menu-item-has-children">
+                        <li
+                          className={
+                            getFirstUrlPath() == "services"
+                              ? "active menu-item-has-children"
+                              : "menu-item-has-children"
+                          }
+                        >
                           <Link href="/services">Our Services</Link>
                           <ul className="sub-menu">
                             <li>
-                              <Link href="/services-details">
+                              <Link href="/services/fire-risk-assessment">
                                 Fire Risk Assessment
                               </Link>
                             </li>
                             <li>
-                              <Link href="/services-details">
-                                Fire Safety / Warden Training
+                              <Link href="/services/fire-safety-training">
+                                Fire Safety Training
                               </Link>
                             </li>
                             <li>
-                              <Link href="/services-details">
+                              <Link href="/services/fire-door-inspections">
                                 Fire Door Inspections
                               </Link>
                             </li>
                             <li>
-                              <Link href="/services-details">
+                              <Link href="/services/passive-fire-protection">
                                 Passive Fire Protection
                               </Link>
                             </li>
                             <li>
-                              <Link href="/services-details">
+                              <Link href="/services/fire-extinguishers">
                                 Fire Extinguishers
                               </Link>
                             </li>
                           </ul>
                         </li>
-                        <li>
+                        <li
+                          className={
+                            getFirstUrlPath() == "team" ? "active" : ""
+                          }
+                        >
                           <Link href="/team">Our Team</Link>
                         </li>
                       </ul>

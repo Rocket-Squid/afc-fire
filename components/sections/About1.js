@@ -70,7 +70,7 @@ export default function About1() {
                   <ul className="list-wrap">
                     <li>
                       <i className="fas fa-check" />
-                      Trusted by over 5,000 clients for reliable fire safety
+                      Trusted by over 500 clients for reliable fire safety
                       solutions.
                     </li>
                     <li>

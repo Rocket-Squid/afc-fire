@@ -31,31 +31,31 @@ export default function Footer1() {
                     <div className="footer-link">
                       <ul className="list-wrap">
                         <li>
-                          <Link href="/project">
+                          <Link href="/services/fire-risk-assessment">
                             <i className="fas fa-angle-double-right" />
                             Fire Risk Assessment
                           </Link>
                         </li>
                         <li>
-                          <Link href="/project">
+                          <Link href="/services/fire-safety-training">
                             <i className="fas fa-angle-double-right" />
                             Fire Safety Training
                           </Link>
                         </li>
                         <li>
-                          <Link href="/project">
+                          <Link href="/services/fire-door-inspections">
                             <i className="fas fa-angle-double-right" />
                             Fire Door Inspections
                           </Link>
                         </li>
                         <li>
-                          <Link href="/project">
+                          <Link href="/services/passive-fire-protection">
                             <i className="fas fa-angle-double-right" />
                             Passive Fire Protection
                           </Link>
                         </li>
                         <li>
-                          <Link href="/project">
+                          <Link href="/services/fire-extinguishers">
                             <i className="fas fa-angle-double-right" />
                             Fire Extinguishers
                           </Link>
@@ -72,12 +72,6 @@ export default function Footer1() {
                         <li>
                           <Link href="/contact">
                             <i className="fas fa-angle-double-right" />
-                            Terms Conditions
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/contact">
-                            <i className="fas fa-angle-double-right" />
                             Tax Vat
                           </Link>
                         </li>
@@ -90,7 +84,7 @@ export default function Footer1() {
                         <li>
                           <Link href="/contact">
                             <i className="fas fa-angle-double-right" />
-                            Typically Solutions
+                            Typical Solutions
                           </Link>
                         </li>
                         <li>

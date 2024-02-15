@@ -1,6 +1,7 @@
 import Layout from "@/components/layout/Layout";
 import Brand3 from "@/components/sections/Brand3";
 import ServicesSidebar from "@/components/sections/ServicesSidebar";
+import Link from "next/link";
 
 export default function FireRiskAssessments() {
   return (
@@ -19,25 +20,61 @@ export default function FireRiskAssessments() {
                       />
                     </div>
                     <div className="services-details-content">
-                      <h2 className="title">
-                        Fire Risk Assessments are a legal requirement
-                      </h2>
+                      <h2 className="title">What is a Fire Risk Assessment?</h2>
                       <p>
-                        A <strong>Fire Risk Assessment</strong> is a process
-                        involving the systematic evaluation of the factors that
-                        determine the hazard from fire, the likelihood that
-                        there will be a fire, and the consequences if one were
-                        to occur.
+                        A careful look at your premises and the people who use
+                        them, from a fire prevention perspective. It's about
+                        understanding the potential risks, then improving your
+                        fire safety precautions to keep people safe.{" "}
+                        <Link
+                          href="https://www.london-fire.gov.uk/safety/the-workplace/fire-safety-law-explained/"
+                          target="_blank"
+                        >
+                          Read about it on The LFB Website
+                        </Link>
                       </p>
                       <br />
+                      <h2 className="title">Why do it?</h2>
                       <p>
-                        <strong>Fire Risk Assessments</strong> are a legal
-                        requirement for <strong>ALL</strong> UK businesses,
-                        regardless of size. However, if you employ five or more
-                        people it must be documented and available for
-                        inspection. Failure to carry out a{" "}
-                        <strong>Fire Risk Assessment</strong> can lead to heavy
-                        fines, and, in the worst cases, imprisonment.
+                        <strong>
+                          A Fire Risk Assessment is a legal requirement
+                        </strong>
+                      </p>
+                      <p>
+                        If you are responsible for a building, for example an
+                        employer, owner or occupier of premises that aren't a
+                        'single private dwelling' (a private home), you need to
+                        make sure a suitably competent person completes a Fire
+                        Risk Assessment. It is your duty to identify fire risks
+                        and hazards in your premises and take appropriate
+                        action.
+                      </p>
+                      <p>
+                        The <strong>Responsible Person</strong> must record all
+                        findings from their fire risk assessment, regardless of
+                        the size or purpose of the premises. This is a new
+                        requirement, effective from 1 October 2023. Previously
+                        this was only required for certain types of buildings.
+                        Responsible Persons must also record their fire safety
+                        arrangements.
+                      </p>
+
+                      <p>
+                        Make sure you review your risk assessment regularly and
+                        whenever significant changes have been made that would
+                        have an impact on it. It's good business sense as well
+                        as a legal requirement, often businesses don't recover
+                        after a fire, and effective fire prevention starts with
+                        properly understanding the risks.
+                      </p>
+
+                      <br />
+
+                      <h3 className="title">Did you know?</h3>
+                      <p>
+                        If there's a fire and you haven't met your legal duties
+                        to keep people safe, you could be fined and may even
+                        spend time in prison.
                       </p>
 
                       <hr />
@@ -46,29 +83,27 @@ export default function FireRiskAssessments() {
                         <div className="row">
                           <div className="benefits-content">
                             <h2 className="title">
-                              Legislation requires that all business owners
-                              must:
+                              How to do a Fire Risk Assessment
                             </h2>
 
+                            <p>Assessments are conducted in five key steps:</p>
                             <ul className="list-wrap">
                               <li>
                                 <i className="fas fa-check-circle" />
-                                Identify the fire hazards within the business
-                                premises
+                                Identify the fire hazards.
                               </li>
                               <li>
                                 <i className="fas fa-check-circle" />
-                                Identify people at risk in and around the
-                                business premises
+                                Identify people at risk.
                               </li>
                               <li>
                                 <i className="fas fa-check-circle" />
-                                Evaluate, remove or reduce the risks
+                                Evaluate, remove or reduce the risks.
                               </li>
                               <li>
                                 <i className="fas fa-check-circle" />
                                 Record the findings, prepare an emergency plan,
-                                and provide fire safety training
+                                and provide training
                               </li>
                               <li>
                                 <i className="fas fa-check-circle" />
@@ -79,6 +114,55 @@ export default function FireRiskAssessments() {
                           </div>
                         </div>
                       </div>
+
+                      <hr />
+
+                      <h2 className="title">Who checks it?</h2>
+                      <p>
+                        The Local Authority / The Fire Brigade - inspecting
+                        premises is part of their duty to keep people safe from
+                        fire.
+                      </p>
+
+                      <br />
+
+                      <h2 className="title">
+                        Who should do my Fire Risk Assessment?
+                      </h2>
+                      <p>
+                        You can. The law states that the person carrying out the
+                        Fire Risk Assessment must be competent to do so. If you
+                        don't feel that is the case, or you would like a
+                        professional to carry out the work, we are here to help.
+                      </p>
+
+                      <h3 className="subtitle">Large complex business</h3>
+                      <p>
+                        If your business is larger or more complex, contact an
+                        expert to come and help. Our responsibilities lie in
+                        making sure you've done an appropriate assessment - we
+                        don't provide an assessment service. You'll need to find
+                        a suitably qualified specialist, but there's a guide to
+                        help you at the end of this page.
+                      </p>
+                      <h3 className="subtitle">SME or smaller organisations</h3>
+                      <p>
+                        If your business or organisation is relatively small and
+                        you think your potential risks aren't complex, it is
+                        possible to do it yourself. You can find a guides to
+                        help you understand what's required here on the Gov.UK
+                        website.
+                      </p>
+                      <h3 className="subtitle">Heritage buildings</h3>
+                      <p>
+                        If you're responsible for a museum, gallery or historic
+                        building, it is strongly recommended that your fire risk
+                        assessment is carried out by a Competent Person /
+                        Assessor with an understanding of fire safety within
+                        heritage buildings, as these buildings have particular
+                        risks and limitations.
+                      </p>
+
                       <hr />
                       <h2 className="title-two">
                         We Hope You Find What You are Looking for

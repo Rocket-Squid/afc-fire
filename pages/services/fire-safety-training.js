@@ -1,6 +1,7 @@
 import Layout from "@/components/layout/Layout";
 import Brand3 from "@/components/sections/Brand3";
 import ServicesSidebar from "@/components/sections/ServicesSidebar";
+import Link from "next/link";
 
 export default function FireSafetyTraining() {
   return (
@@ -20,137 +21,145 @@ export default function FireSafetyTraining() {
                     </div>
                     <div className="services-details-content">
                       <h2 className="title">
-                        Comprehensive Fire Safety Training Courses
+                        Fire safety training - <i>Knowledge saves lives.</i>
                       </h2>
                       <p>
-                        <strong class="red">AFC Fire’s</strong> qualified
-                        instructors, affiliated with the Institute of Fire
-                        Safety Managers, the Institute of Fire Engineers, and
-                        the National Association of Fire Door Inspectors, offer
-                        comprehensive Fire Safety Training Courses at your
-                        premises, meeting statutory legal & insurance
-                        obligations under the Regulatory Reform (Fire Safety)
-                        Order 2005.
-                      </p>
-                      <br />
-                      <p>
-                        <strong>
-                          Prices start at just £399.00 (+VAT) per certified
-                          course
-                        </strong>
-                        , for up to 10 people. For larger groups or multiple
-                        locations, please call{" "}
-                        <a href="tel:02031434754">0203-143-4754</a> or{" "}
-                        <a href="tel:+447771366942">0777-1366-942</a>.
-                      </p>
-                      <br />
-                      <p>
-                        Our trainers are totally self-contained, bringing along
-                        all their own presentation equipment and fire
-                        extinguishers to your venue. The course content is
-                        punchy, fast paced and entertaining, designed to hold
-                        the candidates attention, and covers the following:
+                        If you are responsible for employees or volunteers, it's
+                        important that you provide fire safety training. Here's
+                        what you need to know...
                       </p>
                       <br />
 
-                      <div className="benefits-content">
-                        <h2 className="title">Fire Awareness</h2>
-                        <ul className="list-wrap">
-                          <li>
-                            <i className="fas fa-check-circle" /> Fire
-                            prevention and the main causes of fire
-                          </li>
-                          <li>
-                            <i className="fas fa-check-circle" /> Fire, heat,
-                            and smoke spread
-                          </li>
-                          <li>
-                            <i className="fas fa-check-circle" /> The
-                            organisation's emergency plan
-                          </li>
-                          <li>
-                            <i className="fas fa-check-circle" /> Action to take
-                            in the event of fire
-                          </li>
-                          <li>
-                            <i className="fas fa-check-circle" /> Video fire
-                            presentation demonstrating fire spread
-                          </li>
-                          <li>
-                            <i className="fas fa-check-circle" /> Fire Fighting
-                            Equipment
-                          </li>
-                          <li>
-                            <i className="fas fa-check-circle" /> Fighting
-                            different kinds of fire
-                          </li>
-                          <li>
-                            <i className="fas fa-check-circle" /> How to operate
-                            modern fire extinguishers
-                          </li>
-                          <li>
-                            <i className="fas fa-check-circle" /> Fire blanket
-                            demonstration
-                          </li>
-                          <li>
-                            <i className="fas fa-check-circle" /> Practical use
-                            of our extinguishers
-                          </li>
-                        </ul>
-                      </div>
+                      <h2 className="title">
+                        Fire safety training for businesses and organisations
+                      </h2>
+                      <p>
+                        If you are responsible for a business or organisation,
+                        it's important that you provide fire safety training as
+                        part of your normal training and induction process.
+                      </p>
                       <br />
+
                       <div className="benefits-content">
                         <h2 className="title">
-                          The Responsibility of the Fire Warden
+                          Why provide fire safety training?
                         </h2>
-                        <ul className="list-wrap">
+                        <ul>
+                          <li>It saves lives.</li>
+                          <li>It's the law.</li>
                           <li>
-                            <i className="fas fa-check-circle" /> The role of
-                            the fire Warden
+                            Prevention is the best form of firefighting, and
+                            training can stop fires happening in the first
+                            place.
                           </li>
                           <li>
-                            <i className="fas fa-check-circle" /> Fire Warden
-                            duties
+                            In the event of a fire, it will keep your people
+                            safer, and may reduce damage to your building.
+                          </li>
+                        </ul>
+                        <br />
+
+                        <h2 className="title">Did you know?</h2>
+                        <p>
+                          Employers are{" "}
+                          <Link
+                            href="https://www.london-fire.gov.uk/safety/the-workplace/fire-safety-law-explained/"
+                            target="_blank"
+                          >
+                            legally required by law
+                          </Link>{" "}
+                          (The Regulatory Reform (Fire Safety) Order 2005) to
+                          provide information, instruction and training to
+                          employees about fire precautions in the workplace.
+                        </p>
+
+                        <p>
+                          Having a designated fire warden at work is an
+                          important part of fire safety. The fire warden works
+                          together with the employer to ensure that fire safety
+                          measures and evacuation procedures are in place and
+                          effective.
+                        </p>
+
+                        <p>
+                          This course will provide you with the necessary
+                          theoretical training required to be a qualified fire
+                          warden. It will educate you about what your legal
+                          duties are, will provide you with an understanding of
+                          fire, familiarise you with fire hazards and fire
+                          safety arrangements, and detail what your emergency
+                          evacuation procedures should entail. The information
+                          in the course will enable you to take responsibility
+                          for fire safety in your workplace and protect
+                          everyone’s wellbeing.
+                        </p>
+
+                        <h2 className="subtitle">
+                          By the end of this Fire Warden Training course, you
+                          will understand:
+                        </h2>
+
+                        <ul className="list-wrap">
+                          <li>
+                            <i className="fas fa-check-circle" /> The main laws
+                            for workplace fire safety
+                          </li>
+                          <li>
+                            <i className="fas fa-check-circle" /> Your role as a
+                            fire warden
+                          </li>
+                          <li>
+                            <i className="fas fa-check-circle" /> The different
+                            categories of fire
+                          </li>
+                          <li>
+                            <i className="fas fa-check-circle" /> How fires may
+                            start and spread in a workplace
+                          </li>
+                          <li>
+                            <i className="fas fa-check-circle" /> What is
+                            involved in a fire risk assessment
+                          </li>
+                          <li>
+                            <i className="fas fa-check-circle" /> Common causes
+                            of fires in workplaces
+                          </li>
+                          <li>
+                            <i className="fas fa-check-circle" /> Control
+                            measures to prevent or minimise fire risks
+                          </li>
+                          <li>
+                            <i className="fas fa-check-circle" /> The different
+                            types of fire extinguishers and their uses
                           </li>
                           <li>
                             <i className="fas fa-check-circle" /> Fire
-                            evacuation drills
+                            detection, fire warning, and fire equipment
                           </li>
                           <li>
-                            <i className="fas fa-check-circle" /> Assembly point
-                            ‘management’
+                            <i className="fas fa-check-circle" /> Requirements
+                            for fire plans
+                          </li>
+                          <li>
+                            <i className="fas fa-check-circle" /> What your
+                            specific role is during emergency evacuation
+                            procedures
+                          </li>
+                          <li>
+                            <i className="fas fa-check-circle" /> Fire safety
+                            measures for people with vulnerabilities and
+                            disabilities
+                          </li>
+                          <li>
+                            <i className="fas fa-check-circle" /> The purpose of
+                            personal emergency evacuation plans
+                          </li>
+                          <li>
+                            <i className="fas fa-check-circle" /> How to carry
+                            out fire drills
                           </li>
                         </ul>
                       </div>
-
-                      <hr />
-
-                      <p>
-                        The total cost for sessions is £399.00 + vat for the
-                        Fire Safety Awareness, course, and to add the additional
-                        module for Fire Wardens is only an extra £100.00 + vat.
-                      </p>
-                      <br />
-                      <p>
-                        We do not charge extra for fire extinguisher use during
-                        the practical use part of the sessions. Please note a
-                        deposit of 50% of the total cost is payable in advance
-                        to secure the booking.
-                      </p>
-                      <br />
-                      <p>
-                        Please ensure that an area of approximately 25 sq m is
-                        provided for the practical session. Please also be aware
-                        that there will be an element of mess from the fire
-                        extinguisher use.
-                      </p>
-                      <br />
-                      <p>
-                        All necessary literature and course documentation is
-                        provided. A certificate of attendance & competence will
-                        be issued to each individual, after successful
-                        completion of the course.
-                      </p>
                       <br />
 
                       <hr />
@@ -158,20 +167,7 @@ export default function FireSafetyTraining() {
                         We Hope You Find What You are Looking for
                       </h2>
                       <p>
-                        Once a qualified and highly trained{" "}
-                        <strong class="red">AFC</strong> assessor has completed
-                        your assessment, you will receive a comprehensive
-                        written report, which details all findings. But, most
-                        importantly, it will highlight the{" "}
-                        <strong>'Significant Findings'</strong>, making it
-                        really simple to understand what and where the
-                        deficiencies are. The report also provides you with step
-                        by step guidance on what you need to do to comply with
-                        current legislation.
-                      </p>
-                      <br />
-                      <p>
-                        To book a Fire Risk Assessment with{" "}
+                        To book your Fire Safety Training with{" "}
                         <strong class="red">AFC Fire & Security</strong>, simply
                         call <a href="tel:02031434754">0203-143-4754</a>, or{" "}
                         <a href="tel:+447771366942">0777-1366-942</a>, or fill

@@ -97,10 +97,10 @@ export default function Banner1() {
                 <i className="fas fa-plus" />
               </div>
               <div className="tooltip-content">
-                <h2 className="title">Fire Extinguishers</h2>
+                <h2 className="title">Fire Doors</h2>
                 <p>
-                  A comprehensive range of extinguishers tailored for every type
-                  of fire scenario.
+                  A comprehensive range of fire doors for every type of fire
+                  scenario.
                 </p>
               </div>
             </div>

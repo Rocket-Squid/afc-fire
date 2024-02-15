@@ -2315,9 +2315,14 @@ label {
 	color: var(--tg-primary-color);
 }
 .services-details-content > .title {
-    font-weight: 600;
-    font-size: 26px;
-    margin-bottom: 22px;
+	font-weight: 600;
+	font-size: 26px;
+	margin-bottom: 22px;
+}
+.services-details-content > .subtitle {
+	font-weight: 500;
+	font-size: 22px;
+	margin-top: 20px;
 }
 .services-process-wrap {
 	margin-top: 40px;
@@ -2389,8 +2394,19 @@ label {
 	font-size: 26px;
 	margin-bottom: 15px;
 }
+.benefits-content > .subtitle {
+	font-weight: 500;
+	font-size: 22px;
+	margin: 20px 0;
+}
 .benefits-content p {
 	margin-bottom: 20px;
+}
+.benefits-content li {
+	font-weight: 400;
+	font-size: 18px;
+	color: var(--tg-heading-font-color);
+	margin-bottom: 10px;
 }
 .benefits-content .list-wrap li {
 	display: flex;
@@ -2398,7 +2414,6 @@ label {
 	font-weight: 400;
 	font-size: 18px;
 	color: var(--tg-heading-font-color);
-	font-family: var(--tg-heading-font-family);
 	margin-bottom: 10px;
 }
 .benefits-content .list-wrap li:last-child {

@@ -27,7 +27,7 @@ export default function Testimonial1() {
                     Our Testimonial
                   </span>
                   <h2 className="title tg-element-title">
-                    Some of Our Respected Happy Clients Says
+                    What Some of Our Happy Clients Say
                   </h2>
                 </div>
                 <Slider {...settings} className="testimonial-active">
@@ -37,12 +37,10 @@ export default function Testimonial1() {
                     </div>
                     <div className="testimonial-content">
                       <p>
-                        There are many varation of paissages of Lorem as the
-                        Ipum available but our majority have sufferied
-                        alterations in some form, by our by injected hsumour
-                        randomised worids which don't looks even slightly there
-                        as believable. If you going to use a passage of Lorem
-                        Ipsum.
+                        Alex and the team at AFC Fire consistently deliver
+                        top-notch service for our fire safety needs. Their
+                        expertise in conducting thorough fire risk assessments
+                        and meticulous fire door inspections is commendable.
                       </p>
                     </div>
                     <div className="testimonial-avatar">
@@ -64,39 +62,11 @@ export default function Testimonial1() {
                     </div>
                     <div className="testimonial-content">
                       <p>
-                        There are many varation of paissages of Lorem as the
-                        Ipum available but our majority have sufferied
-                        alterations in some form, by our by injected hsumour
-                        randomised worids which don't looks even slightly there
-                        as believable. If you going to use a passage of Lorem
-                        Ipsum.
-                      </p>
-                    </div>
-                    <div className="testimonial-avatar">
-                      <div className="avatar-thumb">
-                        <img
-                          src="/assets/img/images/testi_avatar01.png"
-                          alt=""
-                        />
-                      </div>
-                      <div className="avatar-content">
-                        <h6 className="title">Darrell Steward</h6>
-                        <p>Fire Safety Expert</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="testimonial-item">
-                    <div className="testimonial-icon">
-                      <i className="fas fa-quote-left" />
-                    </div>
-                    <div className="testimonial-content">
-                      <p>
-                        There are many varation of paissages of Lorem as the
-                        Ipum available but our majority have sufferied
-                        alterations in some form, by our by injected hsumour
-                        randomised worids which don't looks even slightly there
-                        as believable. If you going to use a passage of Lorem
-                        Ipsum.
+                        Their professionalism, attention to detail and value
+                        they provide, are the reasons we continue to recommend
+                        them. Timely and reliable, AFC Fire has become an
+                        invaluable partner for our company's ongoing commitment
+                        to fire safety. Highly recommended.
                       </p>
                     </div>
                     <div className="testimonial-avatar">

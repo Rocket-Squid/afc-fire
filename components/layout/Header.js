@@ -155,8 +155,8 @@ export default function Header({ headerCls, headerTop }) {
                               </Link>
                             </li>
                             <li>
-                              <Link href="/services/passive-fire-protection">
-                                Passive Fire Protection
+                              <Link href="/services/compartmentation-surveys">
+                                Fire Compartmentation Surveys
                               </Link>
                             </li>
                             <li>

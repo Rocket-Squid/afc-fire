@@ -49,9 +49,9 @@ export default function Footer1() {
                           </Link>
                         </li>
                         <li>
-                          <Link href="/services/passive-fire-protection">
+                          <Link href="/services/compartmentation-surveys">
                             <i className="fas fa-angle-double-right" />
-                            Passive Fire Protection
+                            Fire Compartmentation Surveys
                           </Link>
                         </li>
                         <li>

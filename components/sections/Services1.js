@@ -200,8 +200,8 @@ export default function Services1() {
                       display: `${isActive.key == 4 ? "none" : "block"}`,
                     }}
                   >
-                    <Link href="/services/passive-fire-protection">
-                      Passive Fire Protection
+                    <Link href="/services/compartmentation-surveys">
+                      Fire Compartmentation Surveys
                     </Link>
                   </h2>
                   <h2 className="number">04</h2>
@@ -211,8 +211,8 @@ export default function Services1() {
                   style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}
                 >
                   <h2 className="title">
-                    <Link href="/services/passive-fire-protection">
-                      Passive Fire Protection
+                    <Link href="/services/compartmentation-surveys">
+                      Fire Compartmentation Surveys
                     </Link>
                   </h2>
                   <p>
@@ -220,7 +220,7 @@ export default function Services1() {
                     the spread of fire and protect the building's integrity.
                   </p>
                   <Link
-                    href="/services/passive-fire-protection"
+                    href="/services/compartmentation-surveys"
                     className="read-more"
                   >
                     Read More <i className="fas fa-arrow-right" />

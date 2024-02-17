@@ -165,7 +165,7 @@ export default function Faq1() {
                             : "accordion-button collapsed"
                         }
                       >
-                        What is Passive Fire Protection and Its Benefits?
+                        What is Fire Compartmentation Surveys and Its Benefits?
                       </button>
                     </h2>
                     <div
@@ -177,7 +177,7 @@ export default function Faq1() {
                     >
                       <div className="accordion-body">
                         <p>
-                          Passive fire protection involves using building
+                          Compartmentation surveys involves using building
                           materials and design to prevent or slow the spread of
                           fire, offering benefits like increased evacuation time
                           and reduced property damage.

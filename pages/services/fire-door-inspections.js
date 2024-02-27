@@ -5,7 +5,10 @@ import ServicesSidebar from "@/components/sections/ServicesSidebar";
 export default function FireDoorInspections() {
   return (
     <>
-      <Layout breadcrumbTitle="Fire Door Inspections">
+      <Layout
+        breadcrumbReturn="Services"
+        breadcrumbTitle="Fire Door Inspections"
+      >
         <div>
           <section className="services-details-area pt-120">
             <div className="container">

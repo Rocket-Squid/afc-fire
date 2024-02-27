@@ -6,7 +6,10 @@ import Link from "next/link";
 export default function FireRiskAssessments() {
   return (
     <>
-      <Layout breadcrumbTitle="Fire Risk Assessments">
+      <Layout
+        breadcrumbReturn="Services"
+        breadcrumbTitle="Fire Risk Assessments"
+      >
         <div>
           <section className="services-details-area pt-120">
             <div className="container">

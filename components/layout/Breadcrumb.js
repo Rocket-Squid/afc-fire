@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Breadcrumb({ breadcrumbTitle }) {
+export default function Breadcrumb({ breadcrumbReturn, breadcrumbTitle }) {
   return (
     <>
       <section
@@ -19,7 +19,14 @@ export default function Breadcrumb({ breadcrumbTitle }) {
                 <nav aria-label="breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
-                      <Link href="/">Home</Link>
+                      <Link
+                        href={`/${
+                          breadcrumbReturn != "Home" &&
+                          breadcrumbReturn.toLowerCase()
+                        }`}
+                      >
+                        {breadcrumbReturn}
+                      </Link>
                     </li>
                     <li className="breadcrumb-item active" aria-current="page">
                       {breadcrumbTitle}

@@ -90,7 +90,6 @@ export async function getStaticPaths() {
   const paths = teamMembers.map((member) => ({
     params: { slug: member.slug },
   }));
-  console.log("🚀 ~ paths ~ paths:", paths);
 
   return { paths, fallback: "blocking" };
 }

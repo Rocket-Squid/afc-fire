@@ -64,7 +64,7 @@ export default function Footer1() {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-2 col-lg-4 col-md-6 col-sm-6">
+                {/* <div className="col-xl-2 col-lg-4 col-md-6 col-sm-6">
                   <div className="footer-widget">
                     <h2 className="fw-title">Quick Links</h2>
                     <div className="footer-link">
@@ -102,7 +102,7 @@ export default function Footer1() {
                       </ul>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <div className="col-xl-4 col-lg-5 col-md-6">
                   <div className="footer-widget">
                     <h2 className="fw-title">Instagram Posts</h2>

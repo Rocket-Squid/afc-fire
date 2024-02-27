@@ -5,7 +5,10 @@ import ServicesSidebar from "@/components/sections/ServicesSidebar";
 export default function PassiveFireProtection() {
   return (
     <>
-      <Layout breadcrumbTitle="Fire Compartmentation Surveys">
+      <Layout
+        breadcrumbReturn="Services"
+        breadcrumbTitle="Fire Compartmentation Surveys"
+      >
         <div>
           <section className="services-details-area pt-120">
             <div className="container">

@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function ServiceDetails() {
   return (
     <>
-      <Layout breadcrumbTitle="Service Details">
+      <Layout breadcrumbReturn="Services" breadcrumbTitle="Service Details">
         <div>
           <section className="services-details-area pt-120">
             <div className="container">

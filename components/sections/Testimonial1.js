@@ -46,13 +46,13 @@ export default function Testimonial1() {
                     <div className="testimonial-avatar">
                       <div className="avatar-thumb">
                         <img
-                          src="/assets/img/images/testi_avatar01.png"
+                          src="/assets/img/images/testimonial-logo.png"
                           alt=""
                         />
                       </div>
                       <div className="avatar-content">
-                        <h6 className="title">Darrell Steward</h6>
-                        <p>Fire Safety Expert</p>
+                        <h6 className="title">Mitchell Greetham</h6>
+                        <p>Managing Director - Armour Fire Solutions</p>
                       </div>
                     </div>
                   </div>
@@ -72,13 +72,13 @@ export default function Testimonial1() {
                     <div className="testimonial-avatar">
                       <div className="avatar-thumb">
                         <img
-                          src="/assets/img/images/testi_avatar01.png"
+                          src="/assets/img/images/testimonial-logo.png"
                           alt=""
                         />
                       </div>
                       <div className="avatar-content">
-                        <h6 className="title">Darrell Steward</h6>
-                        <p>Fire Safety Expert</p>
+                        <h6 className="title">Mitchell Greetham</h6>
+                        <p>Managing Director - Armour Fire Solutions</p>
                       </div>
                     </div>
                   </div>

@@ -41,7 +41,7 @@ const ServicesSidebar = () => {
           </ul>
         </div>
       </div>
-      <div
+      {/* <div
         className="services-widget widget-bg"
         data-background="/assets/img/services/sw_bg.jpg"
       >
@@ -81,7 +81,7 @@ const ServicesSidebar = () => {
             Fire Safety Models.doc 48 KB
           </Link>
         </div>
-      </div>
+      </div> */}
     </aside>
   );
 };

@@ -11,7 +11,7 @@ export default function Footer1() {
           <div className="footer-top">
             <div className="container">
               <div className="row">
-                <div className="col-xl-3 col-lg-4 col-md-7">
+                <div className="col-lg-8 col-sm-6">
                   <div className="footer-widget">
                     <h2 className="fw-title">About Us</h2>
                     <div className="footer-content">
@@ -25,7 +25,7 @@ export default function Footer1() {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-3 col-lg-4 col-md-5 col-sm-6">
+                <div className="col-lg-4 col-sm-6">
                   <div className="footer-widget">
                     <h2 className="fw-title">Our Services</h2>
                     <div className="footer-link">
@@ -102,7 +102,7 @@ export default function Footer1() {
                       </ul>
                     </div>
                   </div>
-                </div> */}
+                </div> 
                 <div className="col-xl-4 col-lg-5 col-md-6">
                   <div className="footer-widget">
                     <h2 className="fw-title">Instagram Posts</h2>
@@ -160,6 +160,7 @@ export default function Footer1() {
                     </div>
                   </div>
                 </div>
+                */}
               </div>
               <div className="footer-logo-area">
                 <div className="row align-items-center">

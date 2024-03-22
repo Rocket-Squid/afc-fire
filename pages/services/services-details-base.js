@@ -9,7 +9,7 @@ export default function ServiceDetails() {
           <section className="services-details-area pt-120">
             <div className="container">
               <div className="row justify-content-center">
-                <div className="col-xl-8">
+                <div className="col-xl-10">
                   <div className="services-details-wrap">
                     <div className="services-details-thumb">
                       <img
@@ -171,7 +171,7 @@ export default function ServiceDetails() {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-4 col-lg-6">
+                <div className="col-xl-2 col-lg-6">
                   <aside className="services-sidebar">
                     <div className="services-widget">
                       <h4 className="widget-title">Our All Service</h4>

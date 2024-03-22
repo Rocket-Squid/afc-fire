@@ -1918,11 +1918,6 @@
 .service-benefits-wrap .benefits-img {
 	flex-wrap: wrap;
 }
-.services-widget .download-wrap {
-	gap: 20px;
-	flex-wrap: wrap;
-	justify-content: center;
-}
 .services-details-thumb img {
 	min-height: 350px;
 	width: 100%;
@@ -2233,9 +2228,6 @@
 }
 .services-widget {
 	padding: 30px 30px 35px;
-}
-.services-widget .download-wrap {
-	flex-wrap: nowrap;
 }
 .services-process-item {
 	padding: 20px;

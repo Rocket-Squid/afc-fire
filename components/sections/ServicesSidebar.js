@@ -60,28 +60,52 @@ const ServicesSidebar = () => {
             Contact Us
           </button>
         </form>
-      </div>
+      </div> */}
       <div className="services-widget">
-        <h4 className="widget-title">Our Brochures Download</h4>
+        <h4 className="widget-title">Useful Downloads</h4>
         <div className="download-wrap">
           <Link
-            href="assets/img/services/services_details01.jpg"
+            href="assets/pdf/LACoRS - Housing Fire Safety.pdf"
             download
             target="_blank"
           >
             <i className="fas fa-cloud-download-alt" />
-            Service Details.pdf 65 KB
+            LACoRS - Housing Fire Safety.pdf
           </Link>
           <Link
-            href="assets/img/services/services_details01.jpg"
+            href="assets/pdf/The Regulatory Reform (Fire Safety) Order 2005.pdf"
             download
             target="_blank"
           >
-            <i className="fas fa-file-pdf" />
-            Fire Safety Models.doc 48 KB
+            <i className="fas fa-cloud-download-alt" />
+            The Regulatory Reform (Fire Safety) Order 2005.pdf
+          </Link>
+          <Link
+            href="assets/pdf/LGA - Fire Safety in Purpose-Built blocks of Flats.pdf"
+            download
+            target="_blank"
+          >
+            <i className="fas fa-cloud-download-alt" />
+            LGA - Fire Safety in Purpose-Built blocks of Flats.pdf
+          </Link>
+          <Link
+            href="assets/pdf/HM Government Guide; Factories & Warehouses.pdf"
+            download
+            target="_blank"
+          >
+            <i className="fas fa-cloud-download-alt" />
+            HM Government Guide; Factories & Warehouses.pdf
+          </Link>
+          <Link
+            href="assets/pdf/HM Government Guide; Offices & Shops.pdf"
+            download
+            target="_blank"
+          >
+            <i className="fas fa-cloud-download-alt" />
+            HM Government Guide; Offices & Shops.pdf
           </Link>
         </div>
-      </div> */}
+      </div>
     </aside>
   );
 };

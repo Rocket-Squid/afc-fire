@@ -40,17 +40,12 @@ export default function FireExtinguishers() {
                       </p>
 
                       <p>
-                        The ‘standard pair', i.e.,{" "}
-                        <Link
-                          href="https://fire-risk-assessment-network.com/blog/water-fire-extinguishers/"
-                          target="_blank"
-                        >
-                          CO2 and water-based fire extinguishers
-                        </Link>
-                        , are typically located near fire alarm call-points and
-                        exits. However, if a building has many call-points or
-                        exits, then the number of fire extinguishers you need
-                        will increase, so the 30-metre rule comes into effect.
+                        The ‘standard pair', i.e., CO2 and water-based fire
+                        extinguishers, are typically located near fire alarm
+                        call-points and exits. However, if a building has many
+                        call-points or exits, then the number of fire
+                        extinguishers you need will increase, so the 30-metre
+                        rule comes into effect.
                       </p>
 
                       <p>

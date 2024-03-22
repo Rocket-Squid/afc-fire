@@ -2512,9 +2512,8 @@ label {
 	max-height: 175px;
 }
 .services-widget .download-wrap {
-	display: flex;
 	align-items: center;
-	gap: 30px;
+
 }
 .services-widget .download-wrap a {
 	display: flex;
@@ -2524,7 +2523,8 @@ label {
 	background: var(--tg-primary-color);
 	color: var(--tg-white);
 	border-radius: 5px;
-	padding: 25px 35px 20px;
+	padding: 20px 25px;
+	margin: 20px 0;
 }
 .services-widget .download-wrap a i {
 	width: 50px;

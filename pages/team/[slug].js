@@ -4,6 +4,11 @@ import { fetchMemberBySlug, fetchTeam } from "@/lib/airtable";
 import Link from "next/link";
 
 export default function TeamPage({ teamMember }) {
+  console.log("🚀 ~ TeamPage ~ teamMember.bio:", teamMember.bio);
+  const bios = teamMember.bio
+    ? teamMember.bio.split("\n").filter((paragraph) => paragraph !== "")
+    : null;
+  console.log("🚀 ~ TeamPage ~ bios:", bios);
   return (
     teamMember && (
       <>
@@ -27,56 +32,64 @@ export default function TeamPage({ teamMember }) {
                       <hr />
 
                       <h4>Bio</h4>
-                      <p className="info-one">{teamMember.bio}</p>
+                      {bios ? (
+                        bios.map((bio) => <p className="info-one">{bio}</p>)
+                      ) : (
+                        <p className="info-one">Coming soon</p>
+                      )}
 
                       <ul className="list-wrap team-info">
-                        <li>
-                          <span>
-                            <i className="fas fa-toolbox" />
-                            Experience:
-                          </span>
-                          {teamMember.experience}
-                        </li>
-                        <li>
-                          <span>
-                            <i className="fas fa-envelope" />
-                            E-mail:
-                          </span>
-                          {teamMember.email}
-                        </li>
-                        <li>
-                          <span>
-                            <i className="fas fa-phone-alt" />
-                            Phone:
-                          </span>
-                          {teamMember.phone}
-                        </li>
-                        <li>
-                          <span>
-                            <i className="fas fa-map-marker-alt" />
-                            Location:
-                          </span>
-                          {teamMember.location}
-                        </li>
+                        {teamMember.experience && (
+                          <li>
+                            <span>
+                              <i className="fas fa-toolbox" />
+                              Experience:
+                            </span>
+                            {teamMember.experience} years
+                          </li>
+                        )}
+                        {teamMember.location && (
+                          <li>
+                            <span>
+                              <i className="fas fa-map-marker-alt" />
+                              Location:
+                            </span>
+                            {teamMember.location}
+                          </li>
+                        )}
+                        {teamMember.email && (
+                          <li>
+                            <span>
+                              <i className="fas fa-envelope" />
+                              E-mail:
+                            </span>
+                            <a href={`mailto:${teamMember.email}`}>
+                              {teamMember.email}
+                            </a>
+                          </li>
+                        )}
+                        {teamMember.phone && (
+                          <li>
+                            <span>
+                              <i className="fas fa-phone-alt" />
+                              Phone:
+                            </span>
+                            <a
+                              href={`tel:${teamMember.phone.replace(
+                                /\s|-|\(|\)/g,
+                                ""
+                              )}`}
+                            >
+                              {teamMember.phone}
+                            </a>
+                          </li>
+                        )}
                       </ul>
-                      {/* <div className="team-details-social">
-                        <h6 className="title">Follow Me:</h6>
-                        <ul className="list-wrap">
-                          {teamMember.socialLinks.map((link) => (
-                            <li key={link.platform}>
-                              <Link href={link.url}>
-                                <i className={`fab fa-${link.platform}`} />
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      </div> */}
                     </div>
                   </div>
                 </div>
               </div>
             </section>
-            <Brand3 />
           </div>
         </Layout>
       </>

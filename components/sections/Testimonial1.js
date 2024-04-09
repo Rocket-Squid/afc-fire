@@ -17,7 +17,10 @@ export default function Testimonial1() {
           <div className="row align-items-center">
             <div className="col-lg-6 wow fadeInLeft" data-wow-delay=".2s">
               <div className="testimonial-img">
-                <img src="/assets/img/images/testimonial_img.jpg" alt="" />
+                <img
+                  src="/assets/img/buildings/pioneer-point-building.jpg"
+                  alt="Pioneer Point Building"
+                />
               </div>
             </div>
             <div className="col-lg-6">

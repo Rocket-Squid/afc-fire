@@ -167,7 +167,7 @@ export default function Footer1() {
                   <div className="col-xl-3 col-lg-3 col-md-12">
                     <div className="logo">
                       <Link href="/index">
-                        <img src="/assets/img/logo/w_logo.png" alt="" />
+                        <img src="/assets/img/logo/new-logo-alt.png" alt="" />
                       </Link>
                     </div>
                   </div>

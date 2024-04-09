@@ -4,11 +4,10 @@ import { fetchMemberBySlug, fetchTeam } from "@/lib/airtable";
 import Link from "next/link";
 
 export default function TeamPage({ teamMember }) {
-  console.log("🚀 ~ TeamPage ~ teamMember.bio:", teamMember.bio);
   const bios = teamMember.bio
     ? teamMember.bio.split("\n").filter((paragraph) => paragraph !== "")
     : null;
-  console.log("🚀 ~ TeamPage ~ bios:", bios);
+
   return (
     teamMember && (
       <>

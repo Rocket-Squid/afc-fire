@@ -394,7 +394,7 @@ label {
 	height: auto;
 }
 .logo img {
-	max-width: 159px;
+	max-width: 200px;
 }
 .sticky-menu .logo.d-none {
 	display: block !important;

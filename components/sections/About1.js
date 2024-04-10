@@ -9,14 +9,8 @@ export default function About1() {
             <div className="col-xl-7 col-lg-6 order-0 order-lg-2">
               <div className="about-img-wrap">
                 <img
-                  src="/assets/img/images/about_img01.jpg"
-                  alt="Fire Safety Equipment"
-                  className="wow fadeInRight"
-                  data-wow-delay=".4s"
-                />
-                <img
-                  src="/assets/img/images/about_img02.jpg"
-                  alt="Fire Safety Training"
+                  src="/assets/img/buildings/greenside-building.jpg"
+                  alt="Greenside residential"
                   className="wow fadeInRight"
                   data-wow-delay=".2s"
                 />

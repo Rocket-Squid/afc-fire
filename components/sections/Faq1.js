@@ -36,13 +36,13 @@ export default function Faq1() {
             <div className="col-xl-6 col-lg-10 order-0 order-xl-2">
               <div className="faq-img-wrap">
                 <img
-                  src="/assets/img/images/faq_img01.jpg"
+                  src="/assets/img/images/faq_img02-A.png"
                   alt=""
                   className="wow fadeInRight"
                   data-wow-delay=".4s"
                 />
                 <img
-                  src="/assets/img/images/faq_img02.jpg"
+                  src="/assets/img/images/faq_img01-A.png"
                   alt=""
                   className="wow fadeInRight"
                   data-wow-delay=".2s"

@@ -1040,6 +1040,7 @@ label {
 .tooltip-item.active .tooltip-content {
 	opacity: 1;
 	visibility: visible;
+	z-index: 10;
 }
 .tooltip-content .title {
 	font-size: 22px;
@@ -1099,12 +1100,20 @@ label {
 	right: 60%;
 }
 .tooltip-item:nth-child(2) {
-	right: 18%;
-	bottom: 40%;
+	right: 10%;
+	bottom: 30%;
 }
 .tooltip-item:nth-child(3) {
-	left: 5%;
-	bottom: 14%;
+	left: 10%;
+	bottom: 30%;
+}
+.tooltip-item:nth-child(4) {
+	left: 40%;
+	bottom: 30%;
+}
+.tooltip-item:nth-child(5) {
+	left: 70%;
+	top: 20%;
 }
 .tooltip-item.top .tooltip-content {
 	bottom: auto;
@@ -1479,8 +1488,8 @@ label {
 .brand-item img {
 	cursor: pointer;
 	transition: .3s ease-in-out;
-	max-height: 80px;
 	filter: grayscale(100%);
+	max-height: 70%;
 }
 .brand-item img:hover {
 	filter: grayscale(0);
@@ -1519,8 +1528,11 @@ label {
 }
 
 /* inner-brand-area */
+.inner-brand-area {
+	padding: 30px 0;
+}
 .inner-brand-area .brand-item {
-	height: 140px;
+	height: 200px;
 	background: var(--tg-gray);
 	border-radius: 10px;
 	cursor: pointer;

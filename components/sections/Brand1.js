@@ -1,7 +1,7 @@
 import Slider from "react-slick";
 const settings = {
   dots: false,
-  infinite: true,
+  infinite: false,
   speed: 1000,
   autoplay: true,
   arrows: false,
@@ -56,11 +56,6 @@ export default function Brand1() {
         <div className="container">
           <div className="brand-inner">
             <Slider {...settings} className="row brand-active">
-              <div className="col-12">
-                <div className="brand-item">
-                  <img src="/assets/img/brand/accreditation1.png" alt="" />
-                </div>
-              </div>
               <div className="col-12">
                 <div className="brand-item">
                   <img src="/assets/img/brand/accreditation2.png" alt="" />

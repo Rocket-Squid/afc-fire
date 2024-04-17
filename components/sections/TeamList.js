@@ -2,6 +2,7 @@ import React from "react";
 import TeamCard from "./TeamCard";
 
 export default function TeamList({ teamMembers }) {
+  console.log("🚀 ~ TeamList ~ teamMembers:", teamMembers);
   return (
     <>
       <section className="team-area pt-115 pb-90">

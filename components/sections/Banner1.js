@@ -104,6 +104,40 @@ export default function Banner1() {
                 </p>
               </div>
             </div>
+            <div
+              className={
+                isActive.key == 4 ? "tooltip-item active" : "tooltip-item"
+              }
+              onClick={() => handleToggle(4)}
+            >
+              <div className="tooltip-btn pulse">
+                <i className="fas fa-plus" />
+              </div>
+              <div className="tooltip-content">
+                <h2 className="title">Fire Extinguishers</h2>
+                <p>
+                  A wide range of quality fire extinguishers to suit various
+                  environments.
+                </p>
+              </div>
+            </div>
+            <div
+              className={
+                isActive.key == 5 ? "tooltip-item active" : "tooltip-item"
+              }
+              onClick={() => handleToggle(5)}
+            >
+              <div className="tooltip-btn pulse">
+                <i className="fas fa-plus" />
+              </div>
+              <div className="tooltip-content">
+                <h2 className="title">Fire Surveys</h2>
+                <p>
+                  Implementing structural fire prevention measures to control
+                  the spread of fire and protect the building's integrity.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         {/* brand-area */}

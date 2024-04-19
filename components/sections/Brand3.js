@@ -1,7 +1,7 @@
 import Slider from "react-slick";
 const brandSlider = {
   dots: false,
-  infinite: true,
+  infinite: false,
   speed: 1000,
   autoplay: true,
   arrows: false,
@@ -13,7 +13,6 @@ const brandSlider = {
       settings: {
         slidesToShow: 4,
         slidesToScroll: 1,
-        infinite: true,
       },
     },
     {
@@ -44,7 +43,7 @@ const brandSlider = {
 export default function Brand3() {
   return (
     <>
-      <div className="inner-brand-area pb-70 pt-50">
+      <div className="inner-brand-area">
         <div className="container">
           <Slider {...brandSlider} className="row brand-active-three">
             <div className="col-12">

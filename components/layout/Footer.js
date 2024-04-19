@@ -178,7 +178,7 @@ export default function Footer1() {
                       </div>
                       <div className="content">
                         <span>Phone No</span>
-                        <Link href="/tel:0123456789">+000 (123) 456 88</Link>
+                        <Link href="/tel:07771366942">0777 136 6942</Link>
                       </div>
                     </div>
                   </div>
@@ -223,11 +223,12 @@ export default function Footer1() {
                 <div className="col-md-6">
                   <div className="copyright-text">
                     <p>
-                      © Copyright {new Date().getFullYear()}. All Right Reserved
+                      © Copyright AFC Fire {new Date().getFullYear()}. All Right
+                      Reserved.
                     </p>
                   </div>
                 </div>
-                <div className="col-md-6">
+                {/* <div className="col-md-6">
                   <div className="footer-bootom-menu">
                     <ul className="list-wrap">
                       <li>
@@ -238,7 +239,7 @@ export default function Footer1() {
                       </li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

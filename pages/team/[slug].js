@@ -1,5 +1,6 @@
 import Layout from "@/components/layout/Layout";
 import Brand3 from "@/components/sections/Brand3";
+import TeamMemberAccreditation from "@/components/sections/TeamMemberAccreditation";
 import { fetchMemberBySlug, fetchTeam } from "@/lib/airtable";
 import Link from "next/link";
 
@@ -85,6 +86,18 @@ export default function TeamPage({ teamMember }) {
                         )}
                       </ul>
                     </div>
+                    {teamMember.accreditation &&
+                      teamMember.accreditation.length > 0 && (
+                        <>
+                          <h4>
+                            {teamMember.name.split(" ")[0] || teamMember.name}'s
+                            Accreditation:
+                          </h4>
+                          <TeamMemberAccreditation
+                            accreditation={teamMember.accreditation}
+                          />
+                        </>
+                      )}
                   </div>
                 </div>
               </div>
@@ -97,7 +110,6 @@ export default function TeamPage({ teamMember }) {
 }
 
 export async function getStaticPaths() {
-  // Example function to fetch slugs from Airtable
   const teamMembers = await fetchTeam("Team Info");
   const paths = teamMembers.map((member) => ({
     params: { slug: member.slug },
@@ -107,10 +119,8 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  // Example function to fetch a single team member by slug
   const teamMember = await fetchMemberBySlug(params.slug);
 
-  // If no data was found, return a 404 status
   if (!teamMember) {
     console.log("Not found");
     return { notFound: true };

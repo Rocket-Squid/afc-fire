@@ -32,7 +32,10 @@ export default function Banner1() {
           className="banner-bg"
           data-background="/assets/img/banner/banner_bg.jpg"
         >
-          <div className="banner-content">
+          <div
+            className="banner-content"
+            onClick={() => handleToggle(isActive.key)}
+          >
             <h2 className="title wow fadeInDown" data-wow-delay=".2s">
               Your Safety,
               <br /> Our Priority
@@ -63,7 +66,11 @@ export default function Banner1() {
                 <i className="fas fa-plus" />
               </div>
               <div className="tooltip-content">
-                <h2 className="title">Fire Risk Assessment</h2>
+                <h2 className="title">
+                  <Link href="/services/fire-risk-assessment">
+                    Fire Risk Assessment
+                  </Link>
+                </h2>{" "}
                 <p>
                   Detailed evaluations to identify and mitigate potential fire
                   hazards.
@@ -80,7 +87,11 @@ export default function Banner1() {
                 <i className="fas fa-plus" />
               </div>
               <div className="tooltip-content">
-                <h2 className="title">Fire Safety Training</h2>
+                <h2 className="title">
+                  <Link href="/services/fire-safety-training">
+                    Fire Safety Training
+                  </Link>
+                </h2>
                 <p>
                   In-depth training sessions to equip individuals with essential
                   fire safety skills.
@@ -97,7 +108,11 @@ export default function Banner1() {
                 <i className="fas fa-plus" />
               </div>
               <div className="tooltip-content">
-                <h2 className="title">Fire Doors</h2>
+                <h2 className="title">
+                  <Link href="/services/fire-door-inspections">
+                    Fire Door Inspections
+                  </Link>
+                </h2>
                 <p>
                   A comprehensive range of fire doors for every type of fire
                   scenario.
@@ -114,7 +129,11 @@ export default function Banner1() {
                 <i className="fas fa-plus" />
               </div>
               <div className="tooltip-content">
-                <h2 className="title">Fire Extinguishers</h2>
+                <h2 className="title">
+                  <Link href="/services/fire-extinguishers">
+                    Fire Extinguishers
+                  </Link>
+                </h2>{" "}
                 <p>
                   A wide range of quality fire extinguishers to suit various
                   environments.
@@ -131,7 +150,11 @@ export default function Banner1() {
                 <i className="fas fa-plus" />
               </div>
               <div className="tooltip-content">
-                <h2 className="title">Fire Surveys</h2>
+                <h2 className="title">
+                  <Link href="/services/compartmentation-surveys">
+                    Compartmentation Surveys
+                  </Link>
+                </h2>{" "}
                 <p>
                   Implementing structural fire prevention measures to control
                   the spread of fire and protect the building's integrity.

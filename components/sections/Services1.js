@@ -144,13 +144,13 @@ export default function Services1() {
                 >
                   <img src="/assets/img/icon/services_icon03.svg" alt="" />
                 </div>
-                <div className="services-content">
-                  <h2
-                    className="title"
-                    style={{
-                      display: `${isActive.key == 3 ? "none" : "block"}`,
-                    }}
-                  >
+                <div
+                  className="services-content"
+                  style={{
+                    display: `${isActive.key == 3 ? "none" : "block"}`,
+                  }}
+                >
+                  <h2 className="title">
                     <Link href="/services/fire-door-inspections">
                       Fire Door Inspections
                     </Link>
@@ -193,15 +193,15 @@ export default function Services1() {
                 >
                   <img src="/assets/img/icon/services_icon04.svg" alt="" />
                 </div>
-                <div className="services-content">
-                  <h2
-                    className="title"
-                    style={{
-                      display: `${isActive.key == 4 ? "none" : "block"}`,
-                    }}
-                  >
+                <div
+                  className="services-content"
+                  style={{
+                    display: `${isActive.key == 4 ? "none" : "block"}`,
+                  }}
+                >
+                  <h2 className="title">
                     <Link href="/services/compartmentation-surveys">
-                      Fire Compartmentation Surveys
+                      Compartmentation Surveys
                     </Link>
                   </h2>
                   <h2 className="number">04</h2>
@@ -242,14 +242,14 @@ export default function Services1() {
                 >
                   <img src="/assets/img/icon/services_icon05.svg" alt="" />
                 </div>
-                <div className="services-content">
-                  <h2
-                    className="title"
-                    style={{
-                      display: `${isActive.key == 5 ? "none" : "block"}`,
-                    }}
-                  >
-                    <Link href="/services/ire-extinguishers">
+                <div
+                  className="services-content"
+                  style={{
+                    display: `${isActive.key == 5 ? "none" : "block"}`,
+                  }}
+                >
+                  <h2 className="title">
+                    <Link href="/services/fire-extinguishers">
                       Fire Extinguishers
                     </Link>
                   </h2>

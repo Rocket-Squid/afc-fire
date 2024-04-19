@@ -1101,19 +1101,19 @@ label {
 }
 .tooltip-item:nth-child(2) {
 	right: 10%;
-	bottom: 30%;
+	bottom: 10%;
 }
 .tooltip-item:nth-child(3) {
+	left: 0%;
+	bottom: 60%;
+}
+.tooltip-item:nth-child(4) {
 	left: 10%;
 	bottom: 30%;
 }
-.tooltip-item:nth-child(4) {
-	left: 40%;
-	bottom: 30%;
-}
 .tooltip-item:nth-child(5) {
-	left: 70%;
-	top: 20%;
+	left: 50%;
+	top: 40%;
 }
 .tooltip-item.top .tooltip-content {
 	bottom: auto;
@@ -1477,19 +1477,20 @@ label {
 .brand-area {
 	background: var(--tg-gray);
 	z-index: -1;
-	padding: 20px 0;
+	padding: 10px 0;
 }
 .brand-item {
 	display: flex;
 	align-items: center;
-	height: 80px;
+	height: 100px;
 	justify-content: center;
 }
 .brand-item img {
 	cursor: pointer;
 	transition: .3s ease-in-out;
 	filter: grayscale(100%);
-	max-height: 70%;
+	max-height: 90%;
+	padding: 0 20px;
 }
 .brand-item img:hover {
 	filter: grayscale(0);

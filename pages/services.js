@@ -2,7 +2,7 @@ import Layout from "@/components/layout/Layout";
 import Link from "next/link";
 import { useState } from "react";
 import Counter2 from "@/components/sections/Counter2";
-import Services1 from "@/components/sections/Services1";
+import Services from "@/components/sections/Services";
 
 export default function Service() {
   const [isActive, setIsActive] = useState({
@@ -25,7 +25,7 @@ export default function Service() {
   return (
     <>
       <Layout breadcrumbTitle="Services">
-        <Services1 />
+        <Services />
       </Layout>
     </>
   );

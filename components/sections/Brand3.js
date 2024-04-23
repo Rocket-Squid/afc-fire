@@ -48,27 +48,26 @@ export default function Brand3() {
           <Slider {...brandSlider} className="row brand-active-three">
             <div className="col-12">
               <div className="brand-item">
-                <img src="/assets/img/brand/accreditation1.png" alt="" />
+                <img
+                  src="/assets/img/accreditation/NAFDI.png"
+                  alt="National Association of Fire Door Inspectors"
+                />
               </div>
             </div>
             <div className="col-12">
               <div className="brand-item">
-                <img src="/assets/img/brand/accreditation2.png" alt="" />
+                <img
+                  src="/assets/img/accreditation/FPA-Logo.png"
+                  alt="Fire Protection Association"
+                />
               </div>
             </div>
             <div className="col-12">
               <div className="brand-item">
-                <img src="/assets/img/brand/accreditation3.png" alt="" />
-              </div>
-            </div>
-            <div className="col-12">
-              <div className="brand-item">
-                <img src="/assets/img/brand/accreditation4.png" alt="" />
-              </div>
-            </div>
-            <div className="col-12">
-              <div className="brand-item">
-                <img src="/assets/img/brand/accreditation5.png" alt="" />
+                <img
+                  src="/assets/img/accreditation/IFSM-Logo.png"
+                  alt="The Institute of Fire Safety Managers"
+                />
               </div>
             </div>
           </Slider>

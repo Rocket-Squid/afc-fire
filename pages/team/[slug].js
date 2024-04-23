@@ -95,6 +95,8 @@ export default function TeamPage({ teamMember }) {
                           </h4>
                           <TeamMemberAccreditation
                             accreditation={teamMember.accreditation}
+                            fracsUrl={teamMember.fracsUrl}
+                            ifsmUrl={teamMember.ifsmUrl}
                           />
                         </>
                       )}

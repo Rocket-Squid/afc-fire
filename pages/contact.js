@@ -7,7 +7,7 @@ export default function Contact() {
         <section className="contact-area pt-120 pb-120">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-xl-6 col-lg-10">
+              {/* <div className="col-xl-6 col-lg-10">
                 <div
                   className="contact-form-wrap"
                   data-background="/assets/img/images/contact_form_bg.jpg"
@@ -66,7 +66,7 @@ export default function Contact() {
                     </button>
                   </form>
                 </div>
-              </div>
+              </div> */}
               <div className="col-xl-6 col-lg-10">
                 <div className="contact-info-wrap">
                   <h2 className="title">Need Any Help?</h2>
@@ -80,7 +80,10 @@ export default function Contact() {
                           <i className="fas fa-phone-alt" />
                         </div>
                         <div className="content">
-                          <Link href="tel:0123456789">+(123) 4567 8900</Link>
+                          <Link href="/tel:02031434754">0203 143 4754</Link>
+                        </div>
+                        <div className="content">
+                          <Link href="/tel:07771366942">0777 136 6942</Link>
                         </div>
                       </div>
                     </li>
@@ -111,10 +114,12 @@ export default function Contact() {
                     </li>
                   </ul>
                 </div>
-                {/* contact-map */}
+              </div>
+              {/* contact-map */}
+              <div className="col-xl-6 col-lg-10">
                 <div id="contact-map">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2491.565558467841!2d-0.21233882260589793!3d51.35589887177937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876081872934ca7%3A0x924513b57b550cfe!2sAFC%20Fire%20%26%20Security%20Ltd!5e0!3m2!1sen!2sid!4v1705064643188!5m2!1sen!2sid"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2491.561566386617!2d-0.21378708703616547!3d51.35597227166163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876082297e48e17%3A0x2cbbf6f232d9c3b8!2sTurnbull%20House%2C%20226%20Mulgrave%20Rd%2C%20Cheam%2C%20Sutton%20SM2%206JT%2C%20UK!5e0!3m2!1sen!2sid!4v1713534159602!5m2!1sen!2sid"
                     height={570}
                     style={{ border: 0, width: "100%" }}
                     allowFullScreen

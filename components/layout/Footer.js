@@ -178,6 +178,7 @@ export default function Footer1() {
                       </div>
                       <div className="content">
                         <span>Phone No</span>
+                        <Link href="/tel:02031434754">0203 143 4754</Link>
                         <Link href="/tel:07771366942">0777 136 6942</Link>
                       </div>
                     </div>

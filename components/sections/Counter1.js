@@ -33,7 +33,7 @@ export default function Counter1() {
                     <img src="/assets/img/icon/counter_icon01.svg" alt="" />
                   </div>
                   <div className="counter-content">
-                    {inViewport && <CountUp end={1992} duration={10} />}
+                    {inViewport && <CountUp end={848} duration={10} />}
                     <p>Project Complete</p>
                   </div>
                 </div>
@@ -45,7 +45,7 @@ export default function Counter1() {
                   </div>
                   <div className="counter-content">
                     <span className="count" />
-                    {inViewport && <CountUp end={700} duration={10} />}
+                    {inViewport && <CountUp end={520} duration={10} />}
                     <p>Satisfied Clients</p>
                   </div>
                 </div>
@@ -56,7 +56,7 @@ export default function Counter1() {
                     <img src="/assets/img/icon/counter_icon03.svg" alt="" />
                   </div>
                   <div className="counter-content">
-                    {inViewport && <CountUp end={13} duration={10} />}
+                    {inViewport && <CountUp end={8} duration={10} />}
                     <p>Experienced Staff</p>
                   </div>
                 </div>
@@ -67,7 +67,7 @@ export default function Counter1() {
                     <img src="/assets/img/icon/counter_icon04.svg" alt="" />
                   </div>
                   <div className="counter-content">
-                    {inViewport && <CountUp end={8} duration={10} />}
+                    {inViewport && <CountUp end={7} duration={10} />}
                     <p>Accreditations</p>
                   </div>
                 </div>

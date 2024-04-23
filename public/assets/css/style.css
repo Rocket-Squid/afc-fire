@@ -1486,7 +1486,6 @@ label {
 	justify-content: center;
 }
 .brand-item img {
-	cursor: pointer;
 	transition: .3s ease-in-out;
 	filter: grayscale(100%);
 	max-height: 90%;
@@ -1536,7 +1535,6 @@ label {
 	height: 200px;
 	background: var(--tg-gray);
 	border-radius: 10px;
-	cursor: pointer;
 	transition: .3s ease-in-out;
 }
 .inner-brand-area .brand-active-three {
@@ -2049,7 +2047,7 @@ label {
 	z-index: 1;
 	overflow: hidden;
 	margin-bottom: 30px;
-	min-height: 286px;
+	min-height: 300px;
 	object-fit: cover;
 }
 .services-item::before {
@@ -3223,7 +3221,7 @@ label {
 	flex-direction: column;
 	background: var(--tg-gray-two);
 	padding: 15px 9px;
-	gap: 6px;
+	gap: 10px;
 	border-radius: 5px 0 0 5px;
 }
 .team-social .list-wrap li a {
@@ -3239,6 +3237,27 @@ label {
 }
 .team-social .list-wrap li a:hover {
 	color: var(--tg-primary-color);
+}
+.team-accreditation {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	display: none;
+}
+.team-accreditation img {
+	padding: 2px;
+}
+.team-accreditation a {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--tg-white);
+	font-size: 14px;
+	color: var(--tg-paragraph-color);
+	border-radius: 50%;
+	margin: 0 10px;
 }
 .team-content {
 	text-align: center;

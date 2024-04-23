@@ -38,7 +38,7 @@
 	padding: 100px 0 0 40px;
 }
 .banner-shape {
-	width: 17.29%;
+	width: 20%;
 	height: 100%;
 }
 .banner-bg {
@@ -86,7 +86,6 @@
 }
 .services-item {
 	padding: 40px 35px 40px;
-	min-height: 268px;
 }
 .project-thumb img {
 	width: 470px;
@@ -334,7 +333,7 @@
 	margin-left: 194px;
 }
 .banner-shape {
-	width: 20.29%;
+	width: 30%;
 	height: 100%;
 }
 .navbar-wrap ul {
@@ -428,7 +427,6 @@
 }
 .services-item {
 	padding: 30px 20px 30px;
-	min-height: 258px;
 }
 .project-content .title {
 	font-size: 22px;
@@ -836,7 +834,7 @@
 	display: block;
 }
 .banner-shape {
-	width: 30%;
+	width: 35%;
 }
 .banner-tooltip-wrap {
 	display: none;
@@ -1268,7 +1266,7 @@
 	padding: 85px 0 0 15px;
 }
 .banner-shape {
-	width: 45%;
+	display: none;
 }
 .banner-bg {
 	padding: 60px 20px;
@@ -1277,7 +1275,7 @@
 	font-size: 38px;
 }
 .brand-inner {
-	margin-left: 134px;
+	margin-left: 0px;
 }
 .brand-area {
 	padding: 22px 0;
@@ -1307,6 +1305,7 @@
 }
 .services-item {
 	padding: 30px 20px 30px;
+	height: 150px;
 }
 .about-area {
 	padding: 0 0 100px;
@@ -1343,9 +1342,16 @@
 }
 .team-thumb {
 	width: 80%;
+	margin: auto;
 }
 .team-area {
 	padding: 95px 0 70px;
+}
+.team-social {
+	display: none;
+}
+.team-accreditation {
+	display: flex;
 }
 .counter-area {
 	padding: 0 0 100px;
@@ -2096,10 +2102,7 @@
     max-width: 540px;
 }
 .banner-shape {
-	width: 37%;
-}
-.brand-inner {
-	margin-left: 180px;
+	display: none;
 }
 .banner-content .title {
 	font-size: 40px;

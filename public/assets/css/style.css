@@ -1486,7 +1486,6 @@ label {
 	justify-content: center;
 }
 .brand-item img {
-	cursor: pointer;
 	transition: .3s ease-in-out;
 	filter: grayscale(100%);
 	max-height: 90%;
@@ -1536,7 +1535,6 @@ label {
 	height: 200px;
 	background: var(--tg-gray);
 	border-radius: 10px;
-	cursor: pointer;
 	transition: .3s ease-in-out;
 }
 .inner-brand-area .brand-active-three {

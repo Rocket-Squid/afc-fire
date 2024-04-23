@@ -44,7 +44,10 @@ export default function Services() {
                   className="services-icon"
                   style={{ display: `${isActive.key == 1 ? "none" : "flex"}` }}
                 >
-                  <img src="/assets/img/icon/services_icon01.svg" alt="" />
+                  <img
+                    src="/assets/img/icon/services-assessment.svg"
+                    alt="Risk Assessment"
+                  />
                 </div>
                 <div className="services-content">
                   <h2
@@ -93,7 +96,10 @@ export default function Services() {
                   className="services-icon"
                   style={{ display: `${isActive.key == 2 ? "none" : "flex"}` }}
                 >
-                  <img src="/assets/img/icon/services_icon02.svg" alt="" />
+                  <img
+                    src="/assets/img/icon/services-training.svg"
+                    alt="Training"
+                  />
                 </div>
                 <div className="services-content">
                   <h2
@@ -142,7 +148,10 @@ export default function Services() {
                   className="services-icon"
                   style={{ display: `${isActive.key == 3 ? "none" : "flex"}` }}
                 >
-                  <img src="/assets/img/icon/services_icon03.svg" alt="" />
+                  <img
+                    src="/assets/img/icon/services-doors.svg"
+                    alt="Fire Doors"
+                  />
                 </div>
                 <div
                   className="services-content"
@@ -191,7 +200,10 @@ export default function Services() {
                   className="services-icon"
                   style={{ display: `${isActive.key == 4 ? "none" : "flex"}` }}
                 >
-                  <img src="/assets/img/icon/services_icon04.svg" alt="" />
+                  <img
+                    src="/assets/img/icon/services-compartmentation.svg"
+                    alt="Compartmentation Surveys"
+                  />
                 </div>
                 <div
                   className="services-content"
@@ -240,7 +252,10 @@ export default function Services() {
                   className="services-icon"
                   style={{ display: `${isActive.key == 5 ? "none" : "flex"}` }}
                 >
-                  <img src="/assets/img/icon/services_icon05.svg" alt="" />
+                  <img
+                    src="/assets/img/icon/services-extinguishers.svg"
+                    alt="Fire Extinguishers"
+                  />
                 </div>
                 <div
                   className="services-content"

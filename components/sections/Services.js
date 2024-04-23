@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useState } from "react";
 
-export default function Services1() {
+export default function Services() {
   const [isActive, setIsActive] = useState({
     status: false,
     key: "",
@@ -212,7 +212,7 @@ export default function Services1() {
                 >
                   <h2 className="title">
                     <Link href="/services/compartmentation-surveys">
-                      Fire Compartmentation Surveys
+                      Compartmentation Surveys
                     </Link>
                   </h2>
                   <p>

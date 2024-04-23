@@ -80,6 +80,9 @@ export default function Contact() {
                           <i className="fas fa-phone-alt" />
                         </div>
                         <div className="content">
+                          <Link href="/tel:02031434754">0203 143 4754</Link>
+                        </div>
+                        <div className="content">
                           <Link href="/tel:07771366942">0777 136 6942</Link>
                         </div>
                       </div>

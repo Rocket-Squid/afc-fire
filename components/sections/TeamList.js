@@ -2,7 +2,6 @@ import React from "react";
 import TeamCard from "./TeamCard";
 
 export default function TeamList({ teamMembers }) {
-  console.log("🚀 ~ TeamList ~ teamMembers:", teamMembers);
   return (
     <>
       <section className="team-area pt-115 pb-90">
@@ -19,13 +18,7 @@ export default function TeamList({ teamMembers }) {
           </div>
           <div className="row justify-content-center">
             {teamMembers.map((member) => (
-              <TeamCard
-                key={member.id}
-                name={member.name}
-                role={member.position}
-                imageSrc={member.image}
-                profileUrl={`team/${member.slug}`}
-              />
+              <TeamCard key={member.id} member={member} />
             ))}
           </div>
         </div>

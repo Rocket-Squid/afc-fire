@@ -221,11 +221,17 @@ export default function Footer1() {
           <div className="footer-bottom">
             <div className="container">
               <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-12">
                   <div className="copyright-text">
                     <p>
                       © Copyright AFC Fire {new Date().getFullYear()}. All Right
                       Reserved.
+                    </p>
+                    <p>
+                      Powered by{" "}
+                      <a href="https://rocketsquid.tech/" target="_blank">
+                        RocketSquid.tech
+                      </a>
                     </p>
                   </div>
                 </div>

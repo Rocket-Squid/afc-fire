@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { useState } from "react";
-import Brand1 from "./Brand1";
+import Brand from "./Brand";
 
-export default function Banner1() {
+export default function Banner() {
   const [isActive, setIsActive] = useState({
     status: false,
     key: "",
@@ -164,7 +164,7 @@ export default function Banner1() {
           </div>
         </div>
         {/* brand-area */}
-        <Brand1 />
+        <Brand />
         {/* brand-area-end */}
       </section>
     </>

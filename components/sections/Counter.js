@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import CountUp from "../elements/CountUp";
-export default function Counter1() {
+
+export default function Counter() {
   const [inViewport, setInViewport] = useState(false);
 
   const handleScroll = () => {

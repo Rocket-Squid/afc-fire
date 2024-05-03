@@ -1,4 +1,5 @@
 import Slider from "react-slick";
+
 const brandSlider = {
   dots: false,
   infinite: false,
@@ -40,7 +41,8 @@ const brandSlider = {
     },
   ],
 };
-export default function Brand3() {
+
+export default function BrandAlt() {
   return (
     <>
       <div className="inner-brand-area">

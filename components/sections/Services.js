@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -44,9 +45,11 @@ export default function Services() {
                   className="services-icon"
                   style={{ display: `${isActive.key == 1 ? "none" : "flex"}` }}
                 >
-                  <img
+                  <Image
                     src="/assets/img/icon/services-assessment.svg"
                     alt="Risk Assessment"
+                    height={50}
+                    width={50}
                   />
                 </div>
                 <div className="services-content">
@@ -96,9 +99,11 @@ export default function Services() {
                   className="services-icon"
                   style={{ display: `${isActive.key == 2 ? "none" : "flex"}` }}
                 >
-                  <img
+                  <Image
                     src="/assets/img/icon/services-training.svg"
                     alt="Training"
+                    height={50}
+                    width={50}
                   />
                 </div>
                 <div className="services-content">
@@ -148,9 +153,11 @@ export default function Services() {
                   className="services-icon"
                   style={{ display: `${isActive.key == 3 ? "none" : "flex"}` }}
                 >
-                  <img
+                  <Image
                     src="/assets/img/icon/services-doors.svg"
                     alt="Fire Doors"
+                    height={50}
+                    width={50}
                   />
                 </div>
                 <div
@@ -200,9 +207,11 @@ export default function Services() {
                   className="services-icon"
                   style={{ display: `${isActive.key == 4 ? "none" : "flex"}` }}
                 >
-                  <img
+                  <Image
                     src="/assets/img/icon/services-compartmentation.svg"
                     alt="Compartmentation Surveys"
+                    height={50}
+                    width={50}
                   />
                 </div>
                 <div
@@ -252,9 +261,11 @@ export default function Services() {
                   className="services-icon"
                   style={{ display: `${isActive.key == 5 ? "none" : "flex"}` }}
                 >
-                  <img
+                  <Image
                     src="/assets/img/icon/services-extinguishers.svg"
                     alt="Fire Extinguishers"
+                    height={50}
+                    width={50}
                   />
                 </div>
                 <div

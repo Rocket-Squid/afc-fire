@@ -21,6 +21,6 @@ export async function getStaticProps() {
     props: {
       teamMembers,
     },
-    revalidate: 10, // Optionally, use ISR to refresh the data
+    revalidate: 10,
   };
 }

@@ -65,40 +65,35 @@ const ServicesSidebar = () => {
         <h4 className="widget-title">Useful Downloads</h4>
         <div className="download-wrap">
           <Link
-            href="assets/pdf/LACoRS - Housing Fire Safety.pdf"
-            download
+            href="https://res.cloudinary.com/rocketsquid/image/upload/v1714717194/AFC/LACoRS_-_Housing_Fire_Safety.pdf"
             target="_blank"
           >
             <i className="fas fa-cloud-download-alt" />
             LACoRS - Housing Fire Safety.pdf
           </Link>
           <Link
-            href="assets/pdf/The Regulatory Reform (Fire Safety) Order 2005.pdf"
-            download
+            href="https://www.gov.uk/government/calls-for-evidence/the-regulatory-reform-fire-safety-order-2005-call-for-evidence/outcome/the-regulatory-reform-fire-safety-order-2005-summary-of-responses-accessible-version"
             target="_blank"
           >
             <i className="fas fa-cloud-download-alt" />
             The Regulatory Reform (Fire Safety) Order 2005.pdf
           </Link>
           <Link
-            href="assets/pdf/LGA - Fire Safety in Purpose-Built blocks of Flats.pdf"
-            download
+            href="https://res.cloudinary.com/rocketsquid/image/upload/v1714717187/AFC/LGA_-_Fire_Safety_in_Purpose-Built_blocks_of_Flats.pdf"
             target="_blank"
           >
             <i className="fas fa-cloud-download-alt" />
             LGA - Fire Safety in Purpose-Built blocks of Flats.pdf
           </Link>
           <Link
-            href="assets/pdf/HM Government Guide; Factories & Warehouses.pdf"
-            download
+            href="https://res.cloudinary.com/rocketsquid/image/upload/v1714717187/AFC/HM_Government_Guide_Factories_Warehouses.pdf"
             target="_blank"
           >
             <i className="fas fa-cloud-download-alt" />
             HM Government Guide; Factories & Warehouses.pdf
           </Link>
           <Link
-            href="assets/pdf/HM Government Guide; Offices & Shops.pdf"
-            download
+            href="https://res.cloudinary.com/rocketsquid/image/upload/v1714717187/AFC/HM_Government_Guide_Offices_Shops.pdf"
             target="_blank"
           >
             <i className="fas fa-cloud-download-alt" />

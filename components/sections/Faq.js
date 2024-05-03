@@ -1,5 +1,5 @@
 import { useState } from "react";
-export default function Faq1() {
+export default function Faq() {
   const [isActive, setIsActive] = useState({
     status: false,
     key: 1,

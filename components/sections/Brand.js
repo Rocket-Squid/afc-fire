@@ -47,7 +47,7 @@ const settings = {
     },
   ],
 };
-export default function Brand1() {
+export default function Brand() {
   return (
     <>
       <div className="brand-area">

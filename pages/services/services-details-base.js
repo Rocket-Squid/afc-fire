@@ -1,5 +1,5 @@
 import Layout from "@/components/layout/Layout";
-import Brand3 from "@/components/sections/Brand3";
+import BrandAlt from "@/components/sections/BrandAlt";
 import Link from "next/link";
 export default function ServiceDetails() {
   return (
@@ -266,7 +266,7 @@ export default function ServiceDetails() {
           </section>
           {/* services-details-area-end */}
           {/* brand-area */}
-          <Brand3 />
+          <BrandAlt />
         </div>
       </Layout>
     </>

@@ -1,25 +1,25 @@
 import { fetchTeam } from "@/lib/airtable";
 
 import Layout from "@/components/layout/Layout";
-import Banner1 from "@/components/sections/Banner1";
-import About1 from "@/components/sections/About1";
+import Banner from "@/components/sections/Banner";
+import About from "@/components/sections/About";
 import Services from "@/components/sections/Services";
-import Counter1 from "@/components/sections/Counter1";
-import Testimonial1 from "@/components/sections/Testimonial1";
-import Faq1 from "@/components/sections/Faq1";
+import Counter from "@/components/sections/Counter";
+import Testimonial from "@/components/sections/Testimonial";
+import Faq from "@/components/sections/Faq";
 import TeamList from "@/components/sections/TeamList";
 
 export default function Home({ teamMembers }) {
   return (
     <>
       <Layout headerCls="transparent-header">
-        <Banner1 />
-        <About1 />
+        <Banner />
+        <About />
         <Services />
         <TeamList teamMembers={teamMembers} />
-        <Counter1 />
-        <Testimonial1 />
-        <Faq1 />
+        <Counter />
+        <Testimonial />
+        <Faq />
       </Layout>
     </>
   );

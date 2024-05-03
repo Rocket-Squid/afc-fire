@@ -1,6 +1,6 @@
 import VideoPopup from "@/components/elements/VideoPopup";
 import Layout from "@/components/layout/Layout";
-import Brand3 from "@/components/sections/Brand3";
+import BrandAlt from "@/components/sections/BrandAlt";
 import Link from "next/link";
 import Slider from "react-slick";
 const settings = {
@@ -589,7 +589,7 @@ export default function About() {
         </div>
         {/* area-bg-end */}
         {/* brand-area */}
-        <Brand3 />
+        <BrandAlt />
       </Layout>
     </>
   );

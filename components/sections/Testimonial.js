@@ -9,7 +9,7 @@ const settings = {
   slidesToScroll: 1,
 };
 
-export default function Testimonial1() {
+export default function Testimonial() {
   return (
     <>
       <section className="testimonial-area pt-115 pb-120">

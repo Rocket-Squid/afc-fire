@@ -128,5 +128,8 @@ export async function getStaticProps({ params }) {
     return { notFound: true };
   }
 
-  return { props: { teamMember } };
+  return {
+    props: { teamMember },
+    revalidate: 60,
+  };
 }

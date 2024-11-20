@@ -59,14 +59,6 @@ export default function BrandAlt() {
             <div className="col-12">
               <div className="brand-item">
                 <img
-                  src="/assets/img/accreditation/FPA-Logo.png"
-                  alt="Fire Protection Association"
-                />
-              </div>
-            </div>
-            <div className="col-12">
-              <div className="brand-item">
-                <img
                   src="/assets/img/accreditation/IFSM-Logo.png"
                   alt="The Institute of Fire Safety Managers"
                 />

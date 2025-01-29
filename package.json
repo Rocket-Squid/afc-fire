@@ -2,7 +2,7 @@
   "name": "afc-fire",
   "version": "1.0.0",
   "private": true,
-  "author": "rocketsquid",
+  "author": "radishtech",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

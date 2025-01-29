@@ -229,8 +229,8 @@ export default function Footer1() {
                     </p>
                     <p>
                       Powered by{" "}
-                      <a href="https://rocketsquid.tech/" target="_blank">
-                        RocketSquid.tech
+                      <a href="https://radishtech.solutions/" target="_blank">
+                        RadishTech.Solutions
                       </a>
                     </p>
                   </div>

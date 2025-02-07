@@ -7,7 +7,7 @@ export default function PassiveFireProtection() {
     <>
       <Layout
         breadcrumbReturn="Services"
-        breadcrumbTitle="Fire Compartmentation Surveys"
+        breadcrumbTitle="Compartmentation Surveys"
       >
         <div>
           <section className="services-details-area pt-120">
@@ -23,11 +23,11 @@ export default function PassiveFireProtection() {
                     </div>
                     <div className="services-details-content">
                       <h2 className="title">
-                        What is a Fire Compartmentation Survey?
+                        What is a Compartmentation Survey?
                       </h2>
 
                       <p>
-                        The objective of fire compartmentation is to prevent the
+                        The objective of compartmentation is to prevent the
                         spread of smoke, gases, and flames. By subdividing the
                         building with fire resisting construction, escape routes
                         and high-risk or high-value areas are protected to
@@ -211,12 +211,12 @@ export default function PassiveFireProtection() {
                         We Hope You Find What You are Looking for
                       </h2>
                       <p>
-                        To book a <strong>Fire Compartmentation Survey</strong>{" "}
-                        with <strong class="red">AFC Fire & Security</strong>,
-                        simply call <a href="tel:02031434754">0203-143-4754</a>,
-                        or <a href="tel:+447771366942">0777-1366-942</a>, or
-                        click on the Get In Touch button below, and leave the
-                        rest to us!
+                        To book a <strong>Compartmentation Survey</strong> with{" "}
+                        <strong class="red">AFC Fire & Security</strong>, simply
+                        call <a href="tel:02031434754">0203-143-4754</a>, or{" "}
+                        <a href="tel:+447771366942">0777-1366-942</a>, or click
+                        on the Get In Touch button below, and leave the rest to
+                        us!
                       </p>
                     </div>
                   </div>

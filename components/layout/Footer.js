@@ -51,7 +51,7 @@ export default function Footer1() {
                         <li>
                           <Link href="/services/compartmentation-surveys">
                             <i className="fas fa-angle-double-right" />
-                            Fire Compartmentation Surveys
+                            Compartmentation Surveys
                           </Link>
                         </li>
                         <li>

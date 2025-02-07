@@ -68,7 +68,7 @@ export default function Sidebar() {
             </li>
             <li>
               <Link href="/services/compartmentation-surveys">
-                Fire Compartmentation Surveys
+                Compartmentation Surveys
               </Link>
             </li>
             <li>

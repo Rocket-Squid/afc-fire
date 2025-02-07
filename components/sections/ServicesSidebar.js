@@ -28,7 +28,7 @@ const ServicesSidebar = () => {
             </li>
             <li>
               <Link href="/services/compartmentation-surveys">
-                Fire Compartmentation Surveys
+                Compartmentation Surveys
                 <i className="fas fa-arrow-right" />
               </Link>
             </li>

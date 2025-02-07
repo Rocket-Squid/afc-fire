@@ -165,7 +165,7 @@ export default function Faq() {
                             : "accordion-button collapsed"
                         }
                       >
-                        What is Fire Compartmentation Surveys and Its Benefits?
+                        What are Compartmentation Surveys and their Benefits?
                       </button>
                     </h2>
                     <div

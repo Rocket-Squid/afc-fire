@@ -156,7 +156,7 @@ export default function Header({ headerCls, headerTop }) {
                             </li>
                             <li>
                               <Link href="/services/compartmentation-surveys">
-                                Fire Compartmentation Surveys
+                                Compartmentation Surveys
                               </Link>
                             </li>
                             <li>

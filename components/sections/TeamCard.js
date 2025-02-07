@@ -16,19 +16,17 @@ function TeamCard({ member }) {
               <ul className="list-wrap">
                 {fracsUrl && (
                   <li>
-                    <Link href={fracsUrl}>
-                      <img
-                        src="/assets/img/accreditation/FRACS.png"
-                        alt=""
-                        style={{ objectFit: "contain" }}
-                      />
-                    </Link>
+                    <img
+                      src="/assets/img/accreditation/NSI-FRAS-Individual-transparent.png"
+                      alt=""
+                      style={{ objectFit: "contain" }}
+                    />
                   </li>
                 )}
 
                 {ifsmUrl && (
                   <li>
-                    <Link href={ifsmUrl}>
+                    <Link href={ifsmUrl} target="_blank">
                       <img
                         src="/assets/img/accreditation/IFSM-Icon.png"
                         alt=""
@@ -49,16 +47,14 @@ function TeamCard({ member }) {
           {(fracsUrl || ifsmUrl) && (
             <div className="team-accreditation">
               {fracsUrl && (
-                <Link href={fracsUrl}>
-                  <img
-                    src="/assets/img/accreditation/FRACS.png"
-                    alt=""
-                    style={{ objectFit: "contain" }}
-                  />
-                </Link>
+                <img
+                  src="/assets/img/accreditation/NSI-FRAS-Individual-transparent.png"
+                  alt=""
+                  style={{ objectFit: "contain" }}
+                />
               )}
               {ifsmUrl && (
-                <Link href={ifsmUrl}>
+                <Link href={ifsmUrl} target="_blank">
                   <img
                     src="/assets/img/accreditation/IFSM-Icon.png"
                     alt=""

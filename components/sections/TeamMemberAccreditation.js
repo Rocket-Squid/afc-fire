@@ -55,8 +55,9 @@ export default function TeamMemberAccreditation({
     if (accreditation.includes(ACCRED_LIST.FRACS)) {
       generatedArray.push({
         name: "Warrington Fire - FRACS Individual Scheme",
-        filepath: "/assets/img/accreditation/FRACS.png",
-        link: fracsUrl || null,
+        filepath:
+          "/assets/img/accreditation/NSI-FRAS-Individual-transparent.png",
+        link: null,
       });
     }
     if (accreditation.includes(ACCRED_LIST.MEMBER)) {
@@ -107,7 +108,7 @@ export default function TeamMemberAccreditation({
               <div className="col-12" key={cred.name}>
                 <div className="brand-item">
                   {cred.link ? (
-                    <Link href={cred.link}>
+                    <Link href={cred.link} target="_blank">
                       <img src={cred.filepath} alt={cred.name} />
                     </Link>
                   ) : (

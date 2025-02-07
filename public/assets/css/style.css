@@ -3232,19 +3232,19 @@ label {
   flex-direction: column;
   background: var(--tg-gray-two);
   padding: 15px 9px;
-  gap: 10px;
+  gap: 20px;
   border-radius: 5px 0 0 5px;
 }
-.team-social .list-wrap li a {
+.team-social .list-wrap li {
   width: 32px;
-  height: 32px;
+  height: 42px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: var(--tg-white);
   font-size: 14px;
   color: var(--tg-paragraph-color);
-  border-radius: 50%;
+  border-radius: 25%;
 }
 .team-social .list-wrap li a:hover {
   color: var(--tg-primary-color);

@@ -89,7 +89,7 @@ export default function Brand() {
               <div className="col-12">
                 <div className="brand-item">
                   <img
-                    src="/assets/img/accreditation/IFSM-Logo.png"
+                    src="/assets/img/accreditation/IFSM-Logo-Affiliate-Member.png"
                     alt="The Institute of Fire Safety Managers"
                   />
                 </div>

@@ -51,6 +51,30 @@ export default function BrandAlt() {
             <div className="col-12">
               <div className="brand-item">
                 <img
+                  src="/assets/img/accreditation/BAFE-transparent.png"
+                  alt="BAFE fire safety register"
+                />
+              </div>
+            </div>
+            <div className="col-12">
+              <div className="brand-item">
+                <img
+                  src="/assets/img/accreditation/NSI-SILVER-UKAS-transparent.png"
+                  alt="NSI Silver UKAS"
+                />
+              </div>
+            </div>
+            <div className="col-12">
+              <div className="brand-item">
+                <img
+                  src="/assets/img/accreditation/ISO-9001-transparent.png"
+                  alt="ISO 9001"
+                />
+              </div>
+            </div>
+            <div className="col-12">
+              <div className="brand-item">
+                <img
                   src="/assets/img/accreditation/NAFDI.png"
                   alt="National Association of Fire Door Inspectors"
                 />
@@ -59,7 +83,7 @@ export default function BrandAlt() {
             <div className="col-12">
               <div className="brand-item">
                 <img
-                  src="/assets/img/accreditation/IFSM-Logo.png"
+                  src="/assets/img/accreditation/IFSM-Logo-Affiliate-Member.png"
                   alt="The Institute of Fire Safety Managers"
                 />
               </div>

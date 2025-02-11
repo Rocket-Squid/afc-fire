@@ -110,37 +110,18 @@ export default function FireDoorInspections() {
                         </li>
                         <li>
                           <strong className="red">AFC Fire</strong> hold
-                          industry recognised certification issued by LPCB
-                          <strong className="red">*</strong> and NAFDI
-                          <strong className="red">**</strong>
+                          industry recognised certification
                         </li>
                         <li>
                           <strong className="red">AFC Fire</strong> have current
                           Disclosure and Barring Service (DBS) certification
                         </li>
                         <li>
-                          <strong className="red">AFC Fire</strong> issue a LPCB
-                          approved NAFDI Certificate on every inspection
-                        </li>
-                        <li>
                           <strong className="red">AFC Fire</strong> are members
                           of industry leading bodies the Institute of Fire
-                          Safety Managers, and The Institute of Fire Engineers
+                          Safety Managers
                         </li>
                       </ul>
-                      <small>
-                        <strong className="red">*</strong> LPCB (The Loss
-                        Prevention Certification Board) is the leading
-                        international Certification Body in the fields of
-                        security and fire protection. LPCB approval is
-                        recognised by governments and regulatory authorities
-                        across the world.
-                      </small>
-                      <br />
-                      <small>
-                        <strong className="red">**</strong> NAFDI is the UK’s
-                        leading national fire door inspection organisation.
-                      </small>
                       <hr />
                       <h2 className="title-two">
                         We Hope You Find What You are Looking for
@@ -164,11 +145,7 @@ export default function FireDoorInspections() {
                         call <a href="tel:02031434754">0203-143-4754</a>, or{" "}
                         <a href="tel:+447771366942">0777-1366-942</a>, or click
                         on the Get In Touch button below, and leave the rest to
-                        us! And, for additional compliance, and peace of mind,{" "}
-                        <strong>
-                          ensure you request a NAFDI fire door inspection
-                          certificate with your fire door inspection report.
-                        </strong>
+                        us!
                       </p>
                     </div>
                   </div>

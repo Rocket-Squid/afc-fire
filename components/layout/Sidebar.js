@@ -22,26 +22,6 @@ export default function Sidebar() {
   return (
     <>
       <ul className="navigation">
-        {/* <li className="menu-item-has-children">
-          <Link href="#">Home</Link>
-          <ul
-            className="sub-menu"
-            style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}
-          >
-            <li>
-              <Link href="/">Option One</Link>
-            </li>
-            <li>
-              <Link href="/index-2">Option Two</Link>
-            </li>
-            <li>
-              <Link href="/index-3">Option Three</Link>
-            </li>
-          </ul>
-          <div className="dropdown-btn" onClick={() => handleToggle(1)}>
-            <span className="fas fa-angle-down" />
-          </div>
-        </li> */}
         <li>
           <Link href="/">Home</Link>
         </li>
@@ -57,18 +37,26 @@ export default function Sidebar() {
               </Link>
             </li>
             <li>
-              <Link href="/services/fire-safety-training">
-                Fire Safety Training
+              <Link href="/services/compartmentation-surveys">
+                Compartmentation Surveys
               </Link>
             </li>
             <li>
               <Link href="/services/fire-door-inspections">
-                Fire Door Inspections
+                Fire Door Surveys
               </Link>
             </li>
             <li>
-              <Link href="/services/compartmentation-surveys">
-                Compartmentation Surveys
+              <Link href="/services/external-validation">
+                External Validation
+              </Link>
+            </li>
+            <li>
+              <Link href="/services/shadow-fra">Shadow FRA</Link>
+            </li>
+            <li>
+              <Link href="/services/fire-safety-training">
+                Fire Warden Training
               </Link>
             </li>
             <li>

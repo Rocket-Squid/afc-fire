@@ -213,28 +213,27 @@ export default function Header({ headerCls, headerTop }) {
                     <div className="social-links">
                       <ul className="clearfix list-wrap">
                         <li>
-                          <Link href="/#">
+                          <Link
+                            href="https://www.facebook.com/AFCFireprotection"
+                            target="_blank"
+                          >
                             <i className="fab fa-facebook-f" />
                           </Link>
                         </li>
                         <li>
-                          <Link href="/#">
-                            <i className="fab fa-twitter" />
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/#">
+                          <Link
+                            href="https://www.instagram.com/afcfire/"
+                            target="_blank"
+                          >
                             <i className="fab fa-instagram" />
                           </Link>
                         </li>
                         <li>
-                          <Link href="/#">
+                          <Link
+                            href="https://www.linkedin.com/company/afc-fire-and-security-ltd/"
+                            target="_blank"
+                          >
                             <i className="fab fa-linkedin-in" />
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/#">
-                            <i className="fab fa-youtube" />
                           </Link>
                         </li>
                       </ul>

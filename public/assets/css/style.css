@@ -3274,7 +3274,8 @@ label {
 .team-accreditation img {
   padding: 2px;
 }
-.team-accreditation a {
+.team-accreditation a,
+.team-accreditation img {
   width: 40px;
   height: 40px;
   display: flex;

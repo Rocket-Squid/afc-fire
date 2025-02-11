@@ -44,29 +44,15 @@ const ServicesSidebar = () => {
                 <i className="fas fa-arrow-right" />
               </Link>
             </li>
+            <li>
+              <Link href="/services/external-validation">
+                External Validation
+                <i className="fas fa-arrow-right" />
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
-      {/* <div
-        className="services-widget widget-bg"
-        data-background="/assets/img/services/sw_bg.jpg"
-      >
-        <h4 className="widget-title">Get a free quote</h4>
-        <form action="#" className="sidebar-form">
-          <div className="form-grp">
-            <input id="name" type="text" placeholder="Your Name" />
-          </div>
-          <div className="form-grp">
-            <input id="email" type="text" placeholder="Your Email Address" />
-          </div>
-          <div className="form-grp">
-            <textarea id="message" placeholder="Your Message" />
-          </div>
-          <button type="submit" className="btn btn-two">
-            Contact Us
-          </button>
-        </form>
-      </div> */}
       <div className="services-widget">
         <h4 className="widget-title">Useful Downloads</h4>
         <div className="download-wrap">

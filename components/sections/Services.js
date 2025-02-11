@@ -352,6 +352,61 @@ export default function Services() {
                 </div>
               </div>
             </div>
+            <div className="col-lg-4 col-md-6 col-sm-10">
+              <div
+                className="services-item wow fadeInUp"
+                data-wow-delay=".6s"
+                data-background="/assets/img/services/img_validation.jpg"
+                onMouseEnter={() => handleToggle(7)}
+                onMouseLeave={() => handleToggle(7)}
+              >
+                <div
+                  className="services-icon"
+                  style={{ display: `${isActive.key == 7 ? "none" : "flex"}` }}
+                >
+                  <Image
+                    src="/assets/img/icon/services-assessment.svg"
+                    alt="External Validation"
+                    height={50}
+                    width={50}
+                  />
+                </div>
+                <div
+                  className="services-content"
+                  style={{
+                    display: `${isActive.key == 7 ? "none" : "block"}`,
+                  }}
+                >
+                  <h2 className="title">
+                    <Link href="/services/external-validation">
+                      External Validation
+                    </Link>
+                  </h2>
+                  <h2 className="number">07</h2>
+                </div>
+                <div
+                  className="services-overlay-content"
+                  style={{ display: `${isActive.key == 7 ? "block" : "none"}` }}
+                >
+                  <h2 className="title">
+                    <Link href="/services/external-validation">
+                      External Validation
+                    </Link>
+                  </h2>
+                  <p>
+                    Professional validation of fire risk assessments to ensure
+                    accuracy, compliance, and best practices for organizations
+                    and independent assessors.
+                  </p>
+                  <Link
+                    href="/services/external-validation"
+                    className="read-more"
+                  >
+                    Read More <i className="fas fa-arrow-right" />
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

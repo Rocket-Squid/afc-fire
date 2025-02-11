@@ -137,7 +137,7 @@ export default function Header({ headerCls, headerTop }) {
                               : "menu-item-has-children"
                           }
                         >
-                          <Link href="/services">Services</Link>
+                          <Link href="/services">Our Services</Link>
                           <ul className="sub-menu">
                             <li>
                               <Link href="/services/fire-risk-assessment">
@@ -167,6 +167,11 @@ export default function Header({ headerCls, headerTop }) {
                             <li>
                               <Link href="/services/shadow-fra">
                                 Shadow FRA
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="/services/external-validation">
+                                External Validation
                               </Link>
                             </li>
                           </ul>

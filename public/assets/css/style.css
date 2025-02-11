@@ -200,7 +200,23 @@ h6 {
 }
 .list-wrap li {
   list-style: none;
+  position: relative;
+  margin-bottom: 15px;
 }
+
+.list-wrap .list-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.list-wrap .list-content {
+  padding-left: 35px;
+  color: #666;
+  line-height: 1.6;
+}
+
 p {
   font-size: var(--tg-body-font-size);
   font-weight: var(--tg-body-font-weight);

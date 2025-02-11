@@ -208,7 +208,7 @@ export default function Header({ headerCls, headerTop }) {
                       </Link>
                     </div>
                     <div className="menu-outer">
-                      <Sidebar />
+                      <Sidebar handleToggled={handleToggled} />
                     </div>
                     <div className="social-links">
                       <ul className="clearfix list-wrap">

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useState } from "react";
 
-export default function Sidebar() {
+export default function Sidebar({ handleToggled }) {
   const [isActive, setIsActive] = useState({
     status: false,
     key: "",
@@ -19,48 +19,67 @@ export default function Sidebar() {
       });
     }
   };
+
+  const handleClick = () => {
+    if (handleToggled) {
+      handleToggled();
+    }
+  };
+
   return (
     <>
       <ul className="navigation">
         <li>
-          <Link href="/">Home</Link>
+          <Link href="/" onClick={handleClick}>
+            Home
+          </Link>
         </li>
         <li className="menu-item-has-children">
-          <Link href="/services">Services</Link>
+          <Link href="/services" onClick={handleClick}>
+            Services
+          </Link>
           <ul
             className="sub-menu"
             style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}
           >
             <li>
-              <Link href="/services/fire-risk-assessment">
+              <Link href="/services/fire-risk-assessment" onClick={handleClick}>
                 Fire Risk Assessment
               </Link>
             </li>
             <li>
-              <Link href="/services/compartmentation-surveys">
+              <Link
+                href="/services/compartmentation-surveys"
+                onClick={handleClick}
+              >
                 Compartmentation Surveys
               </Link>
             </li>
             <li>
-              <Link href="/services/fire-door-inspections">
+              <Link
+                href="/services/fire-door-inspections"
+                onClick={handleClick}
+              >
                 Fire Door Surveys
               </Link>
             </li>
             <li>
-              <Link href="/services/external-validation">
+              <Link href="/services/external-validation" onClick={handleClick}>
                 External Validation
               </Link>
             </li>
             <li>
-              <Link href="/services/shadow-fra">Shadow FRA</Link>
+              <Link href="/services/shadow-fra" onClick={handleClick}>
+                Shadow FRA
+              </Link>
             </li>
             <li>
-              <Link href="/services/fire-safety-training">
+              <Link href="/services/fire-safety-training" onClick={handleClick}>
                 Fire Warden Training
               </Link>
             </li>
             <li>
-              <Link href="/services/fire-extinguishers">
+              <Link href="/services/fire-extinguishers" onClick={handleClick}>
                 Fire Extinguishers
               </Link>
             </li>
@@ -70,10 +89,14 @@ export default function Sidebar() {
           </div>
         </li>
         <li>
-          <Link href="/team">Our Team</Link>
+          <Link href="/team" onClick={handleClick}>
+            Our Team
+          </Link>
         </li>
         <li>
-          <Link href="/contact">Contact Us</Link>
+          <Link href="/contact" onClick={handleClick}>
+            Contact Us
+          </Link>
         </li>
       </ul>
     </>

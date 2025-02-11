@@ -38,6 +38,12 @@ const ServicesSidebar = () => {
                 <i className="fas fa-arrow-right" />
               </Link>
             </li>
+            <li>
+              <Link href="/services/shadow-fra">
+                Shadow FRA
+                <i className="fas fa-arrow-right" />
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

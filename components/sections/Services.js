@@ -304,6 +304,54 @@ export default function Services() {
                 </div>
               </div>
             </div>
+            <div className="col-lg-4 col-md-6 col-sm-10">
+              <div
+                className="services-item wow fadeInUp"
+                data-wow-delay=".6s"
+                data-background="/assets/img/services/img_shadow_fra.jpg"
+                onMouseEnter={() => handleToggle(6)}
+                onMouseLeave={() => handleToggle(6)}
+              >
+                <div
+                  className="services-icon"
+                  style={{ display: `${isActive.key == 6 ? "none" : "flex"}` }}
+                >
+                  <Image
+                    src="/assets/img/icon/services-training.svg"
+                    alt="Shadow FRA"
+                    height={50}
+                    width={50}
+                  />
+                </div>
+                <div
+                  className="services-content"
+                  style={{
+                    display: `${isActive.key == 6 ? "none" : "block"}`,
+                  }}
+                >
+                  <h2 className="title">
+                    <Link href="/services/shadow-fra">Shadow FRA</Link>
+                  </h2>
+                  <h2 className="number">06</h2>
+                </div>
+                <div
+                  className="services-overlay-content"
+                  style={{ display: `${isActive.key == 6 ? "block" : "none"}` }}
+                >
+                  <h2 className="title">
+                    <Link href="/services/shadow-fra">Shadow FRA</Link>
+                  </h2>
+                  <p>
+                    Gain hands-on experience in fire risk assessment by
+                    shadowing our experienced professionals. Perfect for
+                    aspiring fire safety experts.
+                  </p>
+                  <Link href="/services/shadow-fra" className="read-more">
+                    Read More <i className="fas fa-arrow-right" />
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

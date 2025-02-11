@@ -141,11 +141,11 @@ export default function FireDoorInspections() {
                       <br />
                       <p>
                         To book a <strong>Fire Door Survey</strong> with{" "}
-                        <strong class="red">AFC Fire & Security</strong>, simply
-                        call <a href="tel:02031434754">0203-143-4754</a>, or{" "}
-                        <a href="tel:+447771366942">0777-1366-942</a>, or click
-                        on the Get In Touch button below, and leave the rest to
-                        us!
+                        <strong className="red">AFC Fire & Security</strong>,
+                        simply call <a href="tel:02031434754">0203-143-4754</a>,
+                        or <a href="tel:+447771366942">0777-1366-942</a>, or
+                        click on the Get In Touch button below, and leave the
+                        rest to us!
                       </p>
                     </div>
                   </div>

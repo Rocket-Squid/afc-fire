@@ -171,10 +171,10 @@ export default function FireSafetyTraining() {
                       </h2>
                       <p>
                         To book your Fire Safety Training with{" "}
-                        <strong class="red">AFC Fire & Security</strong>, simply
-                        call <a href="tel:02031434754">0203-143-4754</a>, or{" "}
-                        <a href="tel:+447771366942">0777-1366-942</a>, or fill
-                        in the Contact Form and leave the rest to us!
+                        <strong className="red">AFC Fire & Security</strong>,
+                        simply call <a href="tel:02031434754">0203-143-4754</a>,
+                        or <a href="tel:+447771366942">0777-1366-942</a>, or
+                        fill in the Contact Form and leave the rest to us!
                       </p>
                     </div>
                   </div>

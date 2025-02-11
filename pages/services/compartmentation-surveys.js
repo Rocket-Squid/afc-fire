@@ -59,7 +59,7 @@ export default function PassiveFireProtection() {
                         Importance of Compartmentation for Fire Safety
                       </h2>
 
-                      <strong class="red">Life Safety:</strong>
+                      <strong className="red">Life Safety:</strong>
                       <p>
                         The primary concern during a fire is ensuring the safe
                         evacuation of individuals within a building.
@@ -73,7 +73,7 @@ export default function PassiveFireProtection() {
                         policies to be implemented.
                       </p>
 
-                      <strong class="red">Property Protection:</strong>
+                      <strong className="red">Property Protection:</strong>
                       <p>
                         Compartmentation not only protects human lives but also
                         helps minimise damage to property. By containing the
@@ -84,7 +84,7 @@ export default function PassiveFireProtection() {
                         reducing the extent of damage and financial losses.
                       </p>
 
-                      <strong class="red">Structural Integrity:</strong>
+                      <strong className="red">Structural Integrity:</strong>
                       <p>
                         Fire can severely compromise the structural integrity of
                         a building, making it vulnerable to collapse. By
@@ -96,7 +96,9 @@ export default function PassiveFireProtection() {
                         stability.
                       </p>
 
-                      <strong class="red">Legislation and Regulations:</strong>
+                      <strong className="red">
+                        Legislation and Regulations:
+                      </strong>
                       <p>
                         Compartmentation is a fundamental requirement in fire
                         safety legislation within the United Kingdom. Several
@@ -212,11 +214,11 @@ export default function PassiveFireProtection() {
                       </h2>
                       <p>
                         To book a <strong>Compartmentation Survey</strong> with{" "}
-                        <strong class="red">AFC Fire & Security</strong>, simply
-                        call <a href="tel:02031434754">0203-143-4754</a>, or{" "}
-                        <a href="tel:+447771366942">0777-1366-942</a>, or click
-                        on the Get In Touch button below, and leave the rest to
-                        us!
+                        <strong className="red">AFC Fire & Security</strong>,
+                        simply call <a href="tel:02031434754">0203-143-4754</a>,
+                        or <a href="tel:+447771366942">0777-1366-942</a>, or
+                        click on the Get In Touch button below, and leave the
+                        rest to us!
                       </p>
                     </div>
                   </div>

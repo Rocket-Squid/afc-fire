@@ -5695,3 +5695,40 @@ label {
     transform: scale(1, 0);
   }
 }
+
+/* Values Area */
+.values-area {
+  background-color: var(--tg-common-color-white);
+  position: relative;
+}
+
+.values-item {
+  background: #f8f8f8;
+  padding: 30px;
+  border-radius: 12px;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+}
+
+.values-item:hover {
+  background: var(--tg-theme-primary);
+  transform: translateY(-5px);
+}
+
+.values-item:hover h4.title,
+.values-item:hover p {
+  color: var(--tg-common-color-white);
+}
+
+.values-item h4.title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  line-height: 1.4;
+  color: var(--tg-heading-color);
+  transition: 0.3s ease-in-out;
+}
+
+.values-item p {
+  margin-bottom: 0;
+  transition: 0.3s ease-in-out;
+}

@@ -1,12 +1,14 @@
 import Layout from "@/components/layout/Layout";
 import { fetchTeam } from "../lib/airtable";
 import TeamList from "@/components/sections/TeamList";
+import TeamValues from "@/components/sections/TeamValues";
 
 export default function Team({ teamMembers }) {
   return (
     <>
       <Layout breadcrumbTitle="Team">
         <TeamList teamMembers={teamMembers} />
+        <TeamValues />
       </Layout>
     </>
   );

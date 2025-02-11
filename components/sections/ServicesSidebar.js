@@ -15,26 +15,20 @@ const ServicesSidebar = () => {
               </Link>
             </li>
             <li>
-              <Link href="/services/fire-safety-training">
-                Fire Safety Training
-                <i className="fas fa-arrow-right" />
-              </Link>
-            </li>
-            <li>
-              <Link href="/services/fire-door-inspections">
-                Fire Door Inspections
-                <i className="fas fa-arrow-right" />
-              </Link>
-            </li>
-            <li>
               <Link href="/services/compartmentation-surveys">
                 Compartmentation Surveys
                 <i className="fas fa-arrow-right" />
               </Link>
             </li>
             <li>
-              <Link href="/services/fire-extinguishers">
-                Fire Extinguishers
+              <Link href="/services/fire-door-inspections">
+                Fire Door Surveys
+                <i className="fas fa-arrow-right" />
+              </Link>
+            </li>
+            <li>
+              <Link href="/services/external-validation">
+                External Validation
                 <i className="fas fa-arrow-right" />
               </Link>
             </li>
@@ -45,8 +39,14 @@ const ServicesSidebar = () => {
               </Link>
             </li>
             <li>
-              <Link href="/services/external-validation">
-                External Validation
+              <Link href="/services/fire-safety-training">
+                Fire Warden Training
+                <i className="fas fa-arrow-right" />
+              </Link>
+            </li>
+            <li>
+              <Link href="/services/fire-extinguishers">
+                Fire Extinguishers
                 <i className="fas fa-arrow-right" />
               </Link>
             </li>

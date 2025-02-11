@@ -145,23 +145,18 @@ export default function Header({ headerCls, headerTop }) {
                               </Link>
                             </li>
                             <li>
-                              <Link href="/services/fire-safety-training">
-                                Fire Safety Training
-                              </Link>
-                            </li>
-                            <li>
-                              <Link href="/services/fire-door-inspections">
-                                Fire Door Inspections
-                              </Link>
-                            </li>
-                            <li>
                               <Link href="/services/compartmentation-surveys">
                                 Compartmentation Surveys
                               </Link>
                             </li>
                             <li>
-                              <Link href="/services/fire-extinguishers">
-                                Fire Extinguishers
+                              <Link href="/services/fire-door-inspections">
+                                Fire Door Surveys
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="/services/external-validation">
+                                External Validation
                               </Link>
                             </li>
                             <li>
@@ -170,8 +165,13 @@ export default function Header({ headerCls, headerTop }) {
                               </Link>
                             </li>
                             <li>
-                              <Link href="/services/external-validation">
-                                External Validation
+                              <Link href="/services/fire-safety-training">
+                                Fire Warden Training
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="/services/fire-extinguishers">
+                                Fire Extinguishers
                               </Link>
                             </li>
                           </ul>

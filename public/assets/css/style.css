@@ -4182,7 +4182,7 @@ label {
   margin-right: 30px;
 }
 .testimonial-avatar .avatar-thumb img {
-  border-radius: 50%;
+  object-fit: contain;
 }
 .testimonial-avatar .avatar-content .title {
   margin-bottom: 6px;

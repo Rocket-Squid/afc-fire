@@ -70,7 +70,7 @@ export default function Sidebar({ handleToggled }) {
             </li>
             <li>
               <Link href="/services/shadow-fra" onClick={handleClick}>
-                Shadow FRA
+                Shadow Programme
               </Link>
             </li>
             <li>

@@ -34,7 +34,7 @@ const ServicesSidebar = () => {
             </li>
             <li>
               <Link href="/services/shadow-fra">
-                Shadow FRA
+                Shadow Programme
                 <i className="fas fa-arrow-right" />
               </Link>
             </li>

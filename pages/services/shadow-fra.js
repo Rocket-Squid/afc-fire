@@ -5,7 +5,7 @@ import ServicesSidebar from "@/components/sections/ServicesSidebar";
 export default function ShadowFRA() {
   return (
     <>
-      <Layout breadcrumbReturn="Services" breadcrumbTitle="Shadow FRA">
+      <Layout breadcrumbReturn="Services" breadcrumbTitle="Shadow Programme">
         <div>
           <section className="services-details-area pt-120">
             <div className="container">
@@ -159,7 +159,7 @@ export default function ShadowFRA() {
                         We Hope You Find What You are Looking for
                       </h2>
                       <p>
-                        To book your Shadow FRA experience with{" "}
+                        To book your Shadow Programme experience with{" "}
                         <strong className="red">AFC Fire & Security</strong>,
                         simply call <a href="tel:02031434754">0203-143-4754</a>,
                         or <a href="tel:+447771366942">0777-1366-942</a>, or

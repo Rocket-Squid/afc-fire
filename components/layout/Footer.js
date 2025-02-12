@@ -57,7 +57,7 @@ export default function Footer1() {
                         <li>
                           <Link href="/services/shadow-fra">
                             <i className="fas fa-angle-double-right" />
-                            Shadow FRA
+                            Shadow Programme
                           </Link>
                         </li>
                         <li>

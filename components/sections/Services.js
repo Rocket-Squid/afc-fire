@@ -208,7 +208,7 @@ export default function Services() {
                   style={{ display: `${isActive.key == 4 ? "none" : "flex"}` }}
                 >
                   <Image
-                    src="/assets/img/icon/services-assessment.svg"
+                    src="/assets/img/icon/services-validation.svg"
                     alt="External Validation"
                     height={50}
                     width={50}
@@ -262,8 +262,8 @@ export default function Services() {
                   style={{ display: `${isActive.key == 5 ? "none" : "flex"}` }}
                 >
                   <Image
-                    src="/assets/img/icon/services-training.svg"
-                    alt="Shadow FRA"
+                    src="/assets/img/icon/services-shadow-fra.svg"
+                    alt="Shadow Programme"
                     height={50}
                     width={50}
                   />
@@ -275,7 +275,7 @@ export default function Services() {
                       display: `${isActive.key == 5 ? "none" : "block"}`,
                     }}
                   >
-                    <Link href="/services/shadow-fra">Shadow FRA</Link>
+                    <Link href="/services/shadow-fra">Shadow Programme</Link>
                   </h2>
                   <h2 className="number">05</h2>
                 </div>
@@ -284,7 +284,7 @@ export default function Services() {
                   style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}
                 >
                   <h2 className="title">
-                    <Link href="/services/shadow-fra">Shadow FRA</Link>
+                    <Link href="/services/shadow-fra">Shadow Programme</Link>
                   </h2>
                   <p>
                     Gain hands-on experience in fire risk assessment by

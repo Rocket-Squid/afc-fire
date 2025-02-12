@@ -200,7 +200,23 @@ h6 {
 }
 .list-wrap li {
   list-style: none;
+  position: relative;
+  margin-bottom: 15px;
 }
+
+.list-wrap .list-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.list-wrap .list-content {
+  padding-left: 35px;
+  color: #666;
+  line-height: 1.6;
+}
+
 p {
   font-size: var(--tg-body-font-size);
   font-weight: var(--tg-body-font-weight);
@@ -3258,7 +3274,8 @@ label {
 .team-accreditation img {
   padding: 2px;
 }
-.team-accreditation a {
+.team-accreditation a,
+.team-accreditation img {
   width: 40px;
   height: 40px;
   display: flex;
@@ -4165,7 +4182,7 @@ label {
   margin-right: 30px;
 }
 .testimonial-avatar .avatar-thumb img {
-  border-radius: 50%;
+  object-fit: contain;
 }
 .testimonial-avatar .avatar-content .title {
   margin-bottom: 6px;
@@ -5694,4 +5711,41 @@ label {
   100% {
     transform: scale(1, 0);
   }
+}
+
+/* Values Area */
+.values-area {
+  background-color: var(--tg-common-color-white);
+  position: relative;
+}
+
+.values-item {
+  background: #f8f8f8;
+  padding: 30px;
+  border-radius: 12px;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+}
+
+.values-item:hover {
+  background: var(--tg-theme-primary);
+  transform: translateY(-5px);
+}
+
+.values-item:hover h4.title,
+.values-item:hover p {
+  color: var(--tg-common-color-white);
+}
+
+.values-item h4.title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  line-height: 1.4;
+  color: var(--tg-heading-color);
+  transition: 0.3s ease-in-out;
+}
+
+.values-item p {
+  margin-bottom: 0;
+  transition: 0.3s ease-in-out;
 }

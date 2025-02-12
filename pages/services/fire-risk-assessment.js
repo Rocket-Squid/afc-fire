@@ -172,10 +172,10 @@ export default function FireRiskAssessments() {
                       </h2>
                       <p>
                         Once a qualified and highly trained{" "}
-                        <strong class="red">AFC</strong> assessor has completed
-                        your assessment, you will receive a comprehensive
-                        written report, which details all findings. But, most
-                        importantly, it will highlight the{" "}
+                        <strong className="red">AFC</strong> assessor has
+                        completed your assessment, you will receive a
+                        comprehensive written report, which details all
+                        findings. But, most importantly, it will highlight the{" "}
                         <strong>'Significant Findings'</strong>, making it
                         really simple to understand what and where the
                         deficiencies are. The report also provides you with step
@@ -185,10 +185,10 @@ export default function FireRiskAssessments() {
                       <br />
                       <p>
                         To book a Fire Risk Assessment with{" "}
-                        <strong class="red">AFC Fire & Security</strong>, simply
-                        call <a href="tel:02031434754">0203-143-4754</a>, or{" "}
-                        <a href="tel:+447771366942">0777-1366-942</a>, or fill
-                        in the Contact Form and leave the rest to us!
+                        <strong className="red">AFC Fire & Security</strong>,
+                        simply call <a href="tel:02031434754">0203-143-4754</a>,
+                        or <a href="tel:+447771366942">0777-1366-942</a>, or
+                        fill in the Contact Form and leave the rest to us!
                       </p>
                     </div>
                   </div>

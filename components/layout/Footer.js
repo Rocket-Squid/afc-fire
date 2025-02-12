@@ -37,21 +37,33 @@ export default function Footer1() {
                           </Link>
                         </li>
                         <li>
-                          <Link href="/services/fire-safety-training">
+                          <Link href="/services/compartmentation-surveys">
                             <i className="fas fa-angle-double-right" />
-                            Fire Safety Training
+                            Compartmentation Surveys
                           </Link>
                         </li>
                         <li>
                           <Link href="/services/fire-door-inspections">
                             <i className="fas fa-angle-double-right" />
-                            Fire Door Inspections
+                            Fire Door Surveys
                           </Link>
                         </li>
                         <li>
-                          <Link href="/services/compartmentation-surveys">
+                          <Link href="/services/external-validation">
                             <i className="fas fa-angle-double-right" />
-                            Compartmentation Surveys
+                            External Validation
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/services/shadow-fra">
+                            <i className="fas fa-angle-double-right" />
+                            Shadow Programme
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="/services/fire-safety-training">
+                            <i className="fas fa-angle-double-right" />
+                            Fire Warden Training
                           </Link>
                         </li>
                         <li>

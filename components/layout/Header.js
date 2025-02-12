@@ -145,18 +145,28 @@ export default function Header({ headerCls, headerTop }) {
                               </Link>
                             </li>
                             <li>
-                              <Link href="/services/fire-safety-training">
-                                Fire Safety Training
+                              <Link href="/services/compartmentation-surveys">
+                                Compartmentation Surveys
                               </Link>
                             </li>
                             <li>
                               <Link href="/services/fire-door-inspections">
-                                Fire Door Inspections
+                                Fire Door Surveys
                               </Link>
                             </li>
                             <li>
-                              <Link href="/services/compartmentation-surveys">
-                                Compartmentation Surveys
+                              <Link href="/services/external-validation">
+                                External Validation
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="/services/shadow-fra">
+                                Shadow Programme
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="/services/fire-safety-training">
+                                Fire Warden Training
                               </Link>
                             </li>
                             <li>
@@ -198,33 +208,32 @@ export default function Header({ headerCls, headerTop }) {
                       </Link>
                     </div>
                     <div className="menu-outer">
-                      <Sidebar />
+                      <Sidebar handleToggled={handleToggled} />
                     </div>
                     <div className="social-links">
                       <ul className="clearfix list-wrap">
                         <li>
-                          <Link href="/#">
+                          <Link
+                            href="https://www.facebook.com/AFCFireprotection"
+                            target="_blank"
+                          >
                             <i className="fab fa-facebook-f" />
                           </Link>
                         </li>
                         <li>
-                          <Link href="/#">
-                            <i className="fab fa-twitter" />
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/#">
+                          <Link
+                            href="https://www.instagram.com/afcfire/"
+                            target="_blank"
+                          >
                             <i className="fab fa-instagram" />
                           </Link>
                         </li>
                         <li>
-                          <Link href="/#">
+                          <Link
+                            href="https://www.linkedin.com/company/afc-fire-and-security-ltd/"
+                            target="_blank"
+                          >
                             <i className="fab fa-linkedin-in" />
-                          </Link>
-                        </li>
-                        <li>
-                          <Link href="/#">
-                            <i className="fab fa-youtube" />
                           </Link>
                         </li>
                       </ul>

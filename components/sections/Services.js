@@ -91,7 +91,7 @@ export default function Services() {
               <div
                 className="services-item wow fadeInUp"
                 data-wow-delay=".4s"
-                data-background="/assets/img/services/img_training.jpg"
+                data-background="/assets/img/services/img_passive.jpg"
                 onMouseEnter={() => handleToggle(2)}
                 onMouseLeave={() => handleToggle(2)}
               >
@@ -100,8 +100,8 @@ export default function Services() {
                   style={{ display: `${isActive.key == 2 ? "none" : "flex"}` }}
                 >
                   <Image
-                    src="/assets/img/icon/services-training.svg"
-                    alt="Training"
+                    src="/assets/img/icon/services-compartmentation.svg"
+                    alt="Compartmentation"
                     height={50}
                     width={50}
                   />
@@ -113,8 +113,8 @@ export default function Services() {
                       display: `${isActive.key == 2 ? "none" : "block"}`,
                     }}
                   >
-                    <Link href="/services/fire-safety-training">
-                      Fire Safety Training
+                    <Link href="/services/compartmentation-surveys">
+                      Compartmentation Surveys
                     </Link>
                   </h2>
                   <h2 className="number">02</h2>
@@ -124,16 +124,16 @@ export default function Services() {
                   style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}
                 >
                   <h2 className="title">
-                    <Link href="/services/fire-safety-training">
-                      Fire Safety Training
+                    <Link href="/services/compartmentation-surveys">
+                      Compartmentation Surveys
                     </Link>
                   </h2>
                   <p>
-                    Expert-led training programs that cover fire prevention,
-                    safety procedures, and emergency response tactics.
+                    Implementing structural fire prevention measures to control
+                    the spread of fire and protect the building's integrity.
                   </p>
                   <Link
-                    href="/services/fire-safety-training"
+                    href="/services/compartmentation-surveys"
                     className="read-more"
                   >
                     Read More <i className="fas fa-arrow-right" />
@@ -160,15 +160,15 @@ export default function Services() {
                     width={50}
                   />
                 </div>
-                <div
-                  className="services-content"
-                  style={{
-                    display: `${isActive.key == 3 ? "none" : "block"}`,
-                  }}
-                >
-                  <h2 className="title">
+                <div className="services-content">
+                  <h2
+                    className="title"
+                    style={{
+                      display: `${isActive.key == 3 ? "none" : "block"}`,
+                    }}
+                  >
                     <Link href="/services/fire-door-inspections">
-                      Fire Door Inspections
+                      Fire Door Surveys
                     </Link>
                   </h2>
                   <h2 className="number">03</h2>
@@ -179,7 +179,7 @@ export default function Services() {
                 >
                   <h2 className="title">
                     <Link href="/services/fire-door-inspections">
-                      Fire Door Inspections
+                      Fire Door Surveys
                     </Link>
                   </h2>
                   <p>
@@ -199,7 +199,7 @@ export default function Services() {
               <div
                 className="services-item wow fadeInUp"
                 data-wow-delay=".3s"
-                data-background="/assets/img/services/img_passive.jpg"
+                data-background="/assets/img/services/img_validation.jpg"
                 onMouseEnter={() => handleToggle(4)}
                 onMouseLeave={() => handleToggle(4)}
               >
@@ -208,21 +208,21 @@ export default function Services() {
                   style={{ display: `${isActive.key == 4 ? "none" : "flex"}` }}
                 >
                   <Image
-                    src="/assets/img/icon/services-compartmentation.svg"
-                    alt="Compartmentation Surveys"
+                    src="/assets/img/icon/services-validation.svg"
+                    alt="External Validation"
                     height={50}
                     width={50}
                   />
                 </div>
-                <div
-                  className="services-content"
-                  style={{
-                    display: `${isActive.key == 4 ? "none" : "block"}`,
-                  }}
-                >
-                  <h2 className="title">
-                    <Link href="/services/compartmentation-surveys">
-                      Compartmentation Surveys
+                <div className="services-content">
+                  <h2
+                    className="title"
+                    style={{
+                      display: `${isActive.key == 4 ? "none" : "block"}`,
+                    }}
+                  >
+                    <Link href="/services/external-validation">
+                      External Validation
                     </Link>
                   </h2>
                   <h2 className="number">04</h2>
@@ -232,16 +232,117 @@ export default function Services() {
                   style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}
                 >
                   <h2 className="title">
-                    <Link href="/services/compartmentation-surveys">
-                      Compartmentation Surveys
+                    <Link href="/services/external-validation">
+                      External Validation
                     </Link>
                   </h2>
                   <p>
-                    Implementing structural fire prevention measures to control
-                    the spread of fire and protect the building's integrity.
+                    Professional validation of fire risk assessments to ensure
+                    accuracy, compliance, and best practices.
                   </p>
                   <Link
-                    href="/services/compartmentation-surveys"
+                    href="/services/external-validation"
+                    className="read-more"
+                  >
+                    Read More <i className="fas fa-arrow-right" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-10">
+              <div
+                className="services-item wow fadeInUp"
+                data-wow-delay=".6s"
+                data-background="/assets/img/services/img_shadow_fra.jpg"
+                onMouseEnter={() => handleToggle(5)}
+                onMouseLeave={() => handleToggle(5)}
+              >
+                <div
+                  className="services-icon"
+                  style={{ display: `${isActive.key == 5 ? "none" : "flex"}` }}
+                >
+                  <Image
+                    src="/assets/img/icon/services-shadow-fra.svg"
+                    alt="Shadow Programme"
+                    height={50}
+                    width={50}
+                  />
+                </div>
+                <div className="services-content">
+                  <h2
+                    className="title"
+                    style={{
+                      display: `${isActive.key == 5 ? "none" : "block"}`,
+                    }}
+                  >
+                    <Link href="/services/shadow-fra">Shadow Programme</Link>
+                  </h2>
+                  <h2 className="number">05</h2>
+                </div>
+                <div
+                  className="services-overlay-content"
+                  style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}
+                >
+                  <h2 className="title">
+                    <Link href="/services/shadow-fra">Shadow Programme</Link>
+                  </h2>
+                  <p>
+                    Gain hands-on experience in fire risk assessment by
+                    shadowing our experienced professionals.
+                  </p>
+                  <Link href="/services/shadow-fra" className="read-more">
+                    Read More <i className="fas fa-arrow-right" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-10">
+              <div
+                className="services-item wow fadeInUp"
+                data-wow-delay=".6s"
+                data-background="/assets/img/services/img_training.jpg"
+                onMouseEnter={() => handleToggle(6)}
+                onMouseLeave={() => handleToggle(6)}
+              >
+                <div
+                  className="services-icon"
+                  style={{ display: `${isActive.key == 6 ? "none" : "flex"}` }}
+                >
+                  <Image
+                    src="/assets/img/icon/services-training.svg"
+                    alt="Fire Warden Training"
+                    height={50}
+                    width={50}
+                  />
+                </div>
+                <div className="services-content">
+                  <h2
+                    className="title"
+                    style={{
+                      display: `${isActive.key == 6 ? "none" : "block"}`,
+                    }}
+                  >
+                    <Link href="/services/fire-safety-training">
+                      Fire Warden Training
+                    </Link>
+                  </h2>
+                  <h2 className="number">06</h2>
+                </div>
+                <div
+                  className="services-overlay-content"
+                  style={{ display: `${isActive.key == 6 ? "block" : "none"}` }}
+                >
+                  <h2 className="title">
+                    <Link href="/services/fire-safety-training">
+                      Fire Warden Training
+                    </Link>
+                  </h2>
+                  <p>
+                    Expert-led training programs that cover fire prevention,
+                    safety procedures, and emergency response tactics.
+                  </p>
+                  <Link
+                    href="/services/fire-safety-training"
                     className="read-more"
                   >
                     Read More <i className="fas fa-arrow-right" />
@@ -254,12 +355,12 @@ export default function Services() {
                 className="services-item wow fadeInUp"
                 data-wow-delay=".6s"
                 data-background="/assets/img/services/img_extinguishers.jpg"
-                onMouseEnter={() => handleToggle(5)}
-                onMouseLeave={() => handleToggle(5)}
+                onMouseEnter={() => handleToggle(7)}
+                onMouseLeave={() => handleToggle(7)}
               >
                 <div
                   className="services-icon"
-                  style={{ display: `${isActive.key == 5 ? "none" : "flex"}` }}
+                  style={{ display: `${isActive.key == 7 ? "none" : "flex"}` }}
                 >
                   <Image
                     src="/assets/img/icon/services-extinguishers.svg"
@@ -268,22 +369,22 @@ export default function Services() {
                     width={50}
                   />
                 </div>
-                <div
-                  className="services-content"
-                  style={{
-                    display: `${isActive.key == 5 ? "none" : "block"}`,
-                  }}
-                >
-                  <h2 className="title">
+                <div className="services-content">
+                  <h2
+                    className="title"
+                    style={{
+                      display: `${isActive.key == 7 ? "none" : "block"}`,
+                    }}
+                  >
                     <Link href="/services/fire-extinguishers">
                       Fire Extinguishers
                     </Link>
                   </h2>
-                  <h2 className="number">05</h2>
+                  <h2 className="number">07</h2>
                 </div>
                 <div
                   className="services-overlay-content"
-                  style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}
+                  style={{ display: `${isActive.key == 7 ? "block" : "none"}` }}
                 >
                   <h2 className="title">
                     <Link href="/services/fire-extinguishers">
@@ -292,8 +393,7 @@ export default function Services() {
                   </h2>
                   <p>
                     A wide range of quality fire extinguishers to suit various
-                    environments, along with expert guidance on usage and
-                    maintenance.
+                    environments, with expert guidance on usage and maintenance.
                   </p>
                   <Link
                     href="/services/fire-extinguishers"

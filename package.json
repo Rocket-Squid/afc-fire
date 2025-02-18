@@ -11,16 +11,22 @@
     "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css"
   },
   "dependencies": {
+    "@sanity/client": "^6.28.0",
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "^3.75.1",
     "airtable": "^0.12.2",
     "eslint": "8.41.0",
     "eslint-config-next": "13.4.3",
     "next": "13.4.3",
+    "next-sanity": "^9.8.58",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-modal-video": "^2.0.0",
     "react-slick": "^0.29.0",
+    "sanity": "^3.75.1",
     "sass": "^1.62.1",
     "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.15",
     "wowjs": "^1.1.3"
   }
 }

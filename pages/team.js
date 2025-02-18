@@ -1,5 +1,5 @@
 import Layout from "@/components/layout/Layout";
-import { fetchTeam } from "../lib/airtable";
+import { fetchTeam } from "../lib/sanity";
 import TeamList from "@/components/sections/TeamList";
 import TeamValues from "@/components/sections/TeamValues";
 
@@ -15,10 +15,9 @@ export default function Team({ teamMembers }) {
 }
 
 export async function getStaticProps() {
-  // Fetch team members from the "Team Info" table
-  const teamMembers = (await fetchTeam("Team Info", 10)).filter(
-    (member) => member.status == "Live"
-  );
+  // Fetch team members from Sanity
+  const teamMembers = await fetchTeam(10);
+
   return {
     props: {
       teamMembers,

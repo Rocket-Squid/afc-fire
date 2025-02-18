@@ -1,7 +1,7 @@
 import Layout from "@/components/layout/Layout";
 import BrandAlt from "@/components/sections/BrandAlt";
 import TeamMemberAccreditation from "@/components/sections/TeamMemberAccreditation";
-import { fetchMemberBySlug, fetchTeam } from "@/lib/airtable";
+import { fetchTeam, fetchMemberBySlug } from "../../lib/sanity";
 import Link from "next/link";
 
 export default function TeamPage({ teamMember }) {
@@ -112,24 +112,31 @@ export default function TeamPage({ teamMember }) {
 }
 
 export async function getStaticPaths() {
-  const teamMembers = await fetchTeam("Team Info");
+  const teamMembers = await fetchTeam(10);
+
   const paths = teamMembers.map((member) => ({
     params: { slug: member.slug },
   }));
 
-  return { paths, fallback: "blocking" };
+  return {
+    paths,
+    fallback: "blocking",
+  };
 }
 
 export async function getStaticProps({ params }) {
-  const teamMember = await fetchMemberBySlug(params.slug);
+  const member = await fetchMemberBySlug(params.slug);
 
-  if (!teamMember) {
-    console.log("Not found");
-    return { notFound: true };
+  if (!member) {
+    return {
+      notFound: true,
+    };
   }
 
   return {
-    props: { teamMember },
+    props: {
+      member,
+    },
     revalidate: 60,
   };
 }

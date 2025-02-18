@@ -1,5 +1,4 @@
 import Slider from "react-slick";
-import { ACCRED_LIST } from "@/lib/accreditation";
 import Link from "next/link";
 
 const brandSlider = {
@@ -43,83 +42,89 @@ const brandSlider = {
     },
   ],
 };
+
+const ACCREDITATION_IMAGES = {
+  "warrington-fracs": {
+    name: "Warrington Fire - FRACS Individual Scheme",
+    filepath: "/assets/img/accreditation/NSI-FRAS-Individual-transparent.png",
+    useLink: "fracs",
+  },
+  "ifsm-member": {
+    name: "IFSM Member",
+    filepath: "/assets/img/accreditation/IFSM-Logo-Member.png",
+    useLink: "ifsm",
+  },
+  "ifsm-associate": {
+    name: "IFSM Associate",
+    filepath: "/assets/img/accreditation/IFSM-Logo-Associate.png",
+    useLink: "ifsm",
+  },
+  "ifsm-tier-1-2024": {
+    name: "IFSM Tier 1 - 2024",
+    filepath: "/assets/img/accreditation/Tier-1-Logo.png",
+    useLink: "ifsm",
+  },
+  "ifsm-tier-2-2024": {
+    name: "IFSM Tier 2 - 2024",
+    filepath: "/assets/img/accreditation/Tier-2-Logo.png",
+    useLink: "ifsm",
+  },
+  "ifsm-tier-3-2023": {
+    name: "IFSM Tier 3 - 2023",
+    filepath: "/assets/img/accreditation/Tier-3-Logo.png",
+    useLink: "ifsm",
+  },
+};
+
 export default function TeamMemberAccreditation({
-  accreditation,
+  accreditations,
   fracsUrl,
   ifsmUrl,
 }) {
-  const generateAccreditationArray = (accreditation) => {
-    const generatedArray = [];
-    if (!accreditation || accreditation.length === 0) return generatedArray;
+  if (!accreditations || accreditations.length === 0) return null;
 
-    if (accreditation.includes(ACCRED_LIST.FRACS)) {
-      generatedArray.push({
-        name: "Warrington Fire - FRACS Individual Scheme",
-        filepath:
-          "/assets/img/accreditation/NSI-FRAS-Individual-transparent.png",
-        link: null,
-      });
-    }
-    if (accreditation.includes(ACCRED_LIST.MEMBER)) {
-      generatedArray.push({
-        name: "IFSM Member",
-        filepath: "/assets/img/accreditation/IFSM-Logo-Member.png",
-        link: ifsmUrl || null,
-      });
-    }
-    if (accreditation.includes(ACCRED_LIST.ASSOCIATE)) {
-      generatedArray.push({
-        name: "IFSM Associate",
-        filepath: "/assets/img/accreditation/IFSM-Logo-Associate.png",
-        link: ifsmUrl || null,
-      });
-    }
-    if (accreditation.includes(ACCRED_LIST.TIER1)) {
-      generatedArray.push({
-        name: "IFSM Tier 1 - 2024",
-        filepath: "/assets/img/accreditation/Tier-1-Logo.png",
-        link: ifsmUrl || null,
-      });
-    }
-    if (accreditation.includes(ACCRED_LIST.TIER2)) {
-      generatedArray.push({
-        name: "IFSM Tier 2 - 2024",
-        filepath: "/assets/img/accreditation/Tier-2-Logo.png",
-        link: ifsmUrl || null,
-      });
-    }
-    if (accreditation.includes(ACCRED_LIST.TIER3)) {
-      generatedArray.push({
-        name: "IFSM Tier 3 - 2023",
-        filepath: "/assets/img/accreditation/Tier-3-Logo.png",
-        link: ifsmUrl || null,
-      });
-    }
+  const getAccreditationImage = (accredValue) => {
+    const accred = ACCREDITATION_IMAGES[accredValue];
+    if (!accred) return null;
 
-    return generatedArray;
+    const link =
+      accred.useLink === "fracs"
+        ? fracsUrl
+        : accred.useLink === "ifsm"
+          ? ifsmUrl
+          : null;
+
+    return {
+      name: accred.name,
+      filepath: accred.filepath,
+      link,
+    };
   };
 
   return (
-    <>
-      <div className="inner-brand-area">
-        <div className="container">
-          <Slider {...brandSlider} className="row brand-active-three">
-            {generateAccreditationArray(accreditation).map((cred) => (
-              <div className="col-12" key={cred.name}>
+    <div className="inner-brand-area">
+      <div className="container">
+        <Slider {...brandSlider} className="row brand-active-three">
+          {accreditations.map((accred) => {
+            const image = getAccreditationImage(accred);
+            if (!image) return null;
+
+            return (
+              <div className="col-12" key={image.name}>
                 <div className="brand-item">
-                  {cred.link ? (
-                    <Link href={cred.link} target="_blank">
-                      <img src={cred.filepath} alt={cred.name} />
+                  {image.link ? (
+                    <Link href={image.link} target="_blank">
+                      <img src={image.filepath} alt={image.name} />
                     </Link>
                   ) : (
-                    <img src={cred.filepath} alt={cred.name} />
+                    <img src={image.filepath} alt={image.name} />
                   )}
                 </div>
               </div>
-            ))}
-          </Slider>
-        </div>
+            );
+          })}
+        </Slider>
       </div>
-    </>
+    </div>
   );
 }

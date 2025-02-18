@@ -4,102 +4,105 @@ import TeamMemberAccreditation from "@/components/sections/TeamMemberAccreditati
 import { fetchTeam, fetchMemberBySlug } from "../../lib/sanity";
 import Link from "next/link";
 
-export default function TeamPage({ teamMember }) {
-  const bios = teamMember.bio
-    ? teamMember.bio.split("\n").filter((paragraph) => paragraph !== "")
+export default function TeamPage({ member }) {
+  const bios = member.bio
+    ? member.bio.split("\n").filter((paragraph) => paragraph !== "")
     : null;
 
   return (
-    teamMember && (
+    member && (
       <>
-        <Layout breadcrumbReturn="Team" breadcrumbTitle={teamMember.name}>
+        <Layout breadcrumbReturn="Team" breadcrumbTitle={member.name}>
           <div>
             <section className="team-details-area pt-70">
               <div className="container">
                 <div className="row align-items-center">
                   <div className="col-lg-6">
                     <div className="team-details-thumb">
-                      <img src={teamMember.image} alt={teamMember.name} />
+                      <img src={member.image} alt={member.name} />
                     </div>
                   </div>
                   <div className="col-lg-6">
                     <div className="team-details-info">
                       <div className="info-content-top">
-                        <h1 className="title">{teamMember.name}</h1>
-                        <span>{teamMember.position}</span>
+                        <h1 className="title">{member.name}</h1>
+                        <span>{member.position}</span>
                       </div>
 
                       <hr />
 
                       <h4>Bio</h4>
                       {bios ? (
-                        bios.map((bio) => <p className="info-one">{bio}</p>)
+                        bios.map((bio, index) => (
+                          <p key={index} className="info-one">
+                            {bio}
+                          </p>
+                        ))
                       ) : (
                         <p className="info-one">Coming soon</p>
                       )}
 
                       <ul className="list-wrap team-info">
-                        {teamMember.experience && (
+                        {member.experience && (
                           <li>
                             <span>
                               <i className="fas fa-toolbox" />
                               Experience:
                             </span>
-                            {teamMember.experience} years
+                            {member.experience} years
                           </li>
                         )}
-                        {teamMember.location && (
+                        {member.location && (
                           <li>
                             <span>
                               <i className="fas fa-map-marker-alt" />
                               Location:
                             </span>
-                            {teamMember.location}
+                            {member.location}
                           </li>
                         )}
-                        {teamMember.email && (
+                        {member.email && (
                           <li>
                             <span>
                               <i className="fas fa-envelope" />
                               E-mail:
                             </span>
-                            <a href={`mailto:${teamMember.email}`}>
-                              {teamMember.email}
+                            <a href={`mailto:${member.email}`}>
+                              {member.email}
                             </a>
                           </li>
                         )}
-                        {teamMember.phone && (
+                        {member.phone && (
                           <li>
                             <span>
                               <i className="fas fa-phone-alt" />
                               Phone:
                             </span>
                             <a
-                              href={`tel:${teamMember.phone.replace(
+                              href={`tel:${member.phone.replace(
                                 /\s|-|\(|\)/g,
                                 ""
                               )}`}
                             >
-                              {teamMember.phone}
+                              {member.phone}
                             </a>
                           </li>
                         )}
                       </ul>
                     </div>
-                    {teamMember.accreditation &&
-                      teamMember.accreditation.length > 0 && (
-                        <>
-                          <h4>
-                            {teamMember.name.split(" ")[0] || teamMember.name}'s
-                            Accreditation:
-                          </h4>
-                          <TeamMemberAccreditation
-                            accreditation={teamMember.accreditation}
-                            fracsUrl={teamMember.fracsUrl}
-                            ifsmUrl={teamMember.ifsmUrl}
-                          />
-                        </>
-                      )}
+                    {member.accreditations?.length > 0 && (
+                      <>
+                        <h4>
+                          {member.name.split(" ")[0] || member.name}'s
+                          Accreditations:
+                        </h4>
+                        <TeamMemberAccreditation
+                          accreditations={member.accreditations}
+                          fracsUrl={member.fracsUrl}
+                          ifsmUrl={member.ifsmUrl}
+                        />
+                      </>
+                    )}
                   </div>
                 </div>
               </div>

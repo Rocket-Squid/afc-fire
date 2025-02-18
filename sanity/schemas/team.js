@@ -72,9 +72,27 @@ export default defineType({
       initialValue: "Draft",
     }),
     defineField({
-      name: "accreditation",
-      title: "Accreditation",
-      type: "string",
+      name: "accreditations",
+      title: "Accreditations",
+      type: "array",
+      of: [
+        {
+          type: "string",
+          options: {
+            list: [
+              {
+                title: "Warrington Fire - FRACS Individual Scheme",
+                value: "warrington-fracs",
+              },
+              { title: "IFSM Member", value: "ifsm-member" },
+              { title: "IFSM Associate", value: "ifsm-associate" },
+              { title: "IFSM Tier 1 - 2024", value: "ifsm-tier-1-2024" },
+              { title: "IFSM Tier 2 - 2024", value: "ifsm-tier-2-2024" },
+              { title: "IFSM Tier 3 - 2023", value: "ifsm-tier-3-2023" },
+            ],
+          },
+        },
+      ],
     }),
     defineField({
       name: "fracsUrl",

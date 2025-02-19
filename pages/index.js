@@ -1,4 +1,4 @@
-import { fetchTeam } from "@/lib/airtable";
+import { fetchTeam } from "@/lib/sanity";
 
 import Layout from "@/components/layout/Layout";
 import Banner from "@/components/sections/Banner";
@@ -26,7 +26,8 @@ export default function Home({ teamMembers }) {
 }
 
 export async function getStaticProps() {
-  const teamMembers = await fetchTeam("Team Info", 4);
+  // Fetch team members from Sanity
+  const teamMembers = await fetchTeam(4);
   return {
     props: {
       teamMembers,

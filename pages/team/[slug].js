@@ -1,8 +1,6 @@
 import Layout from "@/components/layout/Layout";
-import BrandAlt from "@/components/sections/BrandAlt";
 import TeamMemberAccreditation from "@/components/sections/TeamMemberAccreditation";
-import { fetchTeam, fetchMemberBySlug } from "../../lib/sanity";
-import Link from "next/link";
+import { fetchTeam, fetchMemberBySlug } from "@/lib/sanity";
 
 export default function TeamPage({ member }) {
   const bios = member.bio

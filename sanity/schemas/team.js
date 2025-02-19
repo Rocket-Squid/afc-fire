@@ -6,6 +6,14 @@ export default defineType({
   type: "document",
   fields: [
     defineField({
+      name: "order",
+      title: "Display Order",
+      type: "number",
+      description:
+        "Controls the order in which team members are displayed (lower numbers appear first)",
+      validation: (Rule) => Rule.required().min(0),
+    }),
+    defineField({
       name: "name",
       title: "Name",
       type: "string",
@@ -15,6 +23,8 @@ export default defineType({
       name: "slug",
       title: "Slug",
       type: "slug",
+      description:
+        "Used to generate the URL for the team member's page. Automatically generated from the name.",
       options: {
         source: "name",
         maxLength: 96,

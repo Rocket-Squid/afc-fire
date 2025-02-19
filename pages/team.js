@@ -1,5 +1,5 @@
 import Layout from "@/components/layout/Layout";
-import { fetchTeam } from "../lib/sanity";
+import { fetchTeam } from "@/lib/sanity";
 import TeamList from "@/components/sections/TeamList";
 import TeamValues from "@/components/sections/TeamValues";
 

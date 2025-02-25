@@ -194,6 +194,60 @@ export default function Banner() {
                 </p>
               </div>
             </div>
+            <div
+              className={
+                isActive.key == 6
+                  ? "tooltip-item top active"
+                  : "tooltip-item top"
+              }
+              onClick={(e) => handleToggle(6, e)}
+            >
+              <div className="tooltip-btn pulse">
+                <Image
+                  src="/assets/img/icon/services-training.svg"
+                  alt="Fire Warden Training"
+                  height={20}
+                  width={20}
+                />
+              </div>
+              <div className="tooltip-content">
+                <h2 className="title">
+                  <Link href="/services/fire-safety-training">
+                    Fire Warden Training
+                  </Link>
+                </h2>
+                <p>
+                  Expert-led training programs covering fire prevention, safety
+                  procedures, and emergency response tactics.
+                </p>
+              </div>
+            </div>
+            <div
+              className={
+                isActive.key == 7 ? "tooltip-item active" : "tooltip-item"
+              }
+              onClick={(e) => handleToggle(7, e)}
+            >
+              <div className="tooltip-btn pulse">
+                <Image
+                  src="/assets/img/icon/services-extinguishers.svg"
+                  alt="Fire Extinguishers"
+                  height={20}
+                  width={20}
+                />
+              </div>
+              <div className="tooltip-content">
+                <h2 className="title">
+                  <Link href="/services/fire-extinguishers">
+                    Fire Extinguishers
+                  </Link>
+                </h2>
+                <p>
+                  A wide range of quality fire extinguishers to suit various
+                  environments, with expert guidance on usage.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         {/* brand-area */}

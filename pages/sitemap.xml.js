@@ -8,9 +8,9 @@ const formatDate = (date) => {
   return d.toISOString().split("T")[0];
 };
 
-// Get current date in ISO format
+// Get current date in YYYY-MM-DD format
 const getCurrentDate = () => {
-  return new Date().toISOString();
+  return formatDate(new Date());
 };
 
 function generateSiteMap(teamMembers) {

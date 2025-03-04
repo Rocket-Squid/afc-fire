@@ -35,6 +35,9 @@ importers:
       next-sanity:
         specifier: ^9.8.58
         version: 9.8.58(@emotion/is-prop-valid@1.2.2)(@sanity/client@6.28.0)(@sanity/icons@3.6.0(react@18.2.0))(@sanity/types@3.75.1(@types/react@19.0.10)(debug@4.4.0))(@sanity/ui@2.13.4(@emotion/is-prop-valid@1.2.2)(react-dom@18.2.0(react@18.2.0))(react-is@18.3.1)(react@18.2.0)(styled-components@6.1.15(react-dom@18.2.0(react@18.2.0))(react@18.2.0)))(next@13.4.3(@babel/core@7.26.9)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.85.0))(react-dom@18.2.0(react@18.2.0))(react-is@18.3.1)(react@18.2.0)(sanity@3.75.1(@emotion/is-prop-valid@1.2.2)(@types/babel__core@7.20.5)(@types/node@22.13.4)(@types/react@19.0.10)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.85.0)(styled-components@6.1.15(react-dom@18.2.0(react@18.2.0))(react@18.2.0))(terser@5.39.0)(typescript@5.7.3)(yaml@2.7.0))(styled-components@6.1.15(react-dom@18.2.0(react@18.2.0))(react@18.2.0))
+      next-seo:
+        specifier: ^6.6.0
+        version: 6.6.0(next@13.4.3(@babel/core@7.26.9)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.85.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -3970,6 +3973,13 @@ packages:
       react: ^18.3 || ^19.0.0-0
       sanity: ^3.75.1
       styled-components: ^6.1
+
+  next-seo@6.6.0:
+    resolution: {integrity: sha512-0VSted/W6XNtgAtH3D+BZrMLLudqfm0D5DYNJRXHcDgan/1ZF1tDFIsWrmvQlYngALyphPfZ3ZdOqlKpKdvG6w==}
+    peerDependencies:
+      next: ^8.1.1-canary.54 || >=9.0.0
+      react: '>=16.0.0'
+      react-dom: '>=16.0.0'
 
   next@13.4.3:
     resolution: {integrity: sha512-FV3pBrAAnAIfOclTvncw9dDohyeuEEXPe5KNcva91anT/rdycWbgtu3IjUj4n5yHnWK8YEPo0vrUecHmnmUNbA==}
@@ -10018,6 +10028,12 @@ snapshots:
       - react-is
       - react-router
       - svelte
+
+  next-seo@6.6.0(next@13.4.3(@babel/core@7.26.9)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.85.0))(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+    dependencies:
+      next: 13.4.3(@babel/core@7.26.9)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.85.0)
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
 
   next@13.4.3(@babel/core@7.26.9)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sass@1.85.0):
     dependencies:

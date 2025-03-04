@@ -1,9 +1,46 @@
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
+import { NextSeo } from "next-seo";
+import { getPageSEO } from "@/lib/seo";
+import { getPageSchema } from "@/lib/schema";
+
 export default function Contact() {
+  const seo = getPageSEO({
+    title: "Contact Us",
+    description:
+      "Get in touch with AFC Fire for all your fire safety needs. Contact our team of experts for fire risk assessments, training, and equipment maintenance services.",
+    openGraph: {
+      images: [
+        {
+          url: "/assets/img/images/contact_form_bg.jpg",
+          width: 1200,
+          height: 630,
+          alt: "AFC Fire - Contact Us",
+        },
+      ],
+    },
+    additionalMetaTags: [
+      {
+        name: "keywords",
+        content:
+          "contact AFC Fire, fire safety services, fire risk assessment contact, fire safety consultation",
+      },
+    ],
+  });
+
+  const schemas = getPageSchema("contact");
+
   return (
     <>
-      <Layout>
+      <NextSeo {...seo} />
+      {schemas.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
+      <Layout breadcrumbTitle="Contact Us">
         <section className="contact-area pt-120 pb-120">
           <div className="container">
             <div className="row justify-content-center">

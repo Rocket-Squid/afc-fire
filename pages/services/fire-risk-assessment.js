@@ -2,10 +2,46 @@ import Layout from "@/components/layout/Layout";
 import BrandAlt from "@/components/sections/BrandAlt";
 import ServicesSidebar from "@/components/sections/ServicesSidebar";
 import Link from "next/link";
+import { NextSeo } from "next-seo";
+import { getPageSEO } from "@/lib/seo";
+import { getPageSchema } from "@/lib/schema";
 
 export default function FireRiskAssessments() {
+  const seo = getPageSEO({
+    title: "Fire Risk Assessments",
+    description:
+      "Professional fire risk assessment services from AFC Fire. Our qualified assessors help you meet legal requirements and keep your premises safe from fire hazards. Book your assessment today.",
+    openGraph: {
+      images: [
+        {
+          url: "/assets/img/services/img_risk_wide.jpg",
+          width: 1200,
+          height: 630,
+          alt: "AFC Fire - Fire Risk Assessment Services",
+        },
+      ],
+    },
+    additionalMetaTags: [
+      {
+        name: "keywords",
+        content:
+          "fire risk assessment, fire safety, legal requirement, fire hazards, fire prevention, responsible person, fire safety law",
+      },
+    ],
+  });
+
+  const schemas = getPageSchema("fire-risk-assessment");
+
   return (
     <>
+      <NextSeo {...seo} />
+      {schemas.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
       <Layout
         breadcrumbReturn="Services"
         breadcrumbTitle="Fire Risk Assessments"
@@ -19,7 +55,7 @@ export default function FireRiskAssessments() {
                     <div className="services-details-thumb">
                       <img
                         src="/assets/img/services/img_risk_wide.jpg"
-                        alt=""
+                        alt="Fire Risk Assessment"
                       />
                     </div>
                     <div className="services-details-content">

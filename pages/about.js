@@ -2,6 +2,9 @@ import VideoPopup from "@/components/elements/VideoPopup";
 import Layout from "@/components/layout/Layout";
 import BrandAlt from "@/components/sections/BrandAlt";
 import Link from "next/link";
+import { NextSeo } from "next-seo";
+import { getPageSEO } from "@/lib/seo";
+import { getPageSchema } from "@/lib/schema";
 import Slider from "react-slick";
 const settings = {
   dots: true,
@@ -14,8 +17,41 @@ const settings = {
 };
 
 export default function About() {
+  const seo = getPageSEO({
+    title: "About Us",
+    description:
+      "Learn about AFC Fire, a leading provider of fire safety services in the UK. Our experienced team is dedicated to helping businesses stay safe and compliant with fire safety regulations.",
+    openGraph: {
+      images: [
+        {
+          url: "/assets/img/about/about_img01.jpg",
+          width: 1200,
+          height: 630,
+          alt: "AFC Fire - About Our Company",
+        },
+      ],
+    },
+    additionalMetaTags: [
+      {
+        name: "keywords",
+        content:
+          "fire safety company, AFC Fire, fire safety specialists, fire protection services, UK fire safety",
+      },
+    ],
+  });
+
+  const schemas = getPageSchema("about");
+
   return (
     <>
+      <NextSeo {...seo} />
+      {schemas.map((schema, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
       <Layout breadcrumbTitle="About Us">
         <section className="about-area inner-about-area pt-120 pb-120">
           <div className="container">
@@ -63,7 +99,7 @@ export default function About() {
                   <div className="section-title mb-25">
                     <span className="sub-title">About Our Company</span>
                     <h2 className="title">
-                      We’re Committed to Fire Safety Excellence
+                      We're Committed to Fire Safety Excellence
                     </h2>
                   </div>
                   <p>

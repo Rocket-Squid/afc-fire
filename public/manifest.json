@@ -1,0 +1,21 @@
+{
+  "name": "AFC Fire - Fire Safety Specialists",
+  "short_name": "AFC Fire",
+  "description": "Professional fire safety services including fire risk assessments, fire safety training, and fire safety equipment maintenance.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ff0000",
+  "icons": [
+    {
+      "src": "/assets/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

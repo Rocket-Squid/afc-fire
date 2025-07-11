@@ -66,12 +66,6 @@ export default function Footer1() {
                             Fire Warden Training
                           </Link>
                         </li>
-                        <li>
-                          <Link href="/services/fire-extinguishers">
-                            <i className="fas fa-angle-double-right" />
-                            Fire Extinguishers
-                          </Link>
-                        </li>
                       </ul>
                     </div>
                   </div>
@@ -236,8 +230,8 @@ export default function Footer1() {
                 <div className="col-md-12">
                   <div className="copyright-text">
                     <p>
-                      © Copyright AFC Fire {new Date().getFullYear()}. All Right
-                      Reserved.
+                      © Copyright AFC Fire {new Date().getFullYear()}. All
+                      Right Reserved.
                     </p>
                     <p>
                       Powered by{" "}

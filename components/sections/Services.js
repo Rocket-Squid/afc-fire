@@ -350,60 +350,6 @@ export default function Services() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 col-sm-10">
-              <div
-                className="services-item wow fadeInUp"
-                data-wow-delay=".6s"
-                data-background="/assets/img/services/img_extinguishers.jpg"
-                onMouseEnter={() => handleToggle(7)}
-                onMouseLeave={() => handleToggle(7)}
-              >
-                <div
-                  className="services-icon"
-                  style={{ display: `${isActive.key == 7 ? "none" : "flex"}` }}
-                >
-                  <Image
-                    src="/assets/img/icon/services-extinguishers.svg"
-                    alt="Fire Extinguishers"
-                    height={50}
-                    width={50}
-                  />
-                </div>
-                <div className="services-content">
-                  <h2
-                    className="title"
-                    style={{
-                      display: `${isActive.key == 7 ? "none" : "block"}`,
-                    }}
-                  >
-                    <Link href="/services/fire-extinguishers">
-                      Fire Extinguishers
-                    </Link>
-                  </h2>
-                  <h2 className="number">07</h2>
-                </div>
-                <div
-                  className="services-overlay-content"
-                  style={{ display: `${isActive.key == 7 ? "block" : "none"}` }}
-                >
-                  <h2 className="title">
-                    <Link href="/services/fire-extinguishers">
-                      Fire Extinguishers
-                    </Link>
-                  </h2>
-                  <p>
-                    A wide range of quality fire extinguishers to suit various
-                    environments, with expert guidance on usage and maintenance.
-                  </p>
-                  <Link
-                    href="/services/fire-extinguishers"
-                    className="read-more"
-                  >
-                    Read More <i className="fas fa-arrow-right" />
-                  </Link>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>

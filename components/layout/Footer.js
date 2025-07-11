@@ -231,7 +231,7 @@ export default function Footer1() {
                   <div className="copyright-text">
                     <p>
                       © Copyright AFC Fire {new Date().getFullYear()}. All
-                      Right Reserved.
+                      Rights Reserved.
                     </p>
                     <p>
                       Powered by{" "}

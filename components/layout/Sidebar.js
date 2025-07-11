@@ -78,11 +78,6 @@ export default function Sidebar({ handleToggled }) {
                 Fire Warden Training
               </Link>
             </li>
-            <li>
-              <Link href="/services/fire-extinguishers" onClick={handleClick}>
-                Fire Extinguishers
-              </Link>
-            </li>
           </ul>
           <div className="dropdown-btn" onClick={() => handleToggle(2)}>
             <span className="fas fa-angle-down" />

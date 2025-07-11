@@ -44,12 +44,6 @@ const ServicesSidebar = () => {
                 <i className="fas fa-arrow-right" />
               </Link>
             </li>
-            <li>
-              <Link href="/services/fire-extinguishers">
-                Fire Extinguishers
-                <i className="fas fa-arrow-right" />
-              </Link>
-            </li>
           </ul>
         </div>
       </div>

@@ -173,11 +173,11 @@ export default function Footer1() {
                   <div className="col-xl-3 col-lg-3 col-md-12">
                     <div className="logo">
                       <Link href="/index">
-                        <img src="/assets/img/logo/new-logo-alt.png" alt="" />
+                        <img src="/assets/img/logo/AFC-White.png" alt="" />
                       </Link>
                     </div>
                   </div>
-                  <div className="col-xl-4 col-lg-4 col-md-6">
+                  <div className="col-xl-5 col-lg-5 col-md-6">
                     <div className="footer-contact">
                       <div className="icon">
                         <i className="fas fa-phone-alt" />
@@ -189,7 +189,7 @@ export default function Footer1() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-xl-5 col-lg-5 col-md-6">
+                  <div className="col-xl-4 col-lg-4 col-md-6">
                     <div className="footer-social">
                       <h2 className="title">Follow Us:</h2>
                       <ul className="list-wrap">

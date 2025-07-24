@@ -2215,6 +2215,9 @@
   .services-process-item .content .title {
     font-size: 20px;
   }
+  .team-content {
+    border-radius: 65px;
+  }
   .team-details-info .list-wrap.team-info li span {
     width: 40%;
   }

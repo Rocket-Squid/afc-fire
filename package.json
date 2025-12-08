@@ -1,6 +1,6 @@
 {
   "name": "afc-fire",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "author": "radishtech",
   "scripts": {
@@ -8,8 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css",
-    "migrate:team": "node scripts/migrate.js"
+    "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css"
   },
   "dependencies": {
     "@sanity/client": "^6.28.0",

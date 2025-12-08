@@ -1,21 +1,24 @@
 import Link from "next/link";
 
 function TeamCard({ member }) {
-  const { name, position, image, fracsUrl, ifsmUrl, accreditations } = member;
-  const profileUrl = `team/${member.slug}`;
+  const { name, position, image, fracsUrl, ifsmUrl, accreditations, slug } = member;
+  const profileUrl = slug ? `team/${slug}` : null;
 
   const hasWarringtonFracs = accreditations?.includes("warrington-fracs");
   const hasIFSMAccreditation = accreditations?.some((accred) =>
     accred.startsWith("ifsm-")
   );
 
+  const ImageWrapper = profileUrl ? Link : "div";
+  const imageWrapperProps = profileUrl ? { href: profileUrl } : {};
+
   return (
     <div className="col-xl-3 col-lg-4 col-md-6 col-sm-10">
       <div className="team-item">
         <div className="team-thumb">
-          <Link href={profileUrl}>
+          <ImageWrapper {...imageWrapperProps}>
             <img src={image} alt={name} />
-          </Link>
+          </ImageWrapper>
           {(hasWarringtonFracs || hasIFSMAccreditation) && (
             <div className="team-social">
               <ul className="list-wrap">
@@ -31,13 +34,21 @@ function TeamCard({ member }) {
 
                 {hasIFSMAccreditation && (
                   <li>
-                    <Link href={ifsmUrl} target="_blank">
+                    {ifsmUrl ? (
+                      <Link href={ifsmUrl} target="_blank">
+                        <img
+                          src="/assets/img/accreditation/IFSM-Icon.png"
+                          alt="IFSM Accreditation"
+                          style={{ objectFit: "contain" }}
+                        />
+                      </Link>
+                    ) : (
                       <img
                         src="/assets/img/accreditation/IFSM-Icon.png"
                         alt="IFSM Accreditation"
                         style={{ objectFit: "contain" }}
                       />
-                    </Link>
+                    )}
                   </li>
                 )}
               </ul>
@@ -46,7 +57,11 @@ function TeamCard({ member }) {
         </div>
         <div className="team-content">
           <h2 className="title">
-            <Link href={profileUrl}>{name}</Link>
+            {profileUrl ? (
+              <Link href={profileUrl}>{name}</Link>
+            ) : (
+              <span>{name}</span>
+            )}
           </h2>
           <span>{position}</span>
           {(hasWarringtonFracs || hasIFSMAccreditation) && (
@@ -58,15 +73,22 @@ function TeamCard({ member }) {
                   style={{ objectFit: "contain" }}
                 />
               )}
-              {hasIFSMAccreditation && (
-                <Link href={ifsmUrl} target="_blank">
+              {hasIFSMAccreditation &&
+                (ifsmUrl ? (
+                  <Link href={ifsmUrl} target="_blank">
+                    <img
+                      src="/assets/img/accreditation/IFSM-Icon.png"
+                      alt="IFSM Accreditation"
+                      style={{ objectFit: "contain" }}
+                    />
+                  </Link>
+                ) : (
                   <img
                     src="/assets/img/accreditation/IFSM-Icon.png"
                     alt="IFSM Accreditation"
                     style={{ objectFit: "contain" }}
                   />
-                </Link>
-              )}
+                ))}
             </div>
           )}
         </div>

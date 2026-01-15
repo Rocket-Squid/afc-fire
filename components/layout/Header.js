@@ -169,6 +169,11 @@ export default function Header({ headerCls, headerTop }) {
                                 Fire Warden Training
                               </Link>
                             </li>
+                            <li>
+                              <Link href="/services/fire-strategy-services">
+                                Fire Strategy Services
+                              </Link>
+                            </li>
                           </ul>
                         </li>
                         <li

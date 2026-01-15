@@ -18,7 +18,7 @@ export default function PassiveFireProtection() {
                     <div className="services-details-thumb">
                       <img
                         src="/assets/img/services/img_passive_wide.jpg"
-                        alt=""
+                        alt="Compartmentation Surveys"
                       />
                     </div>
                     <div className="services-details-content">
@@ -54,7 +54,8 @@ export default function PassiveFireProtection() {
                         sometimes be recommended.
                       </p>
 
-                      <br />
+                      <hr />
+
                       <h2 className="title">
                         Importance of Compartmentation for Fire Safety
                       </h2>
@@ -176,9 +177,8 @@ export default function PassiveFireProtection() {
 
                             <ul className="list-wrap">
                               <li>
-                                <i className="fas fa-check-circle" />
-                                Fire stopping of mechanical and electrical
-                                services
+                                <i className="fas fa-check-circle" /> Fire
+                                stopping of mechanical and electrical services
                               </li>
                               <li>
                                 <i className="fas fa-check-circle" /> Fire

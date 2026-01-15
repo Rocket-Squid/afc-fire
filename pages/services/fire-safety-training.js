@@ -97,10 +97,10 @@ export default function FireSafetyTraining() {
                           everyone’s wellbeing.
                         </p>
 
-                        <h2 className="subtitle">
+                        <h3 className="subtitle">
                           By the end of this Fire Warden Training course, you
                           will understand:
-                        </h2>
+                        </h3>
 
                         <ul className="list-wrap">
                           <li>
@@ -163,9 +163,9 @@ export default function FireSafetyTraining() {
                           </li>
                         </ul>
                       </div>
-                      <br />
 
                       <hr />
+
                       <h2 className="title-two">
                         We Hope You Find What You are Looking for
                       </h2>

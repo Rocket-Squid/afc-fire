@@ -300,7 +300,7 @@ export default function Services() {
             <div className="col-lg-4 col-md-6 col-sm-10">
               <div
                 className="services-item wow fadeInUp"
-                data-wow-delay=".8s"
+                data-wow-delay=".7s"
                 data-background="/assets/img/services/img_training.jpg"
                 onMouseEnter={() => handleToggle(6)}
                 onMouseLeave={() => handleToggle(6)}
@@ -354,7 +354,7 @@ export default function Services() {
             <div className="col-lg-4 col-md-6 col-sm-10">
               <div
                 className="services-item wow fadeInUp"
-                data-wow-delay=".7s"
+                data-wow-delay=".8s"
                 data-background="/assets/img/services/img_fire_strategy.jpg"
                 onMouseEnter={() => handleToggle(7)}
                 onMouseLeave={() => handleToggle(7)}

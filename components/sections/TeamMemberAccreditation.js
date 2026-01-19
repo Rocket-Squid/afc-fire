@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const brandSlider = {
   dots: false,
-  infinite: false,
+  infinite: true,
   speed: 1000,
   autoplay: true,
   arrows: false,
@@ -15,6 +15,7 @@ const brandSlider = {
       settings: {
         slidesToShow: 3,
         slidesToScroll: 1,
+        infinite: true,
       },
     },
     {
@@ -22,6 +23,7 @@ const brandSlider = {
       settings: {
         slidesToShow: 2,
         slidesToScroll: 1,
+        infinite: true,
       },
     },
     {
@@ -30,6 +32,7 @@ const brandSlider = {
         slidesToShow: 2,
         slidesToScroll: 1,
         arrows: false,
+        infinite: true,
       },
     },
     {
@@ -38,6 +41,7 @@ const brandSlider = {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
+        infinite: true,
       },
     },
   ],
@@ -101,23 +105,63 @@ export default function TeamMemberAccreditation({
     };
   };
 
+  // Filter out invalid accreditations
+  const validAccreditations = accreditations
+    .map((accred) => getAccreditationImage(accred))
+    .filter(Boolean);
+  
+  // Enable infinite loop only if we have more items than the minimum slidesToShow (1)
+  const shouldInfinite = validAccreditations.length > 1;
+  
+  // Update slider config with conditional infinite and responsive settings
+  const sliderConfig = {
+    ...brandSlider,
+    infinite: shouldInfinite,
+    responsive: brandSlider.responsive.map((breakpoint) => ({
+      ...breakpoint,
+      settings: {
+        ...breakpoint.settings,
+        infinite: shouldInfinite,
+      },
+    })),
+  };
+
   return (
     <div className="inner-brand-area">
       <div className="container">
-        <Slider {...brandSlider} className="row brand-active-three">
-          {accreditations.map((accred) => {
-            const image = getAccreditationImage(accred);
-            if (!image) return null;
-
+        <Slider {...sliderConfig} className="row brand-active-three">
+          {validAccreditations.map((image) => {
             return (
               <div className="col-12" key={image.name}>
                 <div className="brand-item">
                   {image.link ? (
                     <Link href={image.link} target="_blank">
-                      <img src={image.filepath} alt={image.name} />
+                      <img 
+                        src={image.filepath} 
+                        alt={image.name}
+                        style={{
+                          maxWidth: '100%',
+                          maxHeight: '100%',
+                          width: 'auto',
+                          height: 'auto',
+                          objectFit: 'contain',
+                          padding: '20px',
+                        }}
+                      />
                     </Link>
                   ) : (
-                    <img src={image.filepath} alt={image.name} />
+                    <img 
+                      src={image.filepath} 
+                      alt={image.name}
+                      style={{
+                        maxWidth: '100%',
+                        maxHeight: '100%',
+                        width: 'auto',
+                        height: 'auto',
+                        objectFit: 'contain',
+                        padding: '20px',
+                      }}
+                    />
                   )}
                 </div>
               </div>

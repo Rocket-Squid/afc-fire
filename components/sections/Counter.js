@@ -47,7 +47,7 @@ export default function Counter({ teamCount = 8 }) {
                   </div>
                   <div className="counter-content">
                     {inViewport && <CountUp end={projectCount} duration={10} />}
-                    <p>Project Complete</p>
+                    <p>Projects Completed</p>
                   </div>
                 </div>
               </div>

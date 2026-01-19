@@ -1,8 +1,20 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo } from "react";
 import CountUp from "../elements/CountUp";
 
-export default function Counter() {
+export default function Counter({ teamCount = 8 }) {
   const [inViewport, setInViewport] = useState(false);
+
+  // Calculate dynamic project count: base 3127 + 13 per week
+  const projectCount = useMemo(() => {
+    const baseDate = new Date("2026-01-01");
+    const currentDate = new Date();
+    const weeksSinceBase = Math.floor(
+      (currentDate - baseDate) / (7 * 24 * 60 * 60 * 1000)
+    );
+    const baseCount = 3127;
+    const weeklyIncrement = 13;
+    return Math.floor(baseCount + weeksSinceBase * weeklyIncrement);
+  }, []);
 
   const handleScroll = () => {
     const elements = document.getElementsByClassName("count");
@@ -34,7 +46,7 @@ export default function Counter() {
                     <img src="/assets/img/icon/counter_icon01.svg" alt="" />
                   </div>
                   <div className="counter-content">
-                    {inViewport && <CountUp end={848} duration={10} />}
+                    {inViewport && <CountUp end={projectCount} duration={10} />}
                     <p>Project Complete</p>
                   </div>
                 </div>
@@ -46,7 +58,7 @@ export default function Counter() {
                   </div>
                   <div className="counter-content">
                     <span className="count" />
-                    {inViewport && <CountUp end={520} duration={10} />}
+                    {inViewport && <CountUp end={780} duration={10} />}
                     <p>Satisfied Clients</p>
                   </div>
                 </div>
@@ -57,7 +69,7 @@ export default function Counter() {
                     <img src="/assets/img/icon/counter_icon03.svg" alt="" />
                   </div>
                   <div className="counter-content">
-                    {inViewport && <CountUp end={8} duration={10} />}
+                    {inViewport && <CountUp end={teamCount} duration={10} />}
                     <p>Experienced Staff</p>
                   </div>
                 </div>

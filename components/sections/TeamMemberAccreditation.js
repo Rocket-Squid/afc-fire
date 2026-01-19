@@ -109,10 +109,10 @@ export default function TeamMemberAccreditation({
   const validAccreditations = accreditations
     .map((accred) => getAccreditationImage(accred))
     .filter(Boolean);
-  
+
   // Enable infinite loop only if we have more items than the minimum slidesToShow (1)
   const shouldInfinite = validAccreditations.length > 1;
-  
+
   // Update slider config with conditional infinite and responsive settings
   const sliderConfig = {
     ...brandSlider,
@@ -135,9 +135,19 @@ export default function TeamMemberAccreditation({
               <div className="col-12" key={image.name}>
                 <div className="brand-item">
                   {image.link ? (
-                    <Link href={image.link} target="_blank" style={{ display: 'block', width: '100%', height: '100%' }}>
-                      <img 
-                        src={image.filepath} 
+                    <Link
+                      href={image.link}
+                      target="_blank"
+                      style={{
+                        display: "block",
+                        width: "100%",
+                        height: "100%",
+                        alignContent: "center",
+                        justifyItems: "center",
+                      }}
+                    >
+                      <img
+                        src={image.filepath}
                         alt={image.name}
                         style={{
                           maxWidth: '100%',
@@ -150,8 +160,8 @@ export default function TeamMemberAccreditation({
                       />
                     </Link>
                   ) : (
-                    <img 
-                      src={image.filepath} 
+                    <img
+                      src={image.filepath}
                       alt={image.name}
                       style={{
                         maxWidth: '100%',

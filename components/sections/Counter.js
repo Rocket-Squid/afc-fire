@@ -1,8 +1,9 @@
-import { useEffect, useState, useMemo } from "react";
+import { useEffect, useState, useMemo, useRef } from "react";
 import CountUp from "../elements/CountUp";
 
 export default function Counter({ teamCount = 8 }) {
   const [inViewport, setInViewport] = useState(false);
+  const hasTriggeredRef = useRef(false);
 
   // Calculate dynamic project count: base 3127 + 13 per week
   const projectCount = useMemo(() => {
@@ -16,24 +17,32 @@ export default function Counter({ teamCount = 8 }) {
     return Math.floor(baseCount + weeksSinceBase * weeklyIncrement);
   }, []);
 
-  const handleScroll = () => {
-    const elements = document.getElementsByClassName("count");
-    if (elements.length > 0) {
-      const element = elements[0];
-      const rect = element.getBoundingClientRect();
-      const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight;
-      if (isInViewport && !inViewport) {
-        setInViewport(true);
-      }
-    }
-  };
-
   useEffect(() => {
+    const handleScroll = () => {
+      // Only check if we haven't already triggered
+      if (hasTriggeredRef.current) return;
+
+      const elements = document.getElementsByClassName("count");
+      if (elements.length > 0) {
+        const element = elements[0];
+        const rect = element.getBoundingClientRect();
+        const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight;
+        if (isInViewport) {
+          hasTriggeredRef.current = true;
+          setInViewport(true);
+        }
+      }
+    };
+
     window.addEventListener("scroll", handleScroll);
+    // Check immediately on mount in case element is already in viewport
+    handleScroll();
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [inViewport]);
+  }, []);
+
   return (
     <>
       <div className="counter-area pb-120">

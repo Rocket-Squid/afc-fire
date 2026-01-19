@@ -33,7 +33,7 @@ export default function Counter({ teamCount = 8 }) {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [inViewport]);
   return (
     <>
       <div className="counter-area pb-120">

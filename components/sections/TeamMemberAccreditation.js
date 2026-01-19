@@ -135,7 +135,7 @@ export default function TeamMemberAccreditation({
               <div className="col-12" key={image.name}>
                 <div className="brand-item">
                   {image.link ? (
-                    <Link href={image.link} target="_blank">
+                    <Link href={image.link} target="_blank" style={{ display: 'block', width: '100%', height: '100%' }}>
                       <img 
                         src={image.filepath} 
                         alt={image.name}

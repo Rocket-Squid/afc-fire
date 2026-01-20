@@ -1,4 +1,6 @@
 import Slider from "react-slick";
+import Link from "next/link";
+
 const settings = {
   dots: false,
   infinite: true,
@@ -64,10 +66,17 @@ export default function Brand() {
               </div>
               <div className="col-12">
                 <div className="brand-item">
-                  <img
-                    src="/assets/img/accreditation/NSI-SILVER-UKAS-transparent.png"
-                    alt="NSI Silver UKAS"
-                  />
+                  <Link
+                    href="https://www.nsi.org.uk/company-finder/?at=&type=quick&familyType=&town-postcode=&Lo=&La=&sortby=distance&range=2&search=company&company-name=AFC+Fire"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ cursor: "pointer" }}
+                  >
+                    <img
+                      src="/assets/img/accreditation/NSI-SILVER-UKAS-transparent.png"
+                      alt="NSI Silver UKAS"
+                    />
+                  </Link>
                 </div>
               </div>
               <div className="col-12">

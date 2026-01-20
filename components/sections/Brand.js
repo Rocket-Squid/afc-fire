@@ -69,7 +69,13 @@ export default function Brand() {
                     href="https://www.nsi.org.uk/company-finder/?at=&type=quick&familyType=&town-postcode=&Lo=&La=&sortby=distance&range=2&search=company&company-name=AFC+Fire"
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={{ cursor: "pointer" }}
+                    style={{
+                      cursor: "pointer",
+                      height: "100%",
+                      width: "100%",
+                      alignContent: "center",
+                      justifyItems: "center",
+                    }}
                   >
                     <img
                       src="/assets/img/accreditation/NSI-SILVER-UKAS-transparent.png"

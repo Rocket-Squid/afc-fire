@@ -1,4 +1,4 @@
-import { fetchTeam } from "@/lib/sanity";
+import { fetchTeam, fetchTeamCount } from "@/lib/sanity";
 import { NextSeo } from "next-seo";
 import { getPageSEO } from "@/lib/seo";
 import { getPageSchema } from "@/lib/schema";
@@ -12,7 +12,7 @@ import Testimonial from "@/components/sections/Testimonial";
 import Faq from "@/components/sections/Faq";
 import TeamList from "@/components/sections/TeamList";
 
-export default function Home({ teamMembers }) {
+export default function Home({ teamMembers, teamCount }) {
   const seo = getPageSEO({
     title: "Home",
     description:
@@ -46,7 +46,7 @@ export default function Home({ teamMembers }) {
         <About />
         <Services />
         <TeamList teamMembers={teamMembers} />
-        <Counter />
+        <Counter teamCount={teamCount} />
         <Testimonial />
         <Faq />
       </Layout>
@@ -55,11 +55,15 @@ export default function Home({ teamMembers }) {
 }
 
 export async function getStaticProps() {
-  // Fetch team members from Sanity
-  const teamMembers = await fetchTeam(4);
+  const [teamMembers, teamCount] = await Promise.all([
+    fetchTeam(4),
+    fetchTeamCount(),
+  ]);
+
   return {
     props: {
       teamMembers,
+      teamCount,
     },
     revalidate: 60,
   };

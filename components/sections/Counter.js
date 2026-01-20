@@ -1,27 +1,48 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useMemo, useRef } from "react";
 import CountUp from "../elements/CountUp";
 
-export default function Counter() {
+export default function Counter({ teamCount = 8 }) {
   const [inViewport, setInViewport] = useState(false);
+  const hasTriggeredRef = useRef(false);
 
-  const handleScroll = () => {
-    const elements = document.getElementsByClassName("count");
-    if (elements.length > 0) {
-      const element = elements[0];
-      const rect = element.getBoundingClientRect();
-      const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight;
-      if (isInViewport && !inViewport) {
-        setInViewport(true);
-      }
-    }
-  };
+  // Calculate dynamic project count: base 3127 + 13 per week
+  const projectCount = useMemo(() => {
+    const baseDate = new Date("2026-01-01");
+    const currentDate = new Date();
+    const weeksSinceBase = Math.floor(
+      (currentDate - baseDate) / (7 * 24 * 60 * 60 * 1000)
+    );
+    const baseCount = 3127;
+    const weeklyIncrement = 13;
+    return Math.floor(baseCount + weeksSinceBase * weeklyIncrement);
+  }, []);
 
   useEffect(() => {
+    const handleScroll = () => {
+      // Only check if we haven't already triggered
+      if (hasTriggeredRef.current) return;
+
+      const elements = document.getElementsByClassName("count");
+      if (elements.length > 0) {
+        const element = elements[0];
+        const rect = element.getBoundingClientRect();
+        const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight;
+        if (isInViewport) {
+          hasTriggeredRef.current = true;
+          setInViewport(true);
+        }
+      }
+    };
+
     window.addEventListener("scroll", handleScroll);
+    // Check immediately on mount in case element is already in viewport
+    handleScroll();
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   return (
     <>
       <div className="counter-area pb-120">
@@ -34,8 +55,8 @@ export default function Counter() {
                     <img src="/assets/img/icon/counter_icon01.svg" alt="" />
                   </div>
                   <div className="counter-content">
-                    {inViewport && <CountUp end={848} duration={10} />}
-                    <p>Project Complete</p>
+                    {inViewport && <CountUp end={projectCount} duration={10} />}
+                    <p>Projects Completed</p>
                   </div>
                 </div>
               </div>
@@ -46,7 +67,7 @@ export default function Counter() {
                   </div>
                   <div className="counter-content">
                     <span className="count" />
-                    {inViewport && <CountUp end={520} duration={10} />}
+                    {inViewport && <CountUp end={780} duration={10} />}
                     <p>Satisfied Clients</p>
                   </div>
                 </div>
@@ -57,7 +78,7 @@ export default function Counter() {
                     <img src="/assets/img/icon/counter_icon03.svg" alt="" />
                   </div>
                   <div className="counter-content">
-                    {inViewport && <CountUp end={8} duration={10} />}
+                    {inViewport && <CountUp end={teamCount} duration={10} />}
                     <p>Experienced Staff</p>
                   </div>
                 </div>

@@ -50,29 +50,33 @@ export default function ExternalValidation() {
                         consequences. Our independent validation service
                         provides:
                       </p>
-                      <ul>
+                      <ul className="list-wrap">
                         <li>
+                          <i className="fas fa-check-circle" />{" "}
                           <strong>Expert Review:</strong> Assessments are
                           examined by qualified and experienced Fire Risk
                           Assessors.
                         </li>
                         <li>
-                          <strong>Regulatory Compliance Check:</strong> We
-                          ensure assessments align with The Regulatory Reform
-                          (Fire Safety) Order 2005 and relevant fire safety
-                          standards.
+                          <i className="fas fa-check-circle" />{" "}
+                          <strong>Regulatory Compliance Check:</strong> We ensure
+                          assessments align with The Regulatory Reform (Fire
+                          Safety) Order 2005 and relevant fire safety standards.
                         </li>
                         <li>
-                          <strong>Risk Identification Accuracy:</strong> We
-                          verify that all potential hazards and risks have been
+                          <i className="fas fa-check-circle" />{" "}
+                          <strong>Risk Identification Accuracy:</strong> We verify
+                          that all potential hazards and risks have been
                           appropriately assessed.
                         </li>
                         <li>
-                          <strong>Clear & Actionable Feedback:</strong> We
-                          provide structured recommendations to improve reports
-                          and ensure clarity.
+                          <i className="fas fa-check-circle" />{" "}
+                          <strong>Clear & Actionable Feedback:</strong> We provide
+                          structured recommendations to improve reports and ensure
+                          clarity.
                         </li>
                         <li>
+                          <i className="fas fa-check-circle" />{" "}
                           <strong>Professional Assurance:</strong> Organisations
                           gain confidence that their fire risk assessments are
                           robust, defensible, and audit-ready.
@@ -173,37 +177,33 @@ export default function ExternalValidation() {
                       </h2>
                       <p>
                         At <strong className="red">AFC Fire</strong>, we are
-                        committed to raising industry standards and
-                        ensuring&nbsp;
-                        <b>
+                        committed to raising industry standards and ensuring{" "}
+                        <strong>
                           fire risk assessments are thorough, accurate, and
                           legally compliant
-                        </b>
+                        </strong>
                         . Whether you're an independent Fire Risk Assessor or an
                         organisation requiring verification of assessments, our
                         validation service provides expert, unbiased review and
                         professional assurance.
                       </p>
-
                       <p>
                         Contact us today to submit your reports or learn more
                         about our validation service.
                       </p>
 
-                      <p>
-                        Call Us: <a href="tel:+447771366942">0777 1366 942</a>
-                        <br />
-                        Email Us:{" "}
-                        <a href="mailto:info@afcfire.co.uk">
-                          info@afcfire.co.uk
-                        </a>
-                      </p>
+                      <hr />
 
+                      <h2 className="title-two">
+                        We Hope You Find What You are Looking for
+                      </h2>
                       <p>
-                        <strong>
-                          Ensure your fire risk assessments meet the highest
-                          standards - Get them validated by AFC Fire!
-                        </strong>
+                        To book your External Validation service with{" "}
+                        <strong className="red">AFC Fire & Security</strong>,
+                        simply call <a href="tel:02031434754">0203-143-4754</a>,
+                        or <a href="tel:+447771366942">0777-1366-942</a>, or
+                        click on the Get In Touch button below, and leave the
+                        rest to us!
                       </p>
                     </div>
                   </div>

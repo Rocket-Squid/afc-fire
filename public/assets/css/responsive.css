@@ -805,6 +805,22 @@
   .custom-container {
     max-width: 720px;
   }
+  /* Show background image and overlay on mobile for services cards */
+  .services-item.mobile-active::before {
+    opacity: 0;
+  }
+  .services-item.mobile-active::after {
+    opacity: 0.95;
+  }
+  /* Reduce icon margin on mobile */
+  .services-item.mobile-active .services-icon {
+    margin-bottom: 15px;
+  }
+  /* Make number visible on mobile with faded white background */
+  .services-item.mobile-active .services-content .number {
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.4);
+    padding: 5px 10px;
+  }
   .menu-area {
     padding: 22px 0;
   }

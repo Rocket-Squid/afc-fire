@@ -123,6 +123,7 @@ export default function FireDoorInspections() {
                         </li>
                       </ul>
                       <hr />
+
                       <h2 className="title-two">
                         We Hope You Find What You are Looking for
                       </h2>
@@ -138,7 +139,6 @@ export default function FireDoorInspections() {
                         by step guidance on what you need to do to comply with
                         current legislation.
                       </p>
-                      <br />
                       <p>
                         To book a <strong>Fire Door Survey</strong> with{" "}
                         <strong className="red">AFC Fire & Security</strong>,

@@ -72,7 +72,9 @@ export default function FireRiskAssessments() {
                           Read about it on The LFB Website
                         </Link>
                       </p>
-                      <br />
+
+                      <hr />
+
                       <h2 className="title">Why do it?</h2>
                       <p>
                         <strong>
@@ -107,9 +109,9 @@ export default function FireRiskAssessments() {
                         properly understanding the risks.
                       </p>
 
-                      <br />
+                      <hr />
 
-                      <h3 className="title">Did you know?</h3>
+                      <h3 className="subtitle">Did you know?</h3>
                       <p>
                         If there's a fire and you haven't met your legal duties
                         to keep people safe, you could be fined and may even
@@ -128,26 +130,25 @@ export default function FireRiskAssessments() {
                             <p>Assessments are conducted in five key steps:</p>
                             <ul className="list-wrap">
                               <li>
-                                <i className="fas fa-check-circle" />
-                                Identify the fire hazards.
+                                <i className="fas fa-check-circle" /> Identify the
+                                fire hazards.
                               </li>
                               <li>
-                                <i className="fas fa-check-circle" />
-                                Identify people at risk.
+                                <i className="fas fa-check-circle" /> Identify
+                                people at risk.
                               </li>
                               <li>
-                                <i className="fas fa-check-circle" />
-                                Evaluate, remove or reduce the risks.
+                                <i className="fas fa-check-circle" /> Evaluate,
+                                remove or reduce the risks.
                               </li>
                               <li>
-                                <i className="fas fa-check-circle" />
-                                Record the findings, prepare an emergency plan,
-                                and provide training
+                                <i className="fas fa-check-circle" /> Record the
+                                findings, prepare an emergency plan, and provide
+                                training
                               </li>
                               <li>
-                                <i className="fas fa-check-circle" />
-                                Review and update the fire risk assessment
-                                regularly.
+                                <i className="fas fa-check-circle" /> Review and
+                                update the fire risk assessment regularly.
                               </li>
                             </ul>
                           </div>
@@ -163,7 +164,7 @@ export default function FireRiskAssessments() {
                         fire.
                       </p>
 
-                      <br />
+                      <hr />
 
                       <h2 className="title">
                         Who should do my Fire Risk Assessment?
@@ -218,7 +219,6 @@ export default function FireRiskAssessments() {
                         by step guidance on what you need to do to comply with
                         current legislation.
                       </p>
-                      <br />
                       <p>
                         To book a Fire Risk Assessment with{" "}
                         <strong className="red">AFC Fire & Security</strong>,

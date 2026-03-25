@@ -57,14 +57,6 @@ export default function Brand() {
             <Slider {...settings} className="row brand-active">
               <div className="col-12">
                 <div className="brand-item">
-                  <img
-                    src="/assets/img/accreditation/BAFE-transparent.png"
-                    alt="BAFE fire safety register"
-                  />
-                </div>
-              </div>
-              <div className="col-12">
-                <div className="brand-item">
                   <a
                     href="https://www.nsi.org.uk/company-finder/?at=&type=quick&familyType=&town-postcode=&Lo=&La=&sortby=distance&range=2&search=company&company-name=AFC+Fire"
                     target="_blank"
@@ -78,10 +70,18 @@ export default function Brand() {
                     }}
                   >
                     <img
-                      src="/assets/img/accreditation/NSI-SILVER-UKAS-transparent.png"
-                      alt="NSI Silver UKAS"
+                      src="/assets/img/accreditation/BAFE-transparent.png"
+                      alt="BAFE fire safety register"
                     />
                   </a>
+                </div>
+              </div>
+              <div className="col-12">
+                <div className="brand-item">
+                  <img
+                    src="/assets/img/accreditation/NSI-SILVER-UKAS-transparent.png"
+                    alt="NSI Silver UKAS"
+                  />
                 </div>
               </div>
               <div className="col-12">

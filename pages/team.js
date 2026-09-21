@@ -14,7 +14,7 @@ export default function Team({ teamMembers }) {
     openGraph: {
       images: [
         {
-          url: "/assets/img/team/team_bg.jpg",
+          url: "/assets/img/logo/logo.png",
           width: 1200,
           height: 630,
           alt: "AFC Fire - Our Team of Fire Safety Specialists",

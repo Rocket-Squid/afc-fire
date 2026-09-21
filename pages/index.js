@@ -20,7 +20,7 @@ export default function Home({ teamMembers, teamCount }) {
     openGraph: {
       images: [
         {
-          url: "/assets/img/banner/banner.jpg",
+          url: "/assets/img/banner/banner_bg.jpg",
           width: 1200,
           height: 630,
           alt: "AFC Fire - Professional Fire Safety Services",

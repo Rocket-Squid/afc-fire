@@ -12,7 +12,7 @@ export default function Service() {
     openGraph: {
       images: [
         {
-          url: "/assets/img/services/services-bg.jpg",
+          url: "/assets/img/services/img_risk_wide.jpg",
           width: 1200,
           height: 630,
           alt: "AFC Fire - Professional Fire Safety Services",
